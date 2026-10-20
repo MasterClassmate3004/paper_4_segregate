@@ -1,0 +1,4 @@
+{
+ "reason": "Q5(b) marking ends with 'max 4' on page 9; the splitter carried the repeated 'Question / Expected Answers / Marks' column-header row at the top of page 10 into the Q5(b) crop. Q5.b is cut by hand to page 9 only (blank rows 489 and 690).",
+ "segments": {"Q5.b": [[9, 489, 690]]}
+}

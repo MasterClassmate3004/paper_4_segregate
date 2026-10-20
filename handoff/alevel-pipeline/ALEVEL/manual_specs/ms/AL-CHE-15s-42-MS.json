@@ -1,0 +1,24 @@
+{
+ "reason": "6(a) is printed as one ruled table on p7: row '(i) D is' (rules y99.2-123.9), then an empty spacer row (y123.9-148.3, printed blank in the MS), then rows '(ii) step 1/2/3' (y148.3-222.7). The automatic boundary between the (i) and (ii) keys fell at y117.25, inside the (i) row, so 6(a)(i) lost the bottom of its row and 6(a)(ii) started with that row's tail plus the empty spacer row. Both are cut by hand on the table rules: 6(a)(i) = its row down to the rule at y123.9; 6(a)(ii) = from the rule at y148.3 to the end of the part; the printed-empty spacer row is left out. The instruction line printed above the table under the 6(a) key ('There are three acceptable alternatives – follow each column down vertically:', p7 y75.7-86.7) explains the alternative columns of the step rows, so it is given to 6(a)(ii) as a first slice (y69.25-92.75) ahead of the table rows.",
+ "segments": {
+  "Q6.a.i": [
+   [
+    7,
+    92.75,
+    124.75
+   ]
+  ],
+  "Q6.a.ii": [
+   [
+    7,
+    69.25,
+    92.75
+   ],
+   [
+    7,
+    147.75,
+    236.25
+   ]
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "reason": "9700/52 M/J 2011 mark scheme prints the Question 1 keys as \"1. (a)\", \"(b) (i)\", \"(c) (ii)\", \"(d) (ii)\" etc. (with a full stop after the question number and the parts on separate lines); the text layer keys none of them, so each printed key line is placed by hand (Question 2 keys are found automatically).",
+ "add_keys": {
+  "Q1.a": [3, 107.6, 125],
+  "Q1.b.i": [4, 158.9, 125],
+  "Q1.b.ii": [4, 217.8, 125],
+  "Q1.c.i": [4, 287.2, 125],
+  "Q1.c.ii": [4, 318.7, 125],
+  "Q1.c.iii": [4, 438.7, 125],
+  "Q1.d.i": [5, 161.0, 125],
+  "Q1.d.ii": [5, 217.8, 125]
+ }
+}

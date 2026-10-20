@@ -1,0 +1,4 @@
+{
+ "reason": "Q7(a) is one QP leaf with answer lines (i)/(ii); the MS prints one combined marking line '7 (a) (i) + (ii) any two from:' (p9 y75.7-86.7). The '(i)' key is consumed, leaving a stray '+ (ii)' (x113.4-136.4) before 'any two from:', so that sub-part label is whited out by a mask; all marking text is kept.",
+ "masks": [[9, 111, 74, 138, 88]]
+}

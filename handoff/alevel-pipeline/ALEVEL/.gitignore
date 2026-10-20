@@ -1,0 +1,9 @@
+source_papers/raw/
+source_papers/canonical/
+source_papers/_canonical_records/
+source_papers/_samples/
+splits/
+review/
+scripts/__pycache__/
+*.png
+*.pdf

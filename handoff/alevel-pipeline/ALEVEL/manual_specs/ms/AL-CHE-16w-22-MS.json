@@ -1,0 +1,4 @@
+{
+ "reason": "Page 3 of this MS has a garbled text layer that duplicates the question number in front of three keys ('2 2(b)(iii)' p3 y365, '2 2(b)(iv)' p3 y390, '2 2(b)(vi)' p3 y463), so the splitter could not read them and the rows of 2(b)(iii), (iv) and (vi) were left unassigned. The three printed keys are placed by hand at their printed lines (label ends x110).",
+ "add_keys": {"Q2.b.iii": [3, 365.4, 110.0], "Q2.b.iv": [3, 389.8, 110.0], "Q2.b.vi": [3, 462.6, 110.0]}
+}

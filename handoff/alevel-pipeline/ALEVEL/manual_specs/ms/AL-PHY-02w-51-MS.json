@@ -1,0 +1,5 @@
+{
+ "reason": "2002 Paper 5 mark scheme (scanned) is organised by skill (readings, graph, analysis; planning sections for Q2), not by the question-paper parts: each question is kept whole and every part is shown the complete question mark scheme (parent_ms_covers_child_qp). Page 5 (theory and sample results for question 1) is examiner background, not marking points, and is not used.",
+ "drop_keys": ["Q1", "Q2"],
+ "segments": {"Q1": [[2, 0, 842], [3, 0, 842]], "Q2": [[4, 0, 842]]}
+}

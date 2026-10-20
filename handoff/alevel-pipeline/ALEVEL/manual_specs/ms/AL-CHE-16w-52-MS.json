@@ -1,0 +1,11 @@
+{
+ "reason": "The answer table's column-header row is printed 'Question | Expected answer | Marks' at the top of every page (y85.3) with a lower-case 'answer', which the furniture rule for header rows does not recognise. The automatic cut therefore carried the parts that end at a page foot (1(b)(v) p2, 1(c)(i) p3, 2(a)(ii) p5, 2(c)(i) p6) onto the next page's header row only (no marking content precedes the next key there); these are cut by hand to end at their page foot (y547.5, above the footer), and the header row on every page (p2-p7) is whited out as furniture.",
+ "segments": {
+  "Q1.b.v": [[2, 516.75, 547.5]],
+  "Q1.c.i": [[3, 111.75, 547.5]],
+  "Q2.a.ii": [[5, 458.25, 547.5]],
+  "Q2.c.i": [[6, 498.25, 547.5]]
+ },
+ "masks": [[2, 116.0, 84.3, 728.3, 98.6], [3, 116.0, 84.3, 728.3, 98.6], [4, 116.0, 84.3, 728.3, 98.6],
+           [5, 116.0, 84.3, 728.3, 98.6], [6, 116.0, 84.3, 728.3, 98.6], [7, 116.0, 84.3, 728.3, 98.6]]
+}

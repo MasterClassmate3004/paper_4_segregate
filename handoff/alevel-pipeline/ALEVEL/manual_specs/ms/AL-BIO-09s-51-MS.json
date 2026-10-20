@@ -1,0 +1,56 @@
+{
+ "reason": "2009 Paper 5 mark scheme prints a key to the mark-scheme abbreviations at the top of the first content page (p2 y88-175: '; separates marking points', '/ alternatives answers for the same point', 'R reject', 'A accept', 'AW alternative wording', 'underline', 'max') followed, lower than on the other pages, by the table column-header row ('Question | Expected answer | Extra guidance | Mark | AO', y204-215), all above the first key '1 (a) (i)'. The legend is general marking-instruction preamble and the header row is page furniture that the automatic rule does not recognise at this position; neither is the marking of any question part, so both are whited out by hand. The question-total table rows ('[Total: 12] 10M 1D 1P' p3 y503-539, '[Total: 8] 2P 2D 3C 1E' p4 y448-497, '[Total: 10] 2P 5D 3E' p5 y426-462) sit in a table cell, are not caught by the automatic [Total] rule and were showing at the foot of the Q1.b.iii, Q2.b.ii and Q3.c crops; they are question totals/AO breakdowns, not marking points, so those three parts are cut by hand just above them (same top as the automatic crop) and the total rows are whited out.",
+ "masks": [
+  [
+   2,
+   30,
+   85,
+   800,
+   217
+  ],
+  [
+   3,
+   600,
+   502,
+   800,
+   540
+  ],
+  [
+   4,
+   600,
+   447,
+   800,
+   498
+  ],
+  [
+   5,
+   600,
+   425,
+   800,
+   463
+  ]
+ ],
+ "segments": {
+  "Q1.b.iii": [
+   [
+    3,
+    488.4,
+    501.6
+   ]
+  ],
+  "Q2.b.ii": [
+   [
+    4,
+    370.2,
+    446.5
+   ]
+  ],
+  "Q3.c": [
+   [
+    5,
+    348,
+    424.4
+   ]
+  ]
+ }
+}

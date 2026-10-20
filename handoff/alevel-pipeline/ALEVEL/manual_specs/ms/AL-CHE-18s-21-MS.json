@@ -1,0 +1,23 @@
+{
+ "reason": "The printed keys 3(c)(iii) (p7 y350.4, whose label line merges with the 'structure | bonding' heading row of its answer table) and 4(d)(i) (p9 y56.0, printed at the very top of a page that has no 'Question Answer Marks' heading row) and 4(d)(ii) (p9 y323.4) are in the text layer but were not taken as keys by the splitter; each is placed by hand at its printed line. Once keyed, 3(c)(iii) came out empty: the bottom rule of its table row (p7 y414.1) is drawn from the Question/Answer column rule (x116) rightwards only, so it was not taken as the table's bottom and the page body stopped at the rule above 3(c)(iii) (y344); the p7 body bottom is set by hand just above that rule (y413.3) so 3(c)(iii) keeps its small 'structure | bonding' answer table.",
+ "add_keys": {
+  "Q3.c.iii": [
+   7,
+   350.4,
+   101.2
+  ],
+  "Q4.d.i": [
+   9,
+   56.0,
+   99.0
+  ],
+  "Q4.d.ii": [
+   9,
+   323.4,
+   100.2
+  ]
+ },
+ "page_bottom": {
+  "7": 413.3
+ }
+}

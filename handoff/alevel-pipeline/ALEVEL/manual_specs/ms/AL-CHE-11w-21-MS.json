@@ -1,0 +1,31 @@
+{
+ "reason": "2(d) is printed as one combined key '(d) (i) and (ii)' (p3 y405.8) over a single answer table (conductivity and melting point rows, 'one mark for each correct column [5]'); the marks are per column, not per row, so the scheme cannot be split between QP 2(d)(i) (conductivity row) and 2(d)(ii) (melting point row). The automatic key read only '(d) (i)', so it is dropped and Q2.d is placed at the printed line with the label running to the end of '(ii)' (x141.6), and Q2.d is cut by hand on the blank rows around it (p3 y392.25-553.75, the automatic 2(d) cut), so Q2.d covers both 2(d)(i) and 2(d)(ii). The tail '(ii)' of the combined printed label (p3 x128.2-141.6) is left visible by the label clean-up, so it is whited out by a hand mask.",
+ "drop_keys": [
+  "Q2.d.i"
+ ],
+ "add_keys": {
+  "Q2.d": [
+   3,
+   405.8,
+   141.6
+  ]
+ },
+ "segments": {
+  "Q2.d": [
+   [
+    3,
+    392.25,
+    553.75
+   ]
+  ]
+ },
+ "masks": [
+  [
+   3,
+   127.5,
+   405.0,
+   142.5,
+   418.0
+  ]
+ ]
+}

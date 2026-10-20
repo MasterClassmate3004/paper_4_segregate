@@ -1,0 +1,78 @@
+{
+ "reason": "2003 Paper 5 mark scheme (component 5 of the combined 9701 Nov 2003 file). Question 1 prints its part labels (a)-(g) in the question paper's order, so the parts are kept separate, but the scheme also prints two unlabelled blocks that belong to the question paper's experiment stems rather than to a lettered part: (1) the opening 'N.B. Boxed references ...' note, 'Question 1 / Experiment 1 / Tables 1.1 and 1.2' (one mark) and the 'Table 1.2 - Accuracy' table (4 marks) (p18 y77-453), printed before (a), which the automatic keys left as an orphan 'Q1' and lost the grey N.B. box; (2) 'Experiment 2 / Table 1.3 and 1.4' with its one mark and the 'Table 1.4 - Accuracy' table (p19 y74-396), printed before (d) but automatically appended to (c). Following the same treatment as AL-CHE-02s-51 (preamble kept with 1(a); accuracy block placed with the part it introduces), the Experiment 1 block is cut by hand onto the top of 1(a) (starting above the N.B. box so the box is kept), and the Experiment 2 block is cut by hand onto the top of 1(d), where its heading introduces the part that follows. The automatic Q1 key is dropped (its rows are now inside 1(a)). Because dropping an automatic key also discards its child keys, every Question 1 part is cut by hand on the same blank rows the splitter used (between the printed (a)-(g) lines, p18 y489.25/538.25, p19 y453.75/531.75/700.5) except that 1(a) and 1(d) carry the two blocks above; 1(g) keeps the planning marks (i)-(v) and 'Total for Question 1: 25' to p20 y274.57. Question 2 (the planning grids 1A-3B and the NB on method and observation marks, pp20-22) is kept whole as the question paper's single Q2 leaf; the 'Total for Paper: 30' line (p22 y494-505) is not marking content and is whited out. The planning marking point numbered '(i)' (p20 y129, 'Weights a sample, adds to known volume of water...') would be whited out as a continuation label, so it is kept by hand (keep_words) like (ii)-(v).",
+ "drop_keys": [
+  "Q1"
+ ],
+ "segments": {
+  "Q1.a": [
+   [
+    18,
+    66,
+    489.25
+   ]
+  ],
+  "Q1.b": [
+   [
+    18,
+    489.25,
+    538.25
+   ]
+  ],
+  "Q1.c": [
+   [
+    18,
+    538.25,
+    815.52
+   ]
+  ],
+  "Q1.d": [
+   [
+    19,
+    61.26,
+    453.75
+   ]
+  ],
+  "Q1.e": [
+   [
+    19,
+    453.75,
+    531.75
+   ]
+  ],
+  "Q1.f": [
+   [
+    19,
+    531.75,
+    700.5
+   ]
+  ],
+  "Q1.g": [
+   [
+    19,
+    700.5,
+    815.52
+   ],
+   [
+    20,
+    61.26,
+    274.57
+   ]
+  ]
+ },
+ "masks": [
+  [
+   22,
+   405,
+   490,
+   530,
+   509
+  ]
+ ],
+ "keep_words": [
+  [
+   20,
+   111.1,
+   129.1
+  ]
+ ]
+}

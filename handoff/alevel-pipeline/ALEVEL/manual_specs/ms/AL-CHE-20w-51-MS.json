@@ -1,0 +1,6 @@
+{
+ "reason": "Misprinted key: page 8 prints '2(e)(v)' (p8 y497.5, 'the experiment could be repeated and a mean value obtained', 1 mark) directly after 2(d)(iv), but the QP's Question 2 has no part (e); the line is the QP's 2(d)(v) (suggest how the reliability of the experiment could be improved, [1]), so Q2.d.v is placed at that printed line. (The '2(a)(i)' printed for the QP's unsplit 2(a) is mapped to Q2.a automatically by the splitter's misprinted-(i) rule.)",
+ "add_keys": {
+  "Q2.d.v": [8, 497.5, 116.0]
+ }
+}

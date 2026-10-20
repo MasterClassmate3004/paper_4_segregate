@@ -1,0 +1,202 @@
+{
+ "reason": "The question numbers of '4 (a)' (p4 y443.3) and '5 (a)' (p5 y75.7) were not taken as keys, so the splitter read the Question 4 and 5 parts as second passes over Question 3 ((b)(i), (c), (b), (c)(i)-(iv)): all of Q4 and Q5 were unresolved and the Q4/Q5 marking was appended to Q3.b and Q3.c.*. The printed keys of Q4 and Q5 are added at their printed lines (4(a) y443.3, (b)(i) y506.5, (ii) y529.7, (iii) y556.9, (c) y607.8, (d) y657.1, (e) y710.3 on p4; 5(a) y75.7, (b) y232.0, (c)(i) y507.3, (ii) y532.6, (iii) y568.5, (iv) y620.9 on p5), the mis-assigned Q3.b/Q3.c keys are dropped, and every part of Q3(b)-(c), Q4 and Q5 is cut by hand on the blank rows between its printed key and the next one (the [Total] lines are excluded).",
+ "add_keys": {
+  "Q4.a": [
+   4,
+   443.3,
+   87.0
+  ],
+  "Q4.b.i": [
+   4,
+   506.5,
+   106.0
+  ],
+  "Q4.b.ii": [
+   4,
+   529.7,
+   106.0
+  ],
+  "Q4.b.iii": [
+   4,
+   556.9,
+   106.0
+  ],
+  "Q4.c": [
+   4,
+   607.8,
+   87.0
+  ],
+  "Q4.d": [
+   4,
+   657.1,
+   87.0
+  ],
+  "Q4.e": [
+   4,
+   710.3,
+   87.0
+  ],
+  "Q5.a": [
+   5,
+   75.7,
+   87.0
+  ],
+  "Q5.b": [
+   5,
+   232.0,
+   87.0
+  ],
+  "Q5.c.i": [
+   5,
+   507.3,
+   106.0
+  ],
+  "Q5.c.ii": [
+   5,
+   532.6,
+   106.0
+  ],
+  "Q5.c.iii": [
+   5,
+   568.5,
+   106.0
+  ],
+  "Q5.c.iv": [
+   5,
+   620.9,
+   106.0
+  ]
+ },
+ "drop_keys": [
+  "Q3.b",
+  "Q3.c"
+ ],
+ "segments": {
+  "Q3.b": [
+   [
+    4,
+    227.0,
+    264.8
+   ]
+  ],
+  "Q3.c.i": [
+   [
+    4,
+    264.8,
+    297.0
+   ]
+  ],
+  "Q3.c.ii": [
+   [
+    4,
+    297.0,
+    347.5
+   ]
+  ],
+  "Q3.c.iii": [
+   [
+    4,
+    347.5,
+    373.0
+   ]
+  ],
+  "Q3.c.iv": [
+   [
+    4,
+    373.0,
+    400.0
+   ]
+  ],
+  "Q4.a": [
+   [
+    4,
+    437.0,
+    495.0
+   ]
+  ],
+  "Q4.b.i": [
+   [
+    4,
+    495.0,
+    525.0
+   ]
+  ],
+  "Q4.b.ii": [
+   [
+    4,
+    525.0,
+    551.0
+   ]
+  ],
+  "Q4.b.iii": [
+   [
+    4,
+    551.0,
+    595.0
+   ]
+  ],
+  "Q4.c": [
+   [
+    4,
+    595.0,
+    645.0
+   ]
+  ],
+  "Q4.d": [
+   [
+    4,
+    645.0,
+    700.0
+   ]
+  ],
+  "Q4.e": [
+   [
+    4,
+    700.0,
+    729.0
+   ]
+  ],
+  "Q5.a": [
+   [
+    5,
+    69.0,
+    215.0
+   ]
+  ],
+  "Q5.b": [
+   [
+    5,
+    220.0,
+    490.0
+   ]
+  ],
+  "Q5.c.i": [
+   [
+    5,
+    500.0,
+    526.0
+   ]
+  ],
+  "Q5.c.ii": [
+   [
+    5,
+    526.0,
+    562.0
+   ]
+  ],
+  "Q5.c.iii": [
+   [
+    5,
+    562.0,
+    614.0
+   ]
+  ],
+  "Q5.c.iv": [
+   [
+    5,
+    614.0,
+    652.0
+   ]
+  ]
+ }
+}

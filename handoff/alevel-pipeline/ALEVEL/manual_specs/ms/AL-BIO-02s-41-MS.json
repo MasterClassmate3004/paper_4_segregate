@@ -1,0 +1,58 @@
+{
+ "reason": "Scanned 2002 mark scheme (OCR). Question 2: OCR reads the printed '(a)' (printed '(d)' line at y 675, 'remove soda lime') as a second (a) and (3) for 2(a); the keys are placed by hand (2(a) at y 436, 2(d) at y 675). Question 3(b): the printed '(i)' line (Na+ in, y 198) is not found and the '(ii)' line (K+ out, y 245) is keyed as (i); both placed by hand. Question 4(a)(i) (printed '(i)' formation of glomerular filtrate, y 491) is not found: placed by hand. Question 2(e) runs below the scan's 70 pt footer band (last line 'ref. to Q10 = 2, 2 max' at y 794), so page_bottom 2 is raised. Question 1(d) and 3(d) are cut by hand: the automatic 3(d) crop started to the right of the first letters of 'frequency of impulses' (x 59), and the 1(d) crop kept the printed 'Total : 9' line and rule below its single marking point.",
+ "add_keys": {
+  "Q2.a": [
+   2,
+   435.9,
+   70
+  ],
+  "Q2.d": [
+   2,
+   674.9,
+   70
+  ],
+  "Q3.b.i": [
+   3,
+   197.7,
+   85
+  ],
+  "Q3.b.ii": [
+   3,
+   245.4,
+   85
+  ],
+  "Q4.a.i": [
+   3,
+   491.1,
+   88
+  ]
+ },
+ "page_bottom": {
+  "2": 805
+ },
+ "segments": {
+  "Q1.d": [
+   [
+    2,
+    335,
+    368
+   ]
+  ],
+  "Q3.d": [
+   [
+    3,
+    370,
+    392
+   ]
+  ]
+ },
+ "masks": [
+  [
+   2,
+   455,
+   368,
+   520,
+   390
+  ]
+ ]
+}

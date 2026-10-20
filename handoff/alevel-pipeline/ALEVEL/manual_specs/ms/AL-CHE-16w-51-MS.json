@@ -1,0 +1,10 @@
+{
+ "reason": "Page 2 of the MS has a broken text layer that splits each printed key across glyph runs ('1(a)(i' + ')', '1(a)(ii' + 'i)' for 1(a)(iii), '1(c)(i' + ')'), so the printed keys 1(a)(i), 1(a)(ii), 1(a)(iii), 1(b) and 1(c)(i) were not read; each is placed by hand at its printed line (label tokens end before x=160, answer text starts at x=182).",
+ "add_keys": {
+  "Q1.a.i": [2, 115.0, 160],
+  "Q1.a.ii": [2, 177.4, 160],
+  "Q1.a.iii": [2, 214.5, 160],
+  "Q1.b": [2, 251.6, 160],
+  "Q1.c.i": [2, 453.1, 160]
+ }
+}

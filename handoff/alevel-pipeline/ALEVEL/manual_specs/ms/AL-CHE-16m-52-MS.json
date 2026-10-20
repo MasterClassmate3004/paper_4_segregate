@@ -1,0 +1,4 @@
+{
+ "reason": "The Paper 5 MS prints the table header row 'question expected answer mark' (its box y74-104) at the top of every marking page (pages 2-4); it is table furniture, not marking content. On page 2 it lies above the first key '1 (a)', and on pages 3-4 it was carried onto the tail of the part continuing from the previous page (Q1.g.i, Q2.f.i), so the header box is whited out on all three pages.",
+ "masks": [[2, 34.0, 73.0, 561.0, 104.2], [3, 34.0, 73.0, 561.0, 104.2], [4, 34.0, 73.0, 561.0, 104.2]]
+}

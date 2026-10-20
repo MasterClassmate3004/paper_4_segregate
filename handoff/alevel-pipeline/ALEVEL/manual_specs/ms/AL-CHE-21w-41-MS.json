@@ -1,0 +1,4 @@
+{
+ "reason": "(1) The key of 2(a)(i) is misprinted '2(a)(i' with no closing bracket (p5 y423; its answer is the Ka expression), so the text layer does not read it as a key; it is placed by hand at that printed line. (2) The key of 9(e)(ii) is misprinted as '9(e)(iii)' (p14 y142, answer 'd' -- the proton whose peak disappears with D2O, the QP's (e)(ii)); the real 9(e)(iii) follows at y167 ('b, c, f'). Both keys are placed by hand at their printed lines (replacing the automatic 9(e)(iii) taken from the misprinted line).",
+ "add_keys": {"Q2.a.i": [5, 423.1, 108], "Q9.e.ii": [14, 142.1, 112], "Q9.e.iii": [14, 166.6, 112]}
+}

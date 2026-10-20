@@ -1,0 +1,13 @@
+{
+ "reason": "Nov 2009 Paper 52 mark scheme (landscape table). Each of 1(c), 2(c)(iii) and 3(b)(ii) is the last part of a question, and the automatic cut ran on below the table rule that closes the marking rows to include the question's 'Total: [n]' row with its skill codes (1(c): 'Total: [9] P2 M2 D2 C3' page 4 y206-256; 2(c)(iii): 'Total: [14] M8 D6' page 6 y506-530; 3(b)(ii): 'Total: [7] 3P 4E' page 7 y488-513). These are question totals, not marking points. Each part is cut by hand just above that rule (page 4 y197, page 6 y496.5, page 7 y479) and the Total rows are whited out.",
+ "segments": {
+  "Q1.c": [[4, 99.0, 197.0]],
+  "Q2.c.iii": [[6, 449.1, 496.5]],
+  "Q3.b.ii": [[7, 406.2, 479.0]]
+ },
+ "masks": [
+  [4, 600, 203, 790, 260],
+  [6, 600, 503, 790, 533],
+  [7, 600, 485, 790, 516]
+ ]
+}

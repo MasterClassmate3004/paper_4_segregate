@@ -1,0 +1,105 @@
+{
+ "reason": "1(c) is marked as eight numbered points '1'..'8' (p2 y356-594, [8]) printed in the question column; the splitter read point '2' (p2 y379) as question 2 and the 1(d) '(d)' (p2 y605) as 2(d), and it lost the keys '2 (a)', '(b)', '(c)', '(d)' of question 2 on p3. Keys are placed by hand at the printed labels: Q1.d p2 y605.2, Q2/Q2.a p3 y81.8, Q2.b p3 y106.3, Q2.c p3 y510.9, Q2.d p3 y611.2. The numbered points follow the QP parts of 1(c) in order: point 1 equation -> (c)(i), point 2 apparatus -> (c)(ii), point 3 indicator -> (c)(iii), point 4 concentration of Ca(OH)2 -> (c)(iv), points 5-6 (making the HCl solution in a volumetric flask, 50-100 fold dilution) -> (c)(v) dilution method, point 7 repeat titrations -> (c)(vi), point 8 calculation -> (c)(vii); 1(c) is cut by hand on the blank rows between the points and the point numbers (question column) are whited out. 1(b) prints '(i) temperature' and '(ii) solubility' for one shared mark, so it stays whole for both QP parts. 1(c) is marked as numbered points that do not label the QP's (c)(i)..; to avoid guessing which point answers which part, 1(c) is kept whole and every (c) leaf is shown the complete 1(c) scheme.",
+ "add_keys": {
+  "Q1.d": [
+   2,
+   605.2,
+   91
+  ],
+  "Q2": [
+   3,
+   81.8,
+   62
+  ],
+  "Q2.a": [
+   3,
+   81.8,
+   90
+  ],
+  "Q2.b": [
+   3,
+   106.3,
+   91
+  ],
+  "Q2.c": [
+   3,
+   510.9,
+   90
+  ],
+  "Q2.d": [
+   3,
+   611.2,
+   91
+  ]
+ },
+ "drop_keys": [
+  "Q1.c"
+ ],
+ "segments": {
+  "Q1.c": [
+   [
+    2,
+    349.8,
+    598.8
+   ]
+  ]
+ },
+ "masks": [
+  [
+   2,
+   101.2,
+   356.2,
+   110.3,
+   368.7
+  ],
+  [
+   2,
+   101.2,
+   381.5,
+   110.3,
+   394.0
+  ],
+  [
+   2,
+   101.2,
+   406.8,
+   110.3,
+   419.3
+  ],
+  [
+   2,
+   101.2,
+   432.1,
+   110.3,
+   444.6
+  ],
+  [
+   2,
+   101.2,
+   457.4,
+   110.3,
+   469.9
+  ],
+  [
+   2,
+   101.2,
+   507.9,
+   110.3,
+   520.4
+  ],
+  [
+   2,
+   101.2,
+   545.9,
+   110.3,
+   558.4
+  ],
+  [
+   2,
+   101.2,
+   571.2,
+   110.3,
+   583.7
+  ]
+ ]
+}

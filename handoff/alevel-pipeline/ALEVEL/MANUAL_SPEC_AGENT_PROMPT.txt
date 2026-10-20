@@ -1,0 +1,70 @@
+You author MANUAL SPLIT SPECS for Cambridge A Level Chemistry (9701) question papers that the automatic splitter could not split. Work only with the tools below. Do not edit any .py file. Do not touch any paper other than the ones assigned to you.
+
+ENVIRONMENT
+  PY=/Users/nitya/.venvs/alevel/bin/python
+  S=/Users/nitya/rootatom_data/alevel-pipeline/ALEVEL/scripts
+  Sources: /Users/nitya/rootatom_data/ALEVEL/source_papers/canonical/<SOURCE>.pdf
+  Spec file (edit this): /Users/nitya/rootatom_data/ALEVEL/manual/<PREFIX>.json
+  Scratch dir for your page images: /Users/nitya/rootatom_data/ALEVEL/review/manual_work/<PREFIX>/
+
+TOOLS
+  1. Text rows of a page (y0 y1 x0 text; points; page numbers are 1-based):
+       $PY $S/al_manual.py lines <SOURCE>.pdf <PAGE>
+  2. Picture of a page (then Read the PNG):
+       $PY -c "import pymupdf as f; d=f.open('<full source path>'); d[<PAGE>-1].get_pixmap(dpi=70).save('<scratch>/p<PAGE>.png')"
+     Zoom on a band: add clip=f.Rect(0,Y0,595,Y1) and dpi=110.
+  3. Render your spec, run BOTH gates, make contact sheets:
+       $PY $S/al_manual.py run <PREFIX>
+     Sheets: /Users/nitya/rootatom_data/ALEVEL/review/manual/<PREFIX>_NN.jpg  (Read them).
+     Single crops: /Users/nitya/rootatom_data/ALEVEL/splits/manual/<PREFIX>/<PREFIX>-<LABEL>.png
+     Full gate output: /Users/nitya/rootatom_data/ALEVEL/splits/manual/<PREFIX>/gates.log
+
+SPEC FORMAT (JSON)
+  "crops": {"Q3.b.ii": [[page, y0, y1, x0, x1], ...], ...}   segments in reading order; x0,x1 usually 40,560
+  "masks": [[page, x0, y0, x1, y1], ...]                      white-out rectangles (e.g. a plain dotted line inside a crop)
+  "accept_blank": {"Q2.a": "reason"}                           a blank band inside a crop that is a printed drawing box / genuine space
+  "accept_plain": {"<page>:<y>": "reason"}                     a plain dotted row that cannot be removed (e.g. part of a table)
+  "accept_absent_leaves": {"Q1.c.i": "reason"}                 a label the leaf checker expects that is NOT a real part (e.g. (i)/(ii) row labels of a table)
+  Keep "source", "prefix". The existing spec is an automatic DRAFT: reuse what is right, fix what is wrong.
+
+WHAT A CORRECT SPLIT LOOKS LIKE (the house rules)
+  - One crop per LEAF = deepest labelled part: Q3, Q3.a, Q3.b.ii, Q2.a.i.1 (numbered tasks only if each has its own [mark]).
+  - Shared context goes in a separate STEM crop: Q3.stem (text before part (a)), Q3.b.stem (text before (b)(i)), Q3.c.stem
+    (context printed between parts, before part (c) when (c) has no children). Context printed between romans (ii)->(iii)
+    goes at the top of the (iii) crop.
+  - A figure/table belongs to the FIRST leaf that refers to it ("Fig. 2.1", "Table 3.1", "the data on page 12").
+  - Keep: prompt text, figures, tables, boxes the candidate draws in, labelled answer lines ("pH = ........ [2]",
+    "type of reaction ........"), and the part's [mark]. Drop: plain dotted answer lines ("..........", "1. .......")
+    and blank working space -- do this by splitting the crop into several segments that skip them.
+  - Never include: the bare question number (the renderer hides it), "© UCLES", paper codes, "[Turn over", page numbers,
+    "BLANK PAGE", "DO NOT WRITE IN THIS MARGIN", "[Total: n]", Section/Option headings and instructions, the
+    "For Examiner's Use" column, copyright text, data pages (Periodic Table, "Important values, constants and standards").
+  - Nothing cut: every segment edge on a blank row between lines (check with the gate's sliced_boundaries and by eye).
+  - Every printed word of question content in exactly one crop (the coverage gate checks this).
+
+WORK EFFICIENTLY: keep page images small (dpi 70 for whole pages, a clip at dpi 110 for zooms) and Read contact sheets
+one at a time. Check that EVERY printed [n] mark on the question pages lands in some crop.
+
+KNOWN LAYOUT CASES (learned from earlier batches)
+  - A [mark] fused onto the end of a dotted leader ("..........[2]"): keep the row, mask the dots only (a masks rect ending
+    just left of the "["), and record the row in accept_plain. Never lose a mark.
+  - "State two ... (i) ........ (ii) ........ [2]": bare (i)/(ii) followed only by dots are ANSWER SLOTS, not parts. The leaf
+    checker does not expect them. Make ONE crop for the parent (prompt + mark), drop the slot rows. No label-only crops.
+  - A part label printed in the question-number column (x~50) is recognised as a part by the leaf checker.
+  - Lowercase / roman marking-box letters in the "For Examiner's Use" column (x>528) are furniture: leave them out; do not
+    widen crops to reach them.
+  - A data table printed under the last question ("Important values, constants and standards") and "Qualitative
+    Analysis Notes" pages are reference: no crop.
+  - Text between the [mark] of one part and the next part's label is that next part's context -- never the end of the
+    previous crop: Qn.x.stem for a lettered part (with or without children); for a roman, the top of its own crop.
+
+DONE = for each paper
+  gates.log shows   expected=N produced=N missing=[] extra=[]
+  and               pages A-B: missing=0 duplicated=0 sliced_boundaries=0 ...
+  AND you Read every contact sheet and every crop looks right by the rules above.
+  If the leaf checker expects a label that is not a real part, use accept_absent_leaves with a reason; if it misses a
+  real part, explain in your report (do not invent labels).
+
+REPORT (your final reply): one line per paper:
+  <PREFIX>: DONE  | or |  <PREFIX>: STUCK - <what and why>
+  then any doubts in one short line each.

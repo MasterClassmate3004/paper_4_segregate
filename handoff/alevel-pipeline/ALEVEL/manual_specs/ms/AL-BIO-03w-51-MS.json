@@ -1,0 +1,158 @@
+{
+ "reason": "Nov 2003 Paper 5 mark scheme (component 5 of the combined file, p19) is a Qn / G / Expected Answers / Marks / Additional Guidance table that prints the full part labels '1 a', '1 b i', '1 b ii', '1 c i', '1 c ii', '2 a', '2 b', '3' in the Qn column on the first row of each part. The splitter keyed only the '1 c ii' line as a bare 'Q1' and '2 b' as 'Q2' (and Q3 started inside 2(b)), so most parts had no cut. The automatic Q1/Q2 keys are dropped and every part is cut by hand on the blank rows between the printed labels (p19), with each printed Qn label whited out. The 'Paper30' total line (p19 y607.6) and the page header/footer are excluded. The column-header row 'Qn / G / Expected Answers / Marks / Additional Guidance' (p19 y90-102) is not recognised by the gate as a header (it prints 'Qn' not 'Question'), so it is masked. keep_words: the planning marking point numbered '3' ('3 Mix / add milk and renin') in Q3 is marking text, not a repeated key. Question running totals: the bold '13' (after 1(c)(ii), page 19 x390-400 y325-334) and '7' (after 2(b), x397-402 y460-469) are question subtotals printed in the Marks column, not marking points; they are whited out, and 1(c)(ii) and 2(b) are cut just above the table rule that closes each question (y336 and y472) so the rule is not shown at the bottom.",
+ "drop_keys": [
+  "Q1",
+  "Q2"
+ ],
+ "segments": {
+  "Q1.a": [
+   [
+    19,
+    102,
+    154
+   ]
+  ],
+  "Q1.b.i": [
+   [
+    19,
+    154,
+    186
+   ]
+  ],
+  "Q1.b.ii": [
+   [
+    19,
+    186,
+    238
+   ]
+  ],
+  "Q1.c.i": [
+   [
+    19,
+    238,
+    279
+   ]
+  ],
+  "Q1.c.ii": [
+   [
+    19,
+    279,
+    335.5
+   ]
+  ],
+  "Q2.a": [
+   [
+    19,
+    337,
+    446
+   ]
+  ],
+  "Q2.b": [
+   [
+    19,
+    446,
+    471.5
+   ]
+  ],
+  "Q3": [
+   [
+    19,
+    472.7,
+    607.5
+   ]
+  ]
+ },
+ "masks": [
+  [
+   19,
+   68,
+   106.5,
+   100,
+   118.6
+  ],
+  [
+   19,
+   68,
+   157.9,
+   100,
+   170.4
+  ],
+  [
+   19,
+   68,
+   191.3,
+   100,
+   201.5
+  ],
+  [
+   19,
+   68,
+   243.0,
+   100,
+   253.2
+  ],
+  [
+   19,
+   68,
+   284.4,
+   100,
+   294.7
+  ],
+  [
+   19,
+   68,
+   337.0,
+   100,
+   347.2
+  ],
+  [
+   19,
+   68,
+   450.8,
+   100,
+   461.0
+  ],
+  [
+   19,
+   68,
+   473.2,
+   100,
+   483.3
+  ],
+  [
+   19,
+   60,
+   88,
+   540,
+   102
+  ],
+  [
+   19,
+   300,
+   607.6,
+   440,
+   618
+  ],
+  [
+   19,
+   385,
+   322,
+   410,
+   336
+  ],
+  [
+   19,
+   392,
+   458,
+   410,
+   472
+  ]
+ ],
+ "keep_words": [
+  [
+   19,
+   153.0956,
+   505.2406
+  ]
+ ]
+}

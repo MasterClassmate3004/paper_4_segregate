@@ -1,0 +1,6 @@
+{
+ "reason": "QP 6(a) (primary and tertiary structure, [2]) has no sub-parts, but the MS prints its two marks as 6(a)(i) Primary and (ii) Tertiary. The whole (a) block stays in Q6.a (the automatic cut, '(a)(i)' read as a misprinted key) and the printed '(ii)' label beside the Tertiary row (p7 y126) is masked.",
+ "masks": [
+  [7, 89.0, 125.8, 104.4, 138.3]
+ ]
+}

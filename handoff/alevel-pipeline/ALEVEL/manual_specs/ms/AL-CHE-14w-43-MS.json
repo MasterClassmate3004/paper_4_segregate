@@ -1,0 +1,211 @@
+{
+ "reason": "Page 2 has a garbled text layer (duplicated glyphs: '1 (a) ) (i )', '(ii )', 'Que estio on', 'P age e 2'), so the splitter read only 1(a), 1(b), 1(c) there; the printed sub-part keys 1(a)(i) y116.5, 1(a)(ii) y316.9, 1(b)(i) y341.4, 1(b)(ii) y458.4, 1(c)(i) y509.9 are placed by hand (label end x157.1), and p2's boxed running header (y35-62), boxed 'Question / Marking point / Marks / Marks total' column-header row (y80-104) and copyright footer (y549-561), not recognised as furniture on the garbled page, are whited out by position. On p8, 6(b) is a table whose rows are labelled '(i) LiAlH4', '(ii) HCl (aq)', '(iii) CH3COCl' inside the first table column (x181.6), not in the key column; the splitter missed '(i)' and then took every later '(ii)'/'(iii)'/'(b)' in Questions 7-9 (p9-p12) as Q6.b.ii/Q6.b.iii/Q6.b, losing all keys of Questions 7, 8 and 9. Q6.b.i/ii/iii are placed at their printed table-row labels, and every key of Questions 7-9 is placed by hand at its printed line (label end x137.8/138.4 for '(a)'..'(e)' with the question number, x157.0 for '(i)'..'(iii)'): p9 7(a) y81.7, (b) y118.8, (c) y168.6, (d)(i) y268.9, (ii) y293.4, (iii) y317.8; p10 7(e) y81.7, 8(a) y309.3, (b)(i) y346.4, (ii) y370.9; p11 8(c)(i) y81.7, (ii) y258.0, (iii) y282.4, 9(a) y332.1, (b) y356.6, (c) y487.5, (d) y511.9; p12 9(e)(i) y81.7, (ii) y131.5, (iii) y181.2. 6(b) is marked '1 mark for each correct structure / 1 mark for each correct reaction type' with '3 3 [6]' printed below the table (p8 y445-515): that rule applies to every row, so it is appended to each of 6(b)(i), (ii), (iii); the table rows are cut by hand on the printed row rules. Cuts: Q6.b.i p8 y77.75-178.6, Q6.b.ii y177.6-314.6, Q6.b.iii y313.6-434 (each keeps the printed row rules at y177.9/y314 on both sides), and the shared rule block y434-520.5 as one identical slice in all three.",
+ "add_keys": {
+  "Q1.a.i": [
+   2,
+   116.5,
+   157.1
+  ],
+  "Q1.a.ii": [
+   2,
+   316.9,
+   157.1
+  ],
+  "Q1.b.i": [
+   2,
+   341.4,
+   157.1
+  ],
+  "Q1.b.ii": [
+   2,
+   458.4,
+   157.1
+  ],
+  "Q1.c.i": [
+   2,
+   509.9,
+   157.1
+  ],
+  "Q6.b": [
+   8,
+   81.7,
+   138.4
+  ],
+  "Q6.b.i": [
+   8,
+   83.4,
+   191.9
+  ],
+  "Q6.b.ii": [
+   8,
+   180.2,
+   194.3
+  ],
+  "Q6.b.iii": [
+   8,
+   316.3,
+   196.8
+  ],
+  "Q7.a": [
+   9,
+   81.7,
+   137.8
+  ],
+  "Q7.b": [
+   9,
+   118.8,
+   138.4
+  ],
+  "Q7.c": [
+   9,
+   168.6,
+   137.8
+  ],
+  "Q7.d.i": [
+   9,
+   268.9,
+   157.0
+  ],
+  "Q7.d.ii": [
+   9,
+   293.4,
+   157.0
+  ],
+  "Q7.d.iii": [
+   9,
+   317.8,
+   157.0
+  ],
+  "Q7.e": [
+   10,
+   81.7,
+   137.8
+  ],
+  "Q8.a": [
+   10,
+   309.3,
+   137.8
+  ],
+  "Q8.b.i": [
+   10,
+   346.4,
+   157.0
+  ],
+  "Q8.b.ii": [
+   10,
+   370.9,
+   157.0
+  ],
+  "Q8.c.i": [
+   11,
+   81.7,
+   157.0
+  ],
+  "Q8.c.ii": [
+   11,
+   258.0,
+   157.0
+  ],
+  "Q8.c.iii": [
+   11,
+   282.4,
+   157.0
+  ],
+  "Q9.a": [
+   11,
+   332.1,
+   137.8
+  ],
+  "Q9.b": [
+   11,
+   356.6,
+   138.4
+  ],
+  "Q9.c": [
+   11,
+   487.5,
+   137.8
+  ],
+  "Q9.d": [
+   11,
+   511.9,
+   138.4
+  ],
+  "Q9.e.i": [
+   12,
+   81.7,
+   157.0
+  ],
+  "Q9.e.ii": [
+   12,
+   131.5,
+   157.0
+  ],
+  "Q9.e.iii": [
+   12,
+   181.2,
+   157.0
+  ]
+ },
+ "masks": [
+  [
+   2,
+   0,
+   30,
+   842,
+   66
+  ],
+  [
+   2,
+   60,
+   78,
+   790,
+   105
+  ],
+  [
+   2,
+   0,
+   545,
+   842,
+   565
+  ]
+ ],
+ "segments": {
+  "Q6.b.i": [
+   [
+    8,
+    77.75,
+    178.6
+   ],
+   [
+    8,
+    434.0,
+    520.5
+   ]
+  ],
+  "Q6.b.ii": [
+   [
+    8,
+    177.6,
+    314.6
+   ],
+   [
+    8,
+    434.0,
+    520.5
+   ]
+  ],
+  "Q6.b.iii": [
+   [
+    8,
+    313.6,
+    434.0
+   ],
+   [
+    8,
+    434.0,
+    520.5
+   ]
+  ]
+ }
+}

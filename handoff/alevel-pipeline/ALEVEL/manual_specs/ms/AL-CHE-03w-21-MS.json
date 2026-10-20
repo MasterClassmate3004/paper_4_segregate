@@ -1,0 +1,31 @@
+{
+ "reason": "2003 Paper 2 mark scheme (component 2 of the combined 9701 Nov 2003 file). Three question-paper leaves have no printed key of their own. 3(a)(iii) (why the standard enthalpy of formation of water equals the enthalpy of combustion of hydrogen): the scheme prints only 3(a)(i) (two marks) and 3(a)(ii) (one mark) on p7 and then goes straight to 3(b); there is no marking point for it (the question paper's 3(a) is [4], the scheme prints 3 marks), so it is recorded absent. 4(a)(ii) (equation for the ethene preparation): the scheme prints one 4(a)(i) block ('dehydration/elimination/cracking (1)' and the equation with its alternative (1) [2]) with no (ii) label, so both 4(a) leaves are shown the whole block. 4(c)(ii) (structure of PVC): the scheme prints one 4(c)(i) block holding both polymer structures ('tails required' (1) each, [2]) with no (ii) label, so both 4(c) leaves are shown the whole block. The scheme numbers the 4(d) steps (i) C6H10, (ii) Mr = 82, (iii) % carbon, while the question paper has only 4(d)(i) and (ii) (the percentage calculation is (ii)); the 'Mr = 82' and '% carbon' lines both fall in the question paper's 4(d)(ii) crop, so the printed '(iii)' label (p8 y195.6) that would otherwise show inside that crop is whited out by hand.",
+ "absent": {
+  "Q3.a.iii": "The published scheme has no marking point for 3(a)(iii): only 3(a)(i) (2 marks) and 3(a)(ii) (1 mark) are printed on p7 before 3(b)."
+ },
+ "segments": {
+  "Q4.a.ii": [
+   [
+    7,
+    603.75,
+    671.25
+   ]
+  ],
+  "Q4.c.ii": [
+   [
+    8,
+    97.0,
+    139.75
+   ]
+  ]
+ },
+ "masks": [
+  [
+   8,
+   134,
+   194,
+   158,
+   208
+  ]
+ ]
+}

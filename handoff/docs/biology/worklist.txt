@@ -1,0 +1,86 @@
+[open] 11s-52 Q1.d.ii: 'Use the space below for any diagrams ... (i)' + blank band at top of (ii) crop -> drop as working-space instruction (also 11s-53 alias; check m17-22 p4, s12-22 p5, w05-2 p4, s15-52 p7 variants)
+[open] 22m-52 Q3: renderer blanks Table 3.1 row labels 1-3 in the 40-62pt gutter (question-number hiding) -> renderer must skip digits inside tables
+[done] Section B essay rubric (s04/s05/w04/w05 P4) -> coverage gate ESSAY_RUBRIC_RE + Q6.a specs trimmed
+[done] 21m-52 Q1.d.i context after [2] moved to top of Q1.d.ii
+[check] bio_fix g1: 17m-42 Q8.b.stem photo credit; 21m-42 Q2.c.stem map circle at left edge; 02s-21 Q1.stem 'Write your answers in the spaces provided.'
+[check] bio_fix g2: 04s-41 Q5.a tall empty; 04s-51 Q1.b.ii lead-in; 04s-51 Q2.d.stem teacher REPORT FORM; 07s-21 Q2.b.ii gap
+[redo] bio_b1 group 03: image reads rate-limited (8 agents); verdict moved to group_03.incomplete
+[done] 18s-41 Q3.a.i: '4 ....' slot-row dots bled into the [2] segment -> manual spec mask; approved (manual). al_manual init now carries the splitter's dot masks into the spec
+[done] 02s-21 Q1.stem 'Write your answers in the spaces provided.' -> gate INSTRUCTION_RE + stem trimmed
+[done] 11s-23 examiner column masked; 15s-22 Q6.a.i/ii re-cut (fill-in blank kept, accept_plain); 14s-21 Q4.c context -> Q4.d.stem, Q4.b.ii gap cut
+[done] aliases added: 11s-53, 12s-43, 14s-43, 15s-53, 17w-43, 17w-53, 19w-52, 21w-43 (text scan; dedupe missed them)
+[agent] 18 specs with auto accept_blank -> spec_12..15 (blank-band agents)
+[check] 17m-42 Q8.b.stem photo credit; 21m-42 Q2.c.stem map circle edge; 04s-41 Q5.a tall box; 04s-51 Q2.d.stem REPORT FORM (teacher form -> should be dropped)
+[agent] fix_01.txt: 19s-51, 19s-53, 21s-51 context ownership; 21s-41 table masks; 17m-42 photo credit; 21m-42 map edge
+[done] 04s-51 REPORT FORM dropped (gate REF_PAGE_RE + accept_absent_leaves); spec prompt has report-form rule (s02/s03/w02/w03 P5)
+[todo] 04s-21 Q1.stem: trim 'Write your answers in the spaces provided.' AFTER blank-band agent (spec_12) finishes; margin-rule stubs 04s-21 Q4.stem, 05s-21 Q3.b
+[open] al_manual qnum hider fix (question-start only) -> regression over all 283 specs running; then re-render 21m-42, 22m-52
+[done] gate: lone 'on page N' furniture; 'Circle the number of the question you have answered' rubric; leaf checker ignores '3 = ...' key rows (18w-51)
+[done] Q1.stem instruction trims x11 (02s-41..07w-41); 07w-41 Q5.b.stem rule mask, Q10.a trim
+[by design] 07w-41 Q1(b)/(c) shared table kept with (c) (5 of 6 marks; printed after (c) text)
+[todo] leaf-gate + coverage-gate regression over ALL approved Chem/Phy/Bio papers before commit (gate code changed)
+[blocked] Physics manual-spec render regression for the al_manual qnum change: Drive sources/9702_canonical.zip reads 0 bytes (stat size 984951883 vs ledger 984839421) -> retry later; do not re-render Physics specs until tested. Chem 0 changed; Bio changes = 5 intended fixes
+[done] 18m-42 Q3.b: [4] fused to the last dotted row next to '[Turn over' was dropped -> fused_marks splits by row chars only; manual spec adds the mark row; approved (manual)
+[done] bio_b1 groups 46-53 reviewed + approved (18m-42 via manual). 21m-22 Q2.b context-before-(b) = house rule; 23m-22 Q5.a draw-in space ok; g52 08s-21 crop over-count 32/31 (all sheets read)
+[done] 11s-52 Q1.d.ii: 'Use the space below for any diagrams ... (i)' + blank band dropped (manual spec; gate INSTRUCTION_RE knows the line); approved (manual). 11s-53 alias. Phrase only in s11-52/53
+[done] 20s-22 Q5.c: last fill-in blank '........ .' of the completion passage was dropped -> manual spec keeps it; approved (manual)
+[done] 20s-41 Q2.a.i: text-free Punnett grid (Fig. 2.1, lines only) was cut out as blank -> manual spec; approved (manual)
+[open] splitter: text-free ruled grids (genetic-diagram tables with no text) are cut as blank bands (20s-41 Q2.a.i); short sentence-completion blanks ('..... .') dropped as plain rows (20s-22 Q5.c) -> watch for more; check splitter rule
+[done] bio_b1 groups 54-58 approved (20s-22, 20s-41 via manual)
+[done] 21s-53 Q1.a: 'filtering through cloth.' + [2] (p2 bottom) had gone to Q1.b.stem -> manual spec; approved (manual). bio_b1 groups 59-61 approved
+[done] 24s-23 Q2.a: plain dotted row above [5] -> manual spec mask; approved (manual). bio_b1 groups 62-71 approved except held working-space papers
+[done] 16w-53 Q1.d.i: [1] beside '[Turn over' was missing (confirmed by g90 agent) -> manual spec adds mark row; approved (manual). Groups 83-90 approved
+[done] working-space lines inside crops: full scan of bio_b1+manual found 7 papers (16w-51/52 Q1.c.iii, 22s-51 Q1.a.iii, 22s-53 Q2.f/g, 23s-51 Q1.d.iii, 23s-52 Q2.c.ii, 25s-53 Q1.a.iii [had been approved in g72 -> revoked]) -> spec masks, approved (manual). Gate: INSTRUCTION_RE takes 'use this space for your working'; Space..working check skips spec-masked words. Splitter still prints these lines (only these 7 Bio papers affected)
+[note] 25s-44 Q2.b, Q3.b: source PDF has 'Content removed due to copyright restrictions' in place of Fig. 2.1/3.1 -> crops faithful but questions unusable; decide at classification (flag/skip). 25s-43 Q4.stem photo watermark is in the source. Groups 72-74 approved
+[by design] 17w-23 Q2 Fig. 2.1 used by (b)(i),(ii) and (c) kept with (c) (shared-figure rule, as 07w-41). Groups 91-92 approved
+[done] 22w-42 Q10.b: splitter 'slotdots' mask hid the passage's last blank '........ .' inside the crop -> spec drops the 2 masks; 19w-43 Q8 blank row dropped -> spec; both approved (manual)
+[done] bio_man 05w-41 Q2: Table 2.2 printed after (c)'s [3] -> moved to top of Q2.d (house rule); bio_man groups 19-22 approved (02w-51 drawing spaces, 04w-21 Q2.b.ii answer diagram, 06s-21 Q5.c sketch-on figure = ok)
+[done] completion-passage blanks: scan found 19m-22 Q6.c, 19w-41/42 Q8 (manual specs, row dropped) -> merged segments + accept_plain; 15s-22 already ok
+[done] 'Space for table/diagram' labels for dropped answer space: 22w-51/52 (22w-53 alias), 23w-22 Q5.e -> segment dropped; gate INSTRUCTION_RE knows 'Space for table/diagram'. 13w-51/52 Q2.c 'Space for diagram' kept (labels the space next to Fig. 2.3 the question points to)
+[done] 'Total: [n]' (old-style) furniture: 11w-53 masked; gate INSTRUCTION_RE knows it; scan found no others
+[done] bio_man (agent-written manual specs) fixes: 05w-41 Q2 Table 2.2 -> (d); 09w-22 Fig 6.1 -> Q6.b.stem; 09w-51 Q1 slot/dots; 08s-41 margin mask clipped axis label; 08w-41 + 13w-41 examiner margin; 11w-22 stem sentence; 13w-41 Fig 4.1 split; 17w-21 Fig 2.2 split; 17w-51 mask over [2]; 18w-22, 19w-41, 21w-21 context after mark -> next part; 18w-51 numbered slots
+[by design] 11s-41 Q6.b key rows, 02w-51 drawing spaces, 04w-21 answer diagram, 06s-21 Q5.c, 07w-41 Q1(c), 17w-51 Q2.c table, 21w-21 Q5.d context, 12w-53 no part mark in source, 13w-41/43 Q9 source spacing
+[done] ALL Biology QP review: bio_b1 groups 46-104 + bio_man 19-40 reviewed; 386/386 non-alias Bio papers approved (bio_b1 249 + manual 242 incl. superseding specs)
+[note] 19w-42 is an alias of 19w-41 (its manual spec only got the Q8 fix, not Q3.a) -> aliases are not approved; publish from the canonical
+[done] MS stage 1: review/bio_b1/_ms_input.csv = 386 prefixes (bio_b1 249, manual 137; 14s-43 approved-alias excluded); on-disk QP crops = approved hashes for all 386. review/manual/run_summary.csv += 137 Bio manual rows (backup .bak_pre_bio)
+[running] MS stage 2: al_run_ms.py bio_b1 bio_ms1 + manual bio_ms2
+[done] MS stage 2: bio_ms1 229/249 + bio_ms2 106/137 PASS first run. Runner --only now refuses empty/unmatched lists (04c4af1; CRLF csv had made --only empty -> whole runs; extra 17 bio_b1 + 102 Chem outputs in bio_ms1/2 deleted)
+[done] 9700_s12_ms_42, s14_ms_21, s14_ms_41 were Phase 0 iCloud read errors -> re-fetched from DP ledger URLs (sha256 match, al_fetch_sources --read-errors); 14s-21, 14s-41 PASS, 12s-42 hold Q7.c
+[note] other Phase 0 read errors not needed now: 9700_s15_qp_12, s15_qp_13, w05_qp_5, w09_ms_12, w14_ms_11
+[done] MCQ discounted questions: 16s-13 Q13, 21w-13 Q7, 23w-11 Q27+Q35 -> override absent (a764242); PASS; parts to remove under no-MS rule
+[ask] 02w-11: no 9700 w02 Paper 1 MS; Chem/Phy keys came from PapaCambridge examiner reports -> needs user OK to download 9700_w02_er.pdf
+[running] MS stage 3: 45 holds -> 5 override agents A-E
+[done] 02w-11 key: user OK'd download of 9700_w02_er.pdf (PapaCambridge, 215 KB, sha 6bdfa960...) -> raw_ms_search; key p2 table -> splits/bio_ms1/AL-BIO-02w-11-MS answers.csv + provenance (cross-checked vs ER comments Q5/Q8/Q34). TODO: set ms_summary row PASS after override agents finish (summary race)
+[done] override agent B: 13w-51, 14w-41, 15s-52, 16s-22, 17w-22 (misprinted 6(a)(iii)/6(b) -> Q6.b/c), 18s-51, 19w-53, 22w-21, 12w-53 (Q1.a.iii unlabelled row, by position -> CHECK BY EYE) all MS_OK + clean gate
+[done] MS review bio_ms1 g01 accepted (84 s/agent); fixes collected in review/bio_b1/_ms_fix_list.csv
+[done] override agent D: 03s-21 (hand cuts; booklet p9-11 = Paper 3 incl. mis-headed '9700 2' p11 -> skipped, checked), 03w-21, 03w-51, 04w-21 (misprint 2nd (c) -> Q5.d), 05s-41, 06w-51, 07w-21, 21w-21, 11w-23 all MS_OK + clean gate
+[done] override agents A, E (8/9 each): A: 04w-51, 05s-51, 06s-41, 09w-42, 12s-42 (Q7.b absent = unmarked intro, CHECK), 13s-41, 13w-21, 15s-22; E: 04s-41 (skip p8-14), 04s-51, 07w-41, 08s-51, 09s-51, 09w-51, 11s-21, 11w-53
+[open] 04s-21: booklet 9700_s04_ms.pdf pp8-14 = Paper 2 pp3-9 misheaded '9700 4' -> new splitter override component_pages; keys 27/27 exact; agent E finishing header-row masks
+[blocked] 08w-21: 9700_w08_ms_2.pdf (DP) is titled O/N 2008 9700/02 but its content (phagocyte/plasma cell, root uptake, lysozyme; (c) UCLES 2007; ends at 5(b)) matches no QP we hold; QP 9700/02/O/N/08 is T-lymphocyte receptors etc. Needs a correct MS source (user decision)
+[by design] 13s-42 Q9.a '[8 max' without ']' is printed so in the source
+[done] 04s-21 finished by agent E (component_pages + header/total masks): MS_OK, clean gate
+[todo stage4] 12s-42 Q7.b is context only (figure + gene rules, no question/mark; MS (b)[6] = QP 7(c)) -> relabel QP crop as Q7.c.stem (manual spec) instead of removing; re-run MS
+[done] MS stage 3: all override agents done (A-E, 44/45); bio_ms1 248/249 (02w-11 PASS via ER key), bio_ms2 137/137. Only hold: 08w-21 (wrong MS file)
+[done] splitter 00bec90: right-edge Marks digits were cut ~1pt (cell box edge read as double rule) -> fixed; re-run bio_ms1 167 same/82 right-edge-only, bio_ms2 78 same/59 right-edge-only (verified by provenance compare); review g01-10 verdicts kept for right-edge-only papers; g11 (old crops) redone
+[note] al_prepare_ms_review --only overwrites group_01.. files: rebuild groups with scratch mkgroups.py (<=40 sheets), groups 01-09 restored from verdict JSONs
+[next] review bio_ms1 groups 11-16, bio_ms2 groups 01-14
+[found] missed aliases (pixel scan of same-session variants + MS text equal except paper no.): 11w-52=11w-51 (11w-51 QP has no text layer), 16w-52=16w-51, 20w-53=20w-51 -> stage 4: add to duplicates.csv, drop from MS set (383 unique)
+[note] 13w-22 Q6.a picture overflow fix (al_ms_splitter table branch) did not change output -> debug
+[done] 06w-21 Q6.a.iii override (segment above 6(b) table rule)
+[done] aliases 11w-52, 16w-52, 20w-53 added to review/bio_b1/duplicates.csv (backup .bak_pre_ms); _ms_input.csv now 383 (LF endings; old list _ms_input_386.csv); their MS splits/sheets/summary rows dropped (aliases share the canonical MS)
+[done] no-MS rule: MCQ discounted 16s-13 Q13, 21w-13 Q7, 23w-11 Q27+Q35 -> QP crops deleted, hashes dropped (backup reviewed_crop_hashes.json.bak_bio_ms), rows in review/removed_no_ms.csv
+[done] fix agent F3: 15s-23 Q1.c 'to max 2' -> Q1.d (override); 15s-21 Q1.d.ii, 15s-22 Q6.b.iii, 23w-22 Q3.c.i = source as printed
+[todo] splitter x_range non-table cap pi.w-15 cuts content past it (15s-21 Q2.c ';' at x579-580.6) -> allow up to the words (after F1/F2 finish)
+[done] MS review: all groups reviewed (bio_ms1 01-16, bio_ms2 01-14); flags triaged; fixes via 3 fix agents + splitter abaec6b (column-slice segments, margin cap) + 06220df (wide pictures); full re-runs verified by provenance compare + edge scan (0 non-label edge cuts)
+[running] second review bio_ms2 group 15 (12 changed papers)
+[done] MS second review bio_ms2 g15 (12 fixed papers): 0 defects. All groups accepted (bio_ms1 16/16, bio_ms2 15/15)
+[done] approved: reviewed_crop_hashes bio_ms1 145 + bio_ms2 133 structured MS papers (6,988 images; backup .bak_pre_msapprove); 104 MCQ keys PASS (answers.csv, no images)
+[done] audit: 382/383 unique approved Bio QPs have a PASS MS covering every stored part; removed_no_ms.csv has the 4 discounted MCQs
+[open] 08w-21: our 9700_w08_ms_2.pdf is the wrong paper's MS -> user decision: fetch another copy (e.g. PapaCambridge) or remove the paper (no-MS rule)
+[next] offload Bio QP+MS PNGs to Drive (al_offload.py push bio_b1 / manual / bio_ms1 / bio_ms2) after user OK; delete review sheets (review/bio_ms1, bio_ms2 *.jpg ~300 MB) after offload
+[done] 08w-21: user OK'd PapaCambridge 9700_w08_ms_2.pdf (295,994 B, sha e50f5480...) -> raw_ms_search/pc_9700_w08_ms_2/; pp.8-12 = O/N 2008 9700/02 second-variant MS matching our QP (pp.2-7 = the other variant, same as the DP file). Derived file stripped (10 links) + rescan clean -> canonical/9700_w08_ms_2.pdf (DP file moved to canonical_original/, derived_sources.csv + manifest updated). Split 23/23 exact, gate clean, reviewed by eye, approved
+[done] FINAL AUDIT: 383/383 unique approved Bio QPs have an approved/PASS MS covering every stored part (279 structured MS papers, 7,011 images; 104 MCQ keys)
+[next] Drive offload of Bio QP+MS (needs user OK); Chem/Phy MS regression for splitter changes 00bec90..abaec6b before any Chem/Phy MS re-run
+[blocked] Drive offload: al_offload push --keep wrote 662 Bio zips (bio_b1 248, manual 135, bio_ms1 146, bio_ms2 133) into the Drive folder, local read-back OK, BUT Google Drive for desktop cannot start (log: 'macOS File Provider error ... restarting your computer', CANNOT_START_CORE since 2026-10-17) -> nothing uploaded, no item ids. Local PNGs KEPT. Ledger rows rolled back (pending rows saved in review/offload_ledger.csv.bio_pending). After a Mac restart: rerun push --keep (same --only lists), wait for com.google.drivefs.item-id xattr on all 662 zips, cloud read-back, then delete local PNGs.
+[blocked] 2026-10-19 21:52: user reported restart, but kern.boottime = 2026-10-17 11:05 (no reboot), Drive core still FILE_PROVIDER_ACTIVATION_FAILED, Drive folder ls times out -> offload not resumed; local PNGs intact
+[decision] 2026-10-19 user: leave Biology images local for now, no offload. Pending: when Drive works, rerun push --keep (lists = review/bio_b1/_ms_input.csv by qp_run + reviewed_crop_hashes bio_ms1/bio_ms2), wait for item ids, cloud read-back, then delete. Possibly stale pending zips in the Drive folder from the 21:41 push (folder unreadable now) - check when Drive works.

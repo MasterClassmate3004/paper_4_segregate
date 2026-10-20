@@ -1,0 +1,7 @@
+{
+ "reason": "Two misprinted keys. Page 10 prints '4(b)(i)' twice: the second one (p10 y105.0, 'M1 primary/1o (carbo)cation formed is not very stable ... inductive effect', 2 marks) is the QP's 4(b)(ii) (explain why SN2 rather than SN1, [2]), so Q4.b.ii is placed at that printed line. Page 12 prints '5(b)(iii)' (p12 y134.3, a skeletal structure of 2-hydroxypropanoic acid, 'ALLOW any unambiguous structure', 1 mark) but the QP's 5(b) has only (i) and (ii); the line is the QP's 5(c) (draw the structure of W formed in reaction 4, [1]), so Q5.c is placed at that printed line.",
+ "add_keys": {
+  "Q4.b.ii": [10, 105.0, 107.0],
+  "Q5.c": [12, 134.3, 109.6]
+ }
+}

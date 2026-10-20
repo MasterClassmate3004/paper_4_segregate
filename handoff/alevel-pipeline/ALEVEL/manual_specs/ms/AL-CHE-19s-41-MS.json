@@ -1,0 +1,24 @@
+{
+ "reason": "On p7 the equilibrium arrow '⇌' in the 4(e) answer (CH3NH2 + H2O ⇌ CH3NH3+ + OH–) has a text box far taller than its glyph (x206-216, y218.2-279.5, spanning the 4(d)(iii), 4(e) and 4(f)(i) rows), so the 4(e) key was read at y218.2, above the 4(d)(iii) answer line (y216.8), leaving 4(d)(iii) empty. The printed keys 4(d)(iii) and 4(e) are cut by hand on the drawn table rules (y211.4 / 235.9 / 260.6), each row holding its own printed answer.",
+ "segments": {
+  "Q4.d.iii": [
+   [
+    7,
+    211.4,
+    235.9
+   ]
+  ],
+  "Q4.e": [
+   [
+    7,
+    235.9,
+    260.6
+   ]
+  ]
+ },
+ "accept_sliced": {
+  "Q4.d.iii": "edges are the table rules y211.4/235.9; only the oversized text box of the 4(e) '⇌' (y218-280) crosses them, its ink lies wholly inside the 4(e) row",
+  "Q4.e": "edges are the table rules y235.9/260.6; the 4(e) '⇌' ink lies wholly between them, only its oversized text box (y218-280) crosses them",
+  "Q4.f.i": "automatic top edge y261.6 lies just below the table rule y260.6; only the oversized text box of the 4(e) '⇌' (y218-280) crosses it, its ink lies wholly inside the 4(e) row"
+ }
+}

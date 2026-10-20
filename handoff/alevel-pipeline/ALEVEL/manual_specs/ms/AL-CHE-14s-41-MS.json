@@ -1,0 +1,14 @@
+{
+ "reason": "p5 Q4(c) is three drawn structures, each with its '(i)'/'(ii)'/'(iii)' label printed beside the structure's vertical centre (keys y394.2/481.8/565.9), so the automatic cuts at the key lines sliced the benzene rings and NH3/NH3Cl groups of the neighbouring structures. The '(c)' key row itself is y355-366.6 (it has no marking of its own, only the label). The parts are cut by hand on the blank rows between the structures: 4(c)(i) y366.6-442 (structure of (i) with '(or ionic)' and [1]; gap above (ii)'s 'OH' at y453), 4(c)(ii) y442-526 (structure of (ii); gap above (iii)'s 'OCOCH3' at y537), 4(c)(iii) y526-671.5 (structure of (iii) and its M1-M3 rows, '[5] max [4]'; ends above '(d)' y678.5). The sub-part labels are printed twice (doubled glyph layer, e.g. '(i)' x87.6 and x94.6, '(ii)' x87.6 and x91.6, '(iii)' x90.5 and x88.5), the splitter whited out only one copy, so both copies of each label are whited out by position (x86-107.5); all marking content is kept.",
+ "segments": {
+  "Q4.c": [[5, 355.0, 366.6]],
+  "Q4.c.i": [[5, 366.6, 442.0]],
+  "Q4.c.ii": [[5, 442.0, 526.0]],
+  "Q4.c.iii": [[5, 526.0, 671.5]]
+ },
+ "masks": [
+  [5, 86.0, 393.5, 106.5, 407.5],
+  [5, 86.0, 482.0, 106.5, 496.0],
+  [5, 87.0, 564.5, 107.5, 578.0]
+ ]
+}

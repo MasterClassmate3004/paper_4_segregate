@@ -1,0 +1,46 @@
+{
+ "reason": "QP 7(a) and 8(a) are single parts, but the MS marks them as '(a)(i)' and '(ii)' (two answers of one part); the splitter keeps each (a) whole, and the printed '(ii)' labels left inside those crops (p8 y101, p9 y113.6) are whited out. 8(b): the MS prints one '(b)' with two lines, 'Hydrolysis or nucleophilic substitution [1]' answering QP 8(b)(i) (type of reaction) and 'Ester and amide/peptide or -CO2- and -CONH- [1]' answering QP 8(b)(ii) (two functional groups); 8(b) is cut by hand on the blank row between them (p9 y195). 7(e) is one chromatogram with U, W and the ringed pair marked together (3 x [1]), so it stays whole for 7(e)(i)-(iii). The 'Section B' heading after 5(e)(ii) (p6 foot / p7 top) is correctly dropped as an appendix. 4(a): the MS prints '(i) addition AND (ii) substitution [1]' as one shared mark for both QP parts, so 4(a) is kept whole (p5 y69-149) and both 4(a)(i) and 4(a)(ii) get it.",
+ "drop_keys": [
+  "Q8.b",
+  "Q4.a"
+ ],
+ "segments": {
+  "Q8.b.i": [
+   [
+    9,
+    169.5,
+    195.0
+   ]
+  ],
+  "Q8.b.ii": [
+   [
+    9,
+    195.0,
+    239.0
+   ]
+  ],
+  "Q4.a": [
+   [
+    5,
+    69.25,
+    149.0
+   ]
+  ]
+ },
+ "masks": [
+  [
+   8,
+   88.5,
+   100.5,
+   105.0,
+   113.0
+  ],
+  [
+   9,
+   88.5,
+   113.1,
+   105.0,
+   125.6
+  ]
+ ]
+}

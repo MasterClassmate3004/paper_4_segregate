@@ -1,0 +1,4 @@
+{
+ "reason": "9700/22 M/J 2015 mark scheme. (1) Question 1 is a single QP leaf (Q1, 5 labelled structures A-E) and the scheme prints it as '1 (a)' A-E [5], a label the QP does not have, so the automatic key finder (which needs a node of the QP label tree) found no key; the line '1 (a)' at page 3 y75.7 is keyed Q1 by hand (label '1 (a)' whited out). (2) 3(c) is printed '(c) (x) 1000' where '(x)' is the multiplication sign of the magnification answer, not a roman numeral, so the key was read as (c)(x) and rejected; the line at page 5 y517.4 is keyed Q3.c by hand with only the label '(c)' whited out so the '(x) 1000' answer is kept.",
+ "add_keys": {"Q1": [3, 75.7, 84.5], "Q3.c": [5, 517.4, 84.5]}
+}

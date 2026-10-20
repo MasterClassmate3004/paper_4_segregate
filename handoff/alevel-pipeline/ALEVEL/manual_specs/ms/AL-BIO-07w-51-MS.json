@@ -1,0 +1,42 @@
+{
+ "reason": "Oct/Nov 2007 Paper 5 mark scheme. (1) p2 Q1(a)(i): the answer sketch (rate against light intensity) has its x-axis label 'light intensity' printed at x418-470, y115-124, on the very same text line as the next part's '(ii) 3 of;' (rows y113.6-124.6), so no horizontal cut can keep the label with Q1.a.i without also pulling '3 of;' into it (a hand cut to y125 was tried: the gate reports the shared line as duplicated/overlapping between Q1.a.i and Q1.a.ii). Column slices (segments with x0,x1): the shared row y112.5-125.5 is split at x140, the label (x418-470) goes to Q1.a.i under its graph and '3 of;' (x113-135) to Q1.a.ii. (2) p4 Q3(a)(ii): the QP's (a)(ii) asks to complete Table 3.1 and write the value of chi-squared on its 'chi2 = ... [4]' line (the QP has no (a)(iii)), but the MS prints the answer 'X2 = 39.9/58.42; [1]' under a separate key '(iii)'. That row is the answer to the QP (a)(ii) blank and stays in Q3.a.ii; only the printed '(iii)' key label (p4 x87-103.5, y347.8-358.8) is whited out.",
+ "masks": [
+  [
+   4,
+   85.5,
+   346.5,
+   105.0,
+   359.5
+  ]
+ ],
+ "segments": {
+  "Q1.a.i": [
+   [
+    2,
+    69.25,
+    112.5
+   ],
+   [
+    2,
+    112.5,
+    125.5,
+    140.0,
+    548.9
+   ]
+  ],
+  "Q1.a.ii": [
+   [
+    2,
+    112.5,
+    125.5,
+    110.4,
+    140.0
+   ],
+   [
+    2,
+    125.5,
+    195.0
+   ]
+  ]
+ }
+}

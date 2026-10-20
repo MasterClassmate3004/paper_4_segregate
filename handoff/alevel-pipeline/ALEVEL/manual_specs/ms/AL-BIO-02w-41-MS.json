@@ -1,0 +1,5 @@
+{
+ "reason": "Nov 2002 Paper 4 mark scheme. 2(d) ends with its '3max' (page 3 y476-482), then the printed question total 'Total:11' (y502-508, x520-560) and the dashed rule above 'Question 3' (y518). The automatic cut ran down to the next question and kept the total and the rule: 2(d) is cut by hand on page 3 down to y514 (above the rule), and the 'Total:11' line is whited out.",
+ "segments": {"Q2.d": [[3, 337.5, 514]]},
+ "masks": [[3, 510, 499, 575, 513]]
+}

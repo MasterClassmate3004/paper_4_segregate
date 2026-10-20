@@ -1,0 +1,5 @@
+{
+ "reason": "The mark scheme prints 3(c) under '(c) (i)' only, with no '(ii)' label: 'sodium hydroxide/NaOH (1)' answers (i), and the half-equation lines '2H2O + 2e- -> H2 + 2OH- or 2H+ + 2e- -> H2 (1) leaving OH- in solution as NaOH (1)' (p3 y434-474) answer the QP's (ii) (explain with half-equations how it is formed). The omitted (ii) key is placed by hand at the first half-equation line. The question total is printed '[Total: 15 max]' (p3 y697), which the automatic [Total] rule does not recognise: it is whited out as furniture.",
+ "add_keys": {"Q3.c.ii": [3, 434.4, 105]},
+ "masks": [[3, 465.0, 696.5, 549.0, 711.0]]
+}

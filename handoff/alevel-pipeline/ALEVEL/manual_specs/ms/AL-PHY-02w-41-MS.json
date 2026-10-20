@@ -1,0 +1,93 @@
+{
+ "reason": "Scanned 2002 mark scheme: OCR misreads '1 (a) (i)' as 'L (a)', '6 (a)' as '6.', and drops most roman labels; keys placed by hand at the printed line tops measured from the pixels [page, y pt, right edge of label].",
+ "add_keys": {
+  "Q1.a.i": [
+   2,
+   106.0,
+   100
+  ],
+  "Q1.a.ii": [
+   2,
+   150.0,
+   100
+  ],
+  "Q1.b": [
+   2,
+   208.5,
+   80
+  ],
+  "Q3.b.i": [
+   2,
+   518.0,
+   100
+  ],
+  "Q4.a.ii": [
+   2,
+   620.5,
+   100
+  ],
+  "Q6.a": [
+   3,
+   240.5,
+   80
+  ],
+  "Q6.b.i": [
+   3,
+   283.5,
+   100
+  ],
+  "Q6.b.ii": [
+   3,
+   298.0,
+   100
+  ],
+  "Q6.c.i": [
+   3,
+   356.5,
+   100
+  ],
+  "Q6.c.ii": [
+   3,
+   370.5,
+   100
+  ],
+  "Q6.d": [
+   3,
+   429.0,
+   80
+  ],
+  "Q8.c.i": [
+   4,
+   210.5,
+   100
+  ]
+ },
+ "accept_sliced": {
+  "Q8.c.i": "scan: these three printed lines interlock (dot leaders, superscripts and A1 marks overlap); cut by hand at the least-ink rows y 242.0 and 257.0",
+  "Q8.c.ii": "scan: these three printed lines interlock (dot leaders, superscripts and A1 marks overlap); cut by hand at the least-ink rows y 242.0 and 257.0",
+  "Q8.c.iii": "scan: these three printed lines interlock (dot leaders, superscripts and A1 marks overlap); cut by hand at the least-ink rows y 242.0 and 257.0"
+ },
+ "segments": {
+  "Q8.c.i": [
+   [
+    4,
+    210.5,
+    242.0
+   ]
+  ],
+  "Q8.c.ii": [
+   [
+    4,
+    242.0,
+    257.0
+   ]
+  ],
+  "Q8.c.iii": [
+   [
+    4,
+    257.0,
+    322.0
+   ]
+  ]
+ }
+}

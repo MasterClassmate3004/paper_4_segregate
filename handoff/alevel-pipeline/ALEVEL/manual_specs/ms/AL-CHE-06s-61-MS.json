@@ -1,0 +1,7 @@
+{
+ "reason": "2006 Paper 6 (Options) mark scheme prints each option title as a centred heading at the top of a page ('Biochemistry' p2, 'Environmental Chemistry' p3, 'Phase Equilibria' p4, 'Spectroscopy' p6, 'Transitions Elements' p7). These are furniture, not marking points: they are whited out, and the last part before each one (2(c), 4(c), 6(c), 8(c)) is cut by hand to end at its page foot so the next option's title is not carried into its crop.",
+ "masks": [[2, 261.8, 77.0, 333.5, 90.0], [3, 230.0, 77.0, 365.3, 90.0], [4, 256.6, 77.0, 344.2, 90.0],
+           [6, 263.0, 77.0, 337.7, 90.0], [7, 241.0, 77.0, 354.3, 90.0]],
+ "segments": {"Q2.c": [[2, 525.0, 794.74]], "Q4.c": [[3, 649.0, 794.74]],
+              "Q6.c": [[5, 497.0, 794.74]], "Q8.c": [[6, 576.5, 794.74]]}
+}

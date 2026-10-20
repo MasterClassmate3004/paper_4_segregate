@@ -1,0 +1,7 @@
+{
+ "reason": "The MS prints the '(ii)' key of 2(e) three lines late (p5 y447, on the second line of the sentence 'Accept constant gradient, and references such as most of the points are close to the drawn line'). (e)(i) (QP: determine the gradient Kf) is the two [1] rows for construction lines and the calculation with units (p5 y358-407); the rows from 'Since the results produce a good linear graph, the procedure is OK. [1]' onwards (p5 y409-471) answer (e)(ii) (QP: decide whether the procedure is suitable), so (e)(i) and (e)(ii) are cut by hand at the sentence boundary p5 y408; (e) totals [3] = 2 + 1. The printed '(ii)' label stays whited out. Q1(d): the '(ii)' label is also printed mid-sentence (p3 y307), but the [1] on the next row (p3 y321) is the first of (d)(ii)'s two marks ((d)(i) is 'out of 3' and already has its three [1]), so no cut keeps both the sentence and the marks whole; it is left as printed.",
+ "segments": {
+  "Q2.e.i": [[5, 354.5, 408.1]],
+  "Q2.e.ii": [[5, 408.1, 480.25]]
+ }
+}

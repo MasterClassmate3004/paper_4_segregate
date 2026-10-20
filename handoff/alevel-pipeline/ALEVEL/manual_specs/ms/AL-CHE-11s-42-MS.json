@@ -1,0 +1,8 @@
+{
+ "reason": "In 6(b)(iii) the MS lists the denaturing conditions as '(a) ... (e)' and the reasons as '(i) ... (iii)' in the marking column (p8 y303-428); the splitter took the list items '(c) Change in pH' (p8 y329), '(i) 3D structure changes ...' (y379) and '(ii) inhibitor occupies active site' (y405) as the keys 6(c), 6(c)(i) and 6(c)(ii), which cut (b)(iii) after its first line and prefixed the real (c)(i)/(c)(ii) crops with the (b)(iii) list. The real keys are placed by hand at their printed labels '(c) (i)' (p8 y468) and '(ii)' (p8 y703); add_keys replaces every automatic key of the same label, so the list items stay in Q6.b.iii as marking text, unmasked.",
+ "add_keys": {
+  "Q6.c": [8, 467.8, 85.0],
+  "Q6.c.i": [8, 467.8, 104.0],
+  "Q6.c.ii": [8, 702.9, 104.0]
+ }
+}

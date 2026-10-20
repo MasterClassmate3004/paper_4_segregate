@@ -1,0 +1,6 @@
+{
+ "reason": "Scanned 2002 mark scheme: 5(c) is printed as '(c) (i)1 C = ...' and '2 energy = ...'; the QP has (c)(i) capacitance and (c)(ii) energy, so the MS '2' is (c)(ii). OCR fused '(i)1 C' into one token. The two parts are cut by hand at the blank row y 462.5 and the printed labels '(i)' and '2' are whited out.",
+ "drop_keys": ["Q5.c"],
+ "segments": {"Q5.c.i": [[4, 424.0, 462.5]], "Q5.c.ii": [[4, 462.5, 536.25]]},
+ "masks": [[4, 93.0, 431.0, 111.5, 446.5], [4, 103.5, 462.6, 110.5, 476.0]]
+}

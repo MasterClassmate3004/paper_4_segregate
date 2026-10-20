@@ -1,0 +1,5 @@
+{
+ "reason": "2008 O/N Paper 5 MS repeats the table header row 'Question Sections Statement Indicative material Mark' at the top of continuation pages 5 (y90) and 8 (y95); these are furniture and are whited out. The QP part 1(a) has no (i)/(ii) but the MS prints 1(a)(i) and (ii) (prediction, graph): both belong to Q1.a, so the printed '(ii)' label (p4 y142) is whited out too. Page 7 prints the completed results table (columns C = B-115.74, D = A x 60, E = D x 0.3), which is the expected answer to 2(a) (record charge passed and mass of copper deposited in the additional columns), not to 2(c): it is cut by hand into Q2.a, and Q2.c ends at the foot of page 6.",
+ "masks": [[4, 89.0, 141.5, 104.6, 154.0], [5, 48.5, 89.4, 552.6, 101.6], [8, 43.4, 94.3, 532.2, 106.5]],
+ "segments": {"Q2.a": [[6, 99.75, 252.0], [7, 60.0, 380.0]], "Q2.c": [[6, 582.0, 795.68]]}
+}

@@ -1,0 +1,60 @@
+{
+ "reason": "Oct/Nov 2011 Paper 2 (9700/23) mark scheme: the text layer places the printed part labels as leading words of lines that also carry marking text ('(c) 1 increase in new infections ...', '5 (a) (i) box drawn round one phosphate ...', '(ii) label P to circle ...', '(b) 1 DNA (double helix) unwinds ...', '(c) 1 tRNA carries ...', '6 (a) (i) population ;', '(ii) ecosystem ;', '(iii) denitrification ;', '(b) (i) if more than one answer ...', '(ii) do not award marks ...', '(c) 1 protein / amino acids ...'). The splitter found no key after 4(b), so 4(c) (p6 y505.6), 5(a)(i) (p7 y75.7), 5(a)(ii) (p7 y101.0), 5(b) (p7 y138.9), 5(c) (p7 y353.9), 6(a)(i) (p8 y75.7), 6(a)(ii) (p8 y101.0), 6(a)(iii) (p8 y126.3), 6(b)(i) (p8 y164.1), 6(b)(ii) (p8 y227.4) and 6(c) (p8 y404.4) are placed by hand at their printed lines.",
+ "add_keys": {
+  "Q4.c": [
+   6,
+   505.6,
+   86
+  ],
+  "Q5.a.i": [
+   7,
+   75.7,
+   104.5
+  ],
+  "Q5.a.ii": [
+   7,
+   101.0,
+   106
+  ],
+  "Q5.b": [
+   7,
+   138.9,
+   86
+  ],
+  "Q5.c": [
+   7,
+   353.9,
+   86
+  ],
+  "Q6.a.i": [
+   8,
+   75.7,
+   104.5
+  ],
+  "Q6.a.ii": [
+   8,
+   101.0,
+   106
+  ],
+  "Q6.a.iii": [
+   8,
+   126.3,
+   104
+  ],
+  "Q6.b.i": [
+   8,
+   164.1,
+   106
+  ],
+  "Q6.b.ii": [
+   8,
+   227.4,
+   106
+  ],
+  "Q6.c": [
+   8,
+   404.4,
+   86
+  ]
+ }
+}

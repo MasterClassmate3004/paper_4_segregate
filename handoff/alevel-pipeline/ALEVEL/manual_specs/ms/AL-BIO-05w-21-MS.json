@@ -1,0 +1,14 @@
+{
+ "reason": "9700/02 O/N 2005 mark scheme (text layer fine): the automatic splitter finds no keys at all ('ERROR no keys found') because the Question column is printed as '1 (a)', '(b)', '(c) (i)' ... in a table whose column position it does not accept. Every printed key line (pages 2-7) is placed by hand at its row; parts without a printed sub-label such as Q3.a, Q2.d note line and Q4.c are handled by the QP leaf structure (Q3.a (i), Q2.d (i)/(ii) and Q4.c (i)-(v) are printed on their own lines).",
+ "add_keys": {
+  "Q1.a": [2, 106.7, 92], "Q1.b": [2, 157.2, 92], "Q1.c": [2, 195.2, 92], "Q1.d": [2, 233.1, 92], "Q1.e": [2, 321.6, 92],
+  "Q2.a": [3, 106.6, 92], "Q2.b": [3, 293.6, 92], "Q2.c": [3, 382.2, 92], "Q2.d": [3, 496.0, 92],
+  "Q2.d.i": [3, 508.7, 116], "Q2.d.ii": [3, 533.9, 116], "Q2.e": [3, 559.2, 92], "Q2.f": [3, 584.5, 92],
+  "Q3.a": [4, 106.7, 92], "Q3.a.i": [4, 106.7, 113], "Q3.a.ii": [4, 195.2, 116],
+  "Q3.b": [4, 220.5, 92], "Q3.c": [4, 271.1, 92], "Q3.d": [4, 359.6, 92],
+  "Q4.a": [5, 106.7, 90], "Q4.b": [5, 144.6, 90],
+  "Q4.c.i": [5, 286.9, 108], "Q4.c.ii": [5, 315.4, 114], "Q4.c.iii": [5, 340.7, 114], "Q4.c.iv": [5, 366.0, 114], "Q4.c.v": [5, 403.9, 114],
+  "Q5.a": [6, 106.7, 80], "Q5.b": [6, 144.6, 80], "Q5.c": [6, 245.8, 80], "Q5.d": [6, 334.3, 80],
+  "Q6.a": [7, 107.9, 92], "Q6.b": [7, 198.0, 92], "Q6.c": [7, 276.4, 92]
+ }
+}

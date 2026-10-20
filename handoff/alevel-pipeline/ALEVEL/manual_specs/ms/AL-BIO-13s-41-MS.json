@@ -1,0 +1,4 @@
+{
+ "reason": "9700/41 M/J 2013 mark scheme page 3 prints the answer-table column heading row 'Question Expected Answers' (y85) without a 'Marks' word, so it is not recognised as a table header; it is a heading, not marking text, and is whited out by hand.",
+ "masks": [[3, 45, 83, 330, 98]]
+}

@@ -1,0 +1,4 @@
+{
+ "reason": "Page 15 prints the label of 5(c)(ii) as '5(c)(i)i' (y105.0, 'any three from: increased permeability to water ... [3]'); it sits between the real 5(c)(i) (lysosome, y80.6) and 5(c)(iii) (y281.3), so it is the misprinted 5(c)(ii) and the key finder did not accept it. The key is placed by hand at the printed line (label ends x112, before the answer text at x129).",
+ "add_keys": {"Q5.c.ii": [15, 105.0, 112]}
+}

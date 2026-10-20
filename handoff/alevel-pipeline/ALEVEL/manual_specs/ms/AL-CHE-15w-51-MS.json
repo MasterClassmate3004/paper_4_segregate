@@ -1,0 +1,4 @@
+{
+ "reason": "Each question closes with a 'QnN [Total: 15]' line (Qn1 p2 y596.6, Qn2 p4 y219.3) whose 'QnN' word sits in the key column; it is not marking content and not a key, so both lines are whited out (as in AL-CHE-09w-52-MS).",
+ "masks": [[2, 56.0, 595.6, 538.0, 608.6], [4, 56.0, 218.3, 538.0, 231.3]]
+}

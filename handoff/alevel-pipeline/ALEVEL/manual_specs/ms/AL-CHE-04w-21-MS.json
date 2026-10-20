@@ -1,0 +1,28 @@
+{
+ "reason": "Question 4(b) is one part in the question paper ('Name two functional groups present in both molecules', with answer lines (i) and (ii), [3]); the mark scheme prints its points under '(b) (i)' and '(ii)' (p6 y582, y633). 4(b) is cut by hand over its automatic rows (p6 y576.25-651.75) so that two masks can white out the bottoms of the '(b) (i)' label glyphs (parentheses printed down to y595.5, below the automatic label mask) and the inner '(ii)' label before 'alkene'.",
+ "segments": {
+  "Q4.b": [
+   [
+    6,
+    576.25,
+    651.75
+   ]
+  ]
+ },
+ "masks": [
+  [
+   6,
+   105.5,
+   581.0,
+   119.5,
+   597.5
+  ],
+  [
+   6,
+   105.5,
+   631.5,
+   122.0,
+   648.0
+  ]
+ ]
+}

@@ -1,0 +1,6 @@
+{
+ "reason": "Misprinted key: page 6 prints '1(c)(ii)' twice. The second one (p6 y297.3, a 'reagent and conditions | Formula of gallium containing product' table with M1 GaCl3 and M2 NaGa(OH)4 OR NaGaO2, 2 marks) is the QP's 1(c)(iii) (complete the table of gallium-containing products with hot HCl and hot concentrated NaOH, [2]), so Q1.c.iii is placed at that printed line.",
+ "add_keys": {
+  "Q1.c.iii": [6, 297.3, 108.0]
+ }
+}

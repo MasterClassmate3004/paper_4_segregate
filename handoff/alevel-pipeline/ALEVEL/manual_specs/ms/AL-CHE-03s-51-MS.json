@@ -1,0 +1,18 @@
+{
+ "reason": "2003 Paper 5 mark scheme (component 5 of the combined 9701 June 2003 file). Question 1: the scheme's single '(a) Titration Tables 1.1 and 1.2' section (p24-p25: a shared decimal-places mark for both tables, a Table 1.1 dilution mark, Table 1.2 marks [4], then the Supervisor accuracy and spread-penalty tables [8]) marks the question paper's 1(a) (Table 1.1, [2]) and 1(b) (Table 1.2 titration, [10]) together and does not print a (b) key, so both leaves are shown the whole section (identical hand segment). The printed keys (c)-(h) (p25 y331-663, p26 y85) match the question paper's 1(c)-(h) but the splitter missed them, so they are placed by hand; the general note 'In all calculations, ignore evaluation errors if working is shown' printed just above (c) is kept at the top of 1(c), where the calculation parts start. The automatic 'Q2' key was a '2' in the accuracy table (p25 y203), which sliced the table; the real 'Question 2' heading (p26 y331.5) is keyed by hand and Question 2 (planning, marked by method letters a-g with the plan/processing tables, pp26-28) is kept whole as the question paper's single Q2 leaf. The 'Total for Paper 30' line (p28) is not marking content and is whited out.",
+ "add_keys": {
+  "Q1.c": [25, 331.2, 104],
+  "Q1.d": [25, 453.8, 105],
+  "Q1.e": [25, 526.5, 104],
+  "Q1.f": [25, 598.5, 102],
+  "Q1.g": [25, 662.9, 105],
+  "Q1.h": [26, 84.9, 105],
+  "Q2": [26, 331.5, 150]
+ },
+ "segments": {
+  "Q1.a": [[24, 115.5, 815.52], [25, 60.61, 273.0]],
+  "Q1.b": [[24, 115.5, 815.52], [25, 60.61, 273.0]],
+  "Q1.c": [[25, 273.0, 435.75]]
+ },
+ "masks": [[28, 305, 501, 520, 517]]
+}

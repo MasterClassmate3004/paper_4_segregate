@@ -1,0 +1,4 @@
+{
+ "reason": "4(e)(ii) answer (p6, rotated landscape page) is a sparse skeletal formula of propan-1-ol printed as two bond lines and 'OH' (x185.7-248.6 y375-417); the structure is complete as printed. The text layer has an invisible 'H' (x177.3 y385.9) sitting on the Question/Answer column rule (x176.6-177.1), so the crop starts just left of that rule and showed it as a stray vertical line. The empty Question cell and that rule piece in this row (x95-178.5, y383-433.5; the '(ii)' label is already whited out) hold no marking content and are whited out by a hand mask.",
+ "masks": [[6, 95.0, 383.0, 178.5, 433.5]]
+}

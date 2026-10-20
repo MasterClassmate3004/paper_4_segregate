@@ -1,0 +1,4 @@
+{
+ "reason": "The mark scheme prints '1(a)(ii)' twice on p4: the first one (y80.5, 'It oxidises chlorine from –1 to 0', 1 mark) is the QP's 1(a)(i) (explain why MnO2 is an oxidising agent, referring to oxidation numbers, [1]); the second (y104.9, 'effervescence / fizzing ... solid dissolves') is 1(a)(ii). Q1.a.i is placed by hand at the first printed '1(a)(ii)' line and Q1.a.ii at the second.",
+ "add_keys": {"Q1.a.i": [4, 80.5, 120], "Q1.a.ii": [4, 104.9, 120]}
+}

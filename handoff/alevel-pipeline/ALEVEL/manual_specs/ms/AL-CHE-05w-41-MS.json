@@ -1,0 +1,6 @@
+{
+ "reason": "3(a)(i) ends with '[for your information, the actual figures are shown below]' and the MS prints the table '(Actual figures for (a) (i):)' (element / m.pt. / conductivity) after the question total on p4 (y566-656); the splitter dropped it as an appendix of 3(d)(ii). The table belongs to 3(a)(i), so Q3.a.i is cut by hand: its own rows (p4 y66.75-170.25, as the automatic cut) plus the table rows (p4 y561-660), leaving out the printed heading line which repeats the key '(a) (i)'.",
+ "segments": {
+  "Q3.a.i": [[4, 66.75, 170.25], [4, 561, 660]]
+ }
+}

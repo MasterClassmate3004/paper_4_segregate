@@ -1,0 +1,4 @@
+{
+ "reason": "Q5(d) is one QP leaf with answer lines (i)/(ii); the MS prints '(d) (i) pentan-2-ol (1)' and then a second row labelled '(ii)' (p6 y590.5-601.5, label x90.0-103.5) before the product table. The '(i)' key is consumed by the splitter, the printed '(ii)' label is left in the crop, so it is whited out by a mask; all marking content is kept.",
+ "masks": [[6, 88, 589, 107, 603]]
+}

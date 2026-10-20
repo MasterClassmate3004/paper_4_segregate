@@ -1,0 +1,14 @@
+# 9709 QPs that need manual specs / source work after generic fixes (pipeline 94420f5+, 2026-10-20)
+# prefix            reason
+AL-MTH-01w-21-QP    image-only scan (no text layer) -> OCR-assisted manual spec
+AL-MTH-01w-41-QP    image-only scan (no text layer) -> OCR-assisted manual spec
+AL-MTH-01w-61-QP    image-only scan (no text layer) -> OCR-assisted manual spec
+AL-MTH-02s-21-QP    image-only scan (no text layer) -> OCR-assisted manual spec
+AL-MTH-02s-31-QP    image-only scan (no text layer) -> OCR-assisted manual spec
+AL-MTH-02w-31-QP    image-only scan (no text layer) -> OCR-assisted manual spec
+AL-MTH-09s-71-QP    combined source: 9709/71 + 9709/72 in one file (72's cover on p.6) -> derive 9709_s09_qp_71/72 (derived_sources.csv, as 9702_s09_qp_2), re-run; check s09_qp_72 alias
+AL-MTH-03w-21-QP    tall integral near the page foot: no blank row near y=706 p.3 -> spec
+AL-MTH-04w-31-QP    tall integral near the page foot: no blank row near y=759 p.3 -> spec
+AL-MTH-13w-32-QP    answer row with no whitespace around it (y=726 p.2) -> spec
+AL-MTH-17w-32-QP    Q9.stem / Q9.i raised fraction interleaves the stem's lower limit (genuine 2-D seam; gate cannot check masks) -> spec
+AL-MTH-22s-33-QP    Q10.stem / Q10.a same 2-D interleave -> spec

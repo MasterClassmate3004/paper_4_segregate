@@ -1,0 +1,56 @@
+{
+ "reason": "Combined June 2004 booklet 9700_s04_ms.pdf: the page headers of pdf pages 8-14 are misprinted '9700 4' although they are Paper 2 mark scheme pages (printed 'Page 3'-'Page 9'; content is Paper 2 questions 2-6, e.g. 2(a)(i)-(v) producers/population/community/ecosystem/primary consumers, 6(a) mitosis), so the component filter took them as Paper 4 and the splitter keyed the Paper 4 questions 2-6 from Paper 2 text. They are skipped; Paper 4's own mark scheme is pdf pages 18-24 (printed 'Page 1'-'Page 7', each question headed 'Question N'). Second fix: in this PDF the glyphs of the printed part labels render about 3 pt lower than their text-layer boxes, so the automatic label masks (text box + 1 pt) leave the bottom of the '(a)'/'(b)' parentheses as small stray marks at the top-left of the Q5.a, Q5.b, Q6.a, Q6.b, Q7.a and Q7.b crops. These are the remnants of the printed key labels (furniture, not marking content); each label's rendered ink is whited out in full with a hand mask (p22 (a) y161.8-172.1, (b) y427.4-437.7; p23 (a) y187.0-197.4, (b) y428.5-438.8; p24 (a) y141.8-152.2, (b) y369.4-379.8).",
+ "skip_pages": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "masks": [
+  [
+   22,
+   89.7,
+   161.0,
+   104.0,
+   173.0
+  ],
+  [
+   22,
+   89.7,
+   426.6,
+   105.0,
+   438.8
+  ],
+  [
+   23,
+   89.7,
+   186.2,
+   104.0,
+   198.4
+  ],
+  [
+   23,
+   93.3,
+   427.7,
+   108.5,
+   439.8
+  ],
+  [
+   24,
+   93.3,
+   141.0,
+   107.5,
+   153.2
+  ],
+  [
+   24,
+   93.3,
+   368.6,
+   108.5,
+   380.8
+  ]
+ ]
+}

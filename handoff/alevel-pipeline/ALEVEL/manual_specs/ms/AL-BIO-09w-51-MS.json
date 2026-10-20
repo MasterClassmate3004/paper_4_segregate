@@ -1,0 +1,63 @@
+{
+ "reason": "2009 Paper 51 mark scheme prints '(ii)' at p4 y280.7 ('(ii) 2 of: 1. ref. to adding sample to slide ... 7. ref. to counting min. 3 areas ... [2]'), but there is no 2(a)(ii) in the question paper: this block is the marking for 2(b) (4 marks: '2 of' + '2 of', [2] each, answering 'Suggest how this apparatus could be used to estimate the number of cells per mm3'), so the key is misprinted as '(ii)' for '(b)' and is added by hand as Q2.b at the printed line. The automatic '2 (a)' key then ends above it, with the 2(a) control-experiment marking only. The table column-header row on p3 ('Question | Expected answer | Extra guidance | Mark | AO', y93-104) is printed lower than on the other pages and is not recognised as furniture by the automatic rule; it is page furniture, not marking content, and is whited out by hand. The question-total table rows ('Total: [9] P5 M3 D1' p4 y156-192, 'Total: [12] M4 D4 E4' p5 y346-382, 'Total: [9] 3 M 3 D 3 C' p6 y319-355) sit in a table cell, are not recognised by the automatic [Total] rule and were showing at the foot of the Q1.b, Q2.d and Q3.b crops; they are question totals/AO breakdowns, not marking points, so Q1.b, Q2.d and Q3.b are cut by hand just above them (same top as the automatic crop) and the total rows are whited out.",
+ "add_keys": {
+  "Q2.b": [
+   4,
+   280.7,
+   124
+  ]
+ },
+ "masks": [
+  [
+   3,
+   30,
+   90,
+   800,
+   106
+  ],
+  [
+   4,
+   600,
+   154,
+   800,
+   194
+  ],
+  [
+   5,
+   600,
+   344,
+   800,
+   384
+  ],
+  [
+   6,
+   600,
+   317,
+   800,
+   357
+  ]
+ ],
+ "segments": {
+  "Q1.b": [
+   [
+    4,
+    100,
+    150
+   ]
+  ],
+  "Q2.d": [
+   [
+    5,
+    100,
+    339
+   ]
+  ],
+  "Q3.b": [
+   [
+    6,
+    201,
+    312
+   ]
+  ]
+ }
+}

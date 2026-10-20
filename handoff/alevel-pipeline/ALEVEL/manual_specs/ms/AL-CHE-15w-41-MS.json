@@ -1,0 +1,8 @@
+{
+ "reason": "Three misprinted keys, each placed at its printed line under the QP label it answers: (1) p2 y369.2 prints only '1' (x62.4-68.5) for the row 'Ca(2+) is a smaller (ion) or Ca(2+) has a larger charge density / stronger attraction to H2O [2]', which answers QP 1(e) (why the hydration enthalpy of Ba2+ is less exothermic than that of Ca2+); (2) p10 y102.0 prints only '7' (x62.4-68.5) over the reagent / structure of product / type of reaction table (HCl, CH3CH2Br; [3]), which answers QP 7(b)(ii) (it continues 7(b)(i) from p9); (3) p4 y265.1 prints '(c) (i)' (to x116.2) but the QP has only 3(c) (no (c)(ii) is printed either), so it is placed as Q3.c.",
+ "add_keys": {
+  "Q1.e": [2, 369.2, 69.0],
+  "Q7.b.ii": [10, 102.0, 69.0],
+  "Q3.c": [4, 265.1, 116.7]
+ }
+}

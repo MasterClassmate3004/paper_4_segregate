@@ -1,0 +1,135 @@
+{
+ "reason": "June 2008 Paper 5 mark scheme. Page 2 opens with a 'Skill / Total marks / Breakdown of marks' allocation table (y92-231) and the column-header row 'Question Sections Statement Indicative material Mark' (y268); these are not marking points for any part and are whited out. The same header row is repeated at the top of pages 3, 5 and 6: Q1.c's continuation on p3 is cut by hand below it (p3 y105-259), and Q2.c is cut to end at the foot of p5 (its automatic p6 slice held only the header row, whited out). Pages 7-8 are appendices that the [Total] rule dropped: Appendix 1 (p7) is the completed results table with the processed columns (mass of basic carbonate, residue, mass lost); MS 2(a) D2 prints 'See appendix 1' and the table itself is headed 'Qn 2 (b)' (the plotted data), so the table (p7 y117-466) is appended to both Q2.a and Q2.b. Appendix 2 (p8) shows where the blown-out/insufficient-decomposition points lie for each choice of axes; MS 2(c) E2, 2(d) and 2(e) each print 'see Appendix 2', so the page (p8 y95-745) is appended to Q2.c, Q2.d and Q2.e. The 'Appendix 1', 'Qn 2 (b)' and 'Appendix 2' headings are whited out. In the Question column, the 'contd.' under the 1(c) key (p3 y124.6) and the 'Part 1' beside the 1(d) key (p3 y275.5) are labels, not marking points, and are whited out. Known limitation: the splitter's hand-segment rule hides a leading question number, so the student number '2' in the first column of the appendix 1 table (p7 x71 y243.7) is whited out (keep_words does not reach that rule); the row's values are intact. keep_words: the student number \"2\" in the appendix results table is table content.",
+ "segments": {
+  "Q1.c": [
+   [
+    2,
+    403.2,
+    795.68
+   ],
+   [
+    3,
+    105.0,
+    259.0
+   ]
+  ],
+  "Q2.a": [
+   [
+    5,
+    108.0,
+    271.8
+   ],
+   [
+    7,
+    117.0,
+    466.0
+   ]
+  ],
+  "Q2.b": [
+   [
+    5,
+    271.8,
+    454.0
+   ],
+   [
+    7,
+    117.0,
+    466.0
+   ]
+  ],
+  "Q2.c": [
+   [
+    5,
+    454.0,
+    708.0
+   ],
+   [
+    8,
+    95.0,
+    745.0
+   ]
+  ],
+  "Q2.d": [
+   [
+    6,
+    114.8,
+    190.0
+   ],
+   [
+    8,
+    95.0,
+    745.0
+   ]
+  ],
+  "Q2.e": [
+   [
+    6,
+    190.0,
+    322.2
+   ],
+   [
+    8,
+    95.0,
+    745.0
+   ]
+  ]
+ },
+ "masks": [
+  [
+   2,
+   40.0,
+   88.0,
+   560.0,
+   285.0
+  ],
+  [
+   6,
+   40.0,
+   91.0,
+   560.0,
+   107.0
+  ],
+  [
+   7,
+   470.0,
+   73.0,
+   548.0,
+   89.0
+  ],
+  [
+   7,
+   40.0,
+   99.0,
+   120.0,
+   115.0
+  ],
+  [
+   8,
+   470.0,
+   73.0,
+   548.0,
+   89.0
+  ],
+  [
+   3,
+   48.0,
+   123.5,
+   84.0,
+   137.0
+  ],
+  [
+   3,
+   48.0,
+   274.5,
+   82.0,
+   288.0
+  ]
+ ],
+ "keep_words": [
+  [
+   7,
+   71.0,
+   243.7
+  ]
+ ]
+}

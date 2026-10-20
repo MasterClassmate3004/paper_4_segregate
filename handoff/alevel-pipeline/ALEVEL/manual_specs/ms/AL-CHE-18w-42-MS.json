@@ -1,0 +1,4 @@
+{
+ "reason": "The mark scheme misnumbers the parts of 2(c): the QP's 2(c)(i) (meaning of bidentate, [1]) is printed as '2(c)' ('an ion / molecule that donates two pairs of electrons', p5 y238.2) and the QP's 2(c)(ii) (draw the two optical isomers of [Cu(en)3]2+, [2]) is printed as '2(d)' (the two isomer drawings, 'one correct [1] / two correct and mirror images of each other [1]', p5 y262.6); the QP has no 2(d). Both keys are placed by hand at their printed lines as Q2.c.i and Q2.c.ii.",
+ "add_keys": {"Q2.c.i": [5, 238.2, 100], "Q2.c.ii": [5, 262.6, 100]}
+}

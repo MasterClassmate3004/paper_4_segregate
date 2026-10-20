@@ -1,0 +1,52 @@
+{
+ "reason": "2005 Paper 5 mark scheme: question 2(c) prints one block 'eight from:' (8 marks) under the combined label '(i)-(iii)' (page 4 y565-682; the '(iii)' of the label wraps onto the second line, so the text layer reads a key '(iii)' at y578 and no (c)(i)/(c)(ii)), and the points are not assigned to (i), (ii) or (iii) separately. The false '(iii)' key is dropped and 2(c) is cut by hand over the whole block, so that 2(c)(i), (ii) and (iii) each see the whole scheme (parent_ms_covers_child_qp); 2(c)(iv) is printed separately and stays exact. The printed label '(i)-' (y565) and the second line of the table header ('Guidance', y92, a heading word, not marking text) are whited out by hand. 2(c)(iv) is cut by hand to stop above the question total '15' and the 'Paper 30' total, which are whited out.",
+ "drop_keys": [
+  "Q2.c.iii"
+ ],
+ "segments": {
+  "Q2.c": [
+   [
+    4,
+    563.5,
+    682.5
+   ]
+  ],
+  "Q2.c.iv": [
+   [
+    4,
+    683.5,
+    713.5
+   ]
+  ]
+ },
+ "masks": [
+  [
+   4,
+   119,
+   563,
+   146,
+   579
+  ],
+  [
+   4,
+   420,
+   89,
+   500,
+   105
+  ],
+  [
+   4,
+   398,
+   717,
+   425,
+   733
+  ],
+  [
+   4,
+   495,
+   736,
+   575,
+   752
+  ]
+ ]
+}

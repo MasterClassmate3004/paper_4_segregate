@@ -1,0 +1,7 @@
+{
+ "reason": "Page 6, 5(b): the QP asks (b)(i) 'Draw displayed formulae of each of these two pairs' and (b)(ii) 'State which type of isomerism each pair shows' for one shared [6]. The MS prints only the first structure under '(b)(i)' with 'each correct structure gets (1) (4 x 1)', and prints the other three displayed formulae (the trans isomer of pair 1 and the two enantiomers #1/#2 of pair 2) under '(ii)', interleaved with the 'pair 1 geometrical...' and 'pair 2 optical...' isomerism marks. The printed (i)/(ii) labels therefore do not separate the (b)(i) structures from the (b)(ii) answers, so 5(b) is kept whole (p6 y188.5-679, from below 5(a)(iii) to above '[Total: 9]') and both QP parts are shown the complete 5(b) scheme.",
+ "drop_keys": ["Q5.b"],
+ "segments": {
+  "Q5.b": [[6, 188.5, 679.0]]
+ }
+}

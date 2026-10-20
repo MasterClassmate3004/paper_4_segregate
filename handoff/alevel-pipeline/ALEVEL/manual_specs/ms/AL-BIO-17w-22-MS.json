@@ -1,0 +1,7 @@
+{
+ "reason": "Page 14: the MS prints '6(a)(iii)' (y180, 'wall of right atrium', [1]) and '6(b)' (y204.4, 'two from ... allows a (short) delay', [2]) but the question paper has only 6(a)(i), 6(a)(ii), 6(b) (location of the sinoatrial node, 1 mark) and 6(c) (role of the atrioventricular node, 2 marks). The printed labels are misprinted: the '6(a)(iii)' line is the answer to the QP's 6(b) and the '6(b)' line is the answer to the QP's 6(c). Keys are placed by hand at those printed lines as Q6.b and Q6.c (label column ends x120).",
+ "add_keys": {
+  "Q6.b": [14, 180.0, 120],
+  "Q6.c": [14, 204.4, 120]
+ }
+}

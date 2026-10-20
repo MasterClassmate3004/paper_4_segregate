@@ -1,0 +1,36 @@
+{
+ "reason": "Question 2 keys: (1) 2(d)(i) is printed 'd (i)' without brackets round the d (p3 y456.7), so the splitter did not read it, and 2(d)(ii) is printed '(ii)' at the top of p4 (y103.4, 'E = 0.0 + 0.059log(1.11 x 10-3) ... new Ecell = 0.51V ... ecf from (d)(i)'); both keys are placed by hand at their printed lines. (2) The MS misprints 2(a) as '2 (a) (i)' (p2 y474.8; the QP's 2(a) has no sub-parts and there is no (a)(ii)): 'partially / incompletely ionised' answers QP 2(a), so the key is placed by hand at the printed line as Q2.a. The '(i)' left over from each hand-placed key's printed label (p2 y474.9, p3 y459.5) is whited out.",
+ "add_keys": {
+  "Q2.a": [
+   2,
+   474.8,
+   116.2
+  ],
+  "Q2.d.i": [
+   3,
+   456.7,
+   116.2
+  ],
+  "Q2.d.ii": [
+   4,
+   103.4,
+   116.2
+  ]
+ },
+ "masks": [
+  [
+   2,
+   104.9,
+   474.4,
+   117.2,
+   486.4
+  ],
+  [
+   3,
+   104.8,
+   459.0,
+   117.2,
+   471.0
+  ]
+ ]
+}

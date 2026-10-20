@@ -1,0 +1,5 @@
+{
+ "reason": "Page 2 prints a boxed general note above Question 1, 'N.B. Boxes references within the mark scheme relate to the accompanying booklet of Standing Instructions' (y84-94); it refers to the Standing Instructions booklet and carries no marking point for any part, so it is whited out. On page 3 the keys '(j)' (y458.3) and '(k)' (y513.3) are printed and in the text layer but the splitter did not take them, so 1(i)'s crop ran on into (j) and (k) while QP 1(j) and 1(k) fell back to the Question 1 heading; both keys are placed by hand at their printed lines.",
+ "masks": [[2, 72.0, 83.0, 540.0, 95.5]],
+ "add_keys": {"Q1.j": [3, 458.3, 94.3], "Q1.k": [3, 513.3, 97.0]}
+}

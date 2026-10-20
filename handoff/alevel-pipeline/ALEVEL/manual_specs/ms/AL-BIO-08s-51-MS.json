@@ -1,0 +1,9 @@
+{
+ "reason": "2008 Paper 5 mark scheme prints Q1(b)(iii) and (iv) as two adjacent bare labels ('(iii)' at p2 y592 with no text of its own, then '(iv) Route 1 ...') under the instruction 'Mark (iii) and (iv) together. Read the whole answer and look for two ideas...' (p2 y541-577). The single Route 1/2/3 scheme [2] answers both (iii) and (iv) together, and the MS gives no separate (iii) marking, so the instruction plus the whole scheme is kept for both parts rather than assigning any Route to one part: Q1.b.iii and Q1.b.iv both get the hand segment p2 y534-790. Q1.b.ii is cut by hand to end before the 'Mark (iii) and (iv) together' note (p2 y497-534) so that the note no longer sits with (ii). Printed (ii)/(iii)/(iv) labels inside the hand segments are masked.",
+ "segments": {
+  "Q1.b.ii": [[2, 497, 534]],
+  "Q1.b.iii": [[2, 534, 790]],
+  "Q1.b.iv": [[2, 534, 790]]
+ },
+ "masks": [[2, 85, 502, 106, 517], [2, 85, 591, 106, 604], [2, 85, 604, 106, 617]]
+}

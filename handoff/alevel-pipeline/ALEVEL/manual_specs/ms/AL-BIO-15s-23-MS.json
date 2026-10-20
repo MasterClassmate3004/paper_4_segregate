@@ -1,0 +1,7 @@
+{
+ "reason": "9700/23 M/J 2015 mark scheme page 3. The italic line 'to max 2' (y366.6) is printed ABOVE the '(d)' line (y379.2) and is the heading of 1(d) points 1-3 (the next heading 'to max 2' sits above point 4 the same way); the automatic cut put it at the bottom of 1(c) after '[max 3]'. 1(c) and 1(d) are cut by hand on the blank rows (y350 between '[max 3]' at y339.6 and 'to max 2' at y366.6) so the heading goes with 1(d).",
+ "segments": {
+  "Q1.c": [[3, 264.5, 350.0]],
+  "Q1.d": [[3, 350.0, 594.85]]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "reason": "Page 6 prints the continuation label '1(a)(ii) cont' in the Question column over two lines; the splitter whites out '1(a)(ii)' but the second line 'cont' (x74-92, y93-105) is a label word, not marking text, and was reported missing. It is masked by hand.",
+ "masks": [[6, 66, 93.5, 101, 106]]
+}

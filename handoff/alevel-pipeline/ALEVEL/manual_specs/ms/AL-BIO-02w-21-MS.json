@@ -1,0 +1,135 @@
+{
+ "reason": "Scanned 2002 mark scheme (OCR). (1) Page 1 is the scanned cover (its title block is read as a '1' key): skip_pages. (2) The printed '(i)' of 2(a)(i) and 3(c)(i) is not read by OCR (the lines '2 (a) (i) A glycerol; B fatty acid;' and '(c) (i) B to A and C; A to C;'): Q2.a.i and Q3.c.i are keyed on those lines with their parent (a)/(c) key on the same line. (3) Question 6 is a single QP leaf and its only printed key '6 (a)' (anaerobic; lactate; liver; debt; aerobic; resting) is placed by hand. (4) The automatic cuts of 1(d), 2(d) and 4(c) ran on through the printed [Total] line and the repeated 'Question Expected Answers Marks' heading of the next page (OCR does not recognise those headings), and the Q6 cut kept the paper totals: these four are cut by hand on their own page, and the table headings and Total lines that are not marking points are masked.",
+ "skip_pages": [
+  1
+ ],
+ "add_keys": {
+  "Q2.a": [
+   3,
+   164.8,
+   164
+  ],
+  "Q2.a.i": [
+   3,
+   164.8,
+   164
+  ],
+  "Q3.c": [
+   4,
+   416.0,
+   164
+  ],
+  "Q3.c.i": [
+   4,
+   416.0,
+   164
+  ],
+  "Q6": [
+   6,
+   537.7,
+   150
+  ]
+ },
+ "segments": {
+  "Q1.d": [
+   [
+    2,
+    494,
+    592
+   ]
+  ],
+  "Q2.d": [
+   [
+    3,
+    425,
+    576
+   ]
+  ],
+  "Q4.c": [
+   [
+    5,
+    383,
+    497
+   ]
+  ],
+  "Q6": [
+   [
+    6,
+    529,
+    622
+   ]
+  ]
+ },
+ "masks": [
+  [
+   2,
+   90,
+   110,
+   560,
+   136
+  ],
+  [
+   2,
+   435,
+   596,
+   525,
+   622
+  ],
+  [
+   3,
+   90,
+   124,
+   520,
+   153
+  ],
+  [
+   3,
+   130,
+   578,
+   525,
+   604
+  ],
+  [
+   4,
+   85,
+   143,
+   520,
+   166
+  ],
+  [
+   5,
+   85,
+   150,
+   520,
+   176
+  ],
+  [
+   5,
+   235,
+   498,
+   520,
+   518
+  ],
+  [
+   6,
+   85,
+   118,
+   520,
+   146
+  ],
+  [
+   6,
+   400,
+   626,
+   520,
+   652
+  ],
+  [
+   6,
+   340,
+   668,
+   520,
+   692
+  ]
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "reason": "1(c) is marked as eight numbered points '1'..'8' (p2 y367-720, [8]) printed in the question column; the splitter read point '2' (p2 y405) as question 2, so 1(c) was cut short, Q2 became an orphan and the '(d)' of 1(d) on p3 (y93) was lost. Q2 is re-placed at its printed '2 (a)' line (p4 y81.8) and Q1.d at the printed '(d)' (p3 y93.3). The numbered points follow the QP parts of 1(c) one-to-one in order: point 1 apparatus -> (c)(i), point 2 indicator -> (c)(ii), point 3 concentration of Cl2 -> (c)(iii), points 4-6 (mass of Na2S2O3.5H2O, twice concentration, volumetric flask) -> (c)(iv) preparing the thiosulfate solution, point 7 repeat titrations -> (c)(v), point 8 and the 'Allow any explanation...' note on the calculation -> (c)(vi); 1(c) is cut by hand on the blank rows between the points and the point numbers (question column) are whited out. 1(b) prints '(i) temperature' and '(ii) solubility' for one shared mark, so it stays whole for both QP parts. 1(c) is marked as numbered points that do not label the QP's (c)(i)..; to avoid guessing which point answers which part, 1(c) is kept whole and every (c) leaf is shown the complete 1(c) scheme.",
+ "add_keys": {
+  "Q2": [
+   4,
+   81.8,
+   62
+  ],
+  "Q1.d": [
+   3,
+   93.3,
+   91
+  ]
+ },
+ "drop_keys": [
+  "Q1.c"
+ ],
+ "segments": {
+  "Q1.c": [
+   [
+    2,
+    360.0,
+    724.0
+   ]
+  ]
+ },
+ "masks": [
+  [
+   2,
+   101.0,
+   366.8,
+   110.2,
+   379.3
+  ],
+  [
+   2,
+   101.0,
+   404.7,
+   110.2,
+   417.2
+  ],
+  [
+   2,
+   101.0,
+   442.6,
+   110.2,
+   455.1
+  ],
+  [
+   2,
+   101.0,
+   467.9,
+   110.2,
+   480.4
+  ],
+  [
+   2,
+   101.0,
+   518.5,
+   110.2,
+   531.0
+  ],
+  [
+   2,
+   101.0,
+   556.4,
+   110.2,
+   568.9
+  ],
+  [
+   2,
+   101.0,
+   594.4,
+   110.2,
+   606.9
+  ],
+  [
+   2,
+   101.0,
+   632.3,
+   110.2,
+   644.8
+  ]
+ ]
+}

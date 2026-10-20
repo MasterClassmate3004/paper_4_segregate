@@ -1,0 +1,92 @@
+{
+ "reason": "2005 Paper 6 (Options) mark scheme. (1) Option titles 'Biochemistry' (p4) and 'Transition Elements' (p11) are headings, not marking points: whited out. (2) The last line of 5(c), 'CO2 reacts with blood/forms H2CO3/forms H+ and HCO3- (1) [4]' (p7 y580.5), is printed with no '(iii)' label but answers QP 5(c)(iii) (why CO2 causes no problem as the diver surfaces); the missing key is placed at that printed line. (3) Q8's scheme begins with the sub-heading 'From mass spectrum' printed above the '8' key (p10 y74; the splitter dropped it as an appendix of 7(c)(iii)) and the automatic Q8 cut ran onto p11 and took the 'Transition Elements' title: Q8 is cut by hand as p10 y70-783.6. (4) The structures for 1(b)(i), 1(b)(ii) and the phase diagram for 6(a) are raster images left of every non-label word in their rows, so the crop's left edge (taken from words) cut them off; these keys are re-placed with the label column treated as text (xend 60) so the printed labels '(b)', '(i)', '(ii)', '6', '(a)' widen the crop, and those labels are whited out by hand masks. (5) Q8's closing '[Total: max 10]' (p10 y597) is not caught by the [Total] rule: whited out by hand. NOT FIXABLE BY OVERRIDE: the 1(a)(ii) dipeptide structure (raster image p4 x99-306, y161-254) lies left of every word in its rows, so its crop shows only '(1) [2]' until the splitter's x-range takes raster images into account.",
+ "add_keys": {
+  "Q5.c.iii": [
+   7,
+   580.5,
+   150
+  ],
+  "Q1.b.i": [
+   4,
+   283.7,
+   60
+  ],
+  "Q1.b.ii": [
+   4,
+   396.9,
+   60
+  ],
+  "Q6.a": [
+   8,
+   86.6,
+   60
+  ]
+ },
+ "masks": [
+  [
+   4,
+   69.9,
+   85.6,
+   141.6,
+   98.6
+  ],
+  [
+   11,
+   69.9,
+   72.9,
+   177.1,
+   85.9
+  ],
+  [
+   4,
+   96.4,
+   283.2,
+   113.5,
+   295.7
+  ],
+  [
+   4,
+   132.4,
+   283.2,
+   145.8,
+   295.7
+  ],
+  [
+   4,
+   132.4,
+   396.4,
+   148.8,
+   408.9
+  ],
+  [
+   8,
+   69.4,
+   86.1,
+   78.5,
+   98.6
+  ],
+  [
+   8,
+   97.7,
+   86.1,
+   114.2,
+   98.6
+  ],
+  [
+   10,
+   464.3,
+   596.7,
+   544.0,
+   610.4
+  ]
+ ],
+ "segments": {
+  "Q8": [
+   [
+    10,
+    70.0,
+    783.63
+   ]
+  ]
+ }
+}

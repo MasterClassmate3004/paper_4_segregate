@@ -1,0 +1,9 @@
+{
+ "reason": "Nov 2004 Paper 4 mark scheme, Section B essays: each of Q6 (p8) and Q7 (p9) first restates both essay questions in italics ('6 (a) Describe ... [9]', '(b) Explain ... [6]'), then prints the numbered points. For Q6 the real (a) label is printed inside the text column at p8 y136.7 (right before '1 matrix;', points 1-15, '9 max') and the real (b) label at p8 y482.8 (before '16 coenzyme;', points 16-26, '6 max'); the automatic keys took the italic restatement lines as the (a)/(b) keys, so Q6.a held only the restated question and the (b) crop held (a)'s points. The keys are placed at the printed point labels. For Q7 no '(a)' label is printed before point 1: the 14 points (9 max) sit directly after the restated questions and end at the printed '(b)' label at p9 y513.8 (before '15 constant/reliable supply...', points 15-24, '6 max'); Q7.a is keyed at the first point line (p9 y175.8, x100 so no point number is hidden) and Q7.b at the printed '(b)' line, so the restated questions are no longer part of any crop.",
+ "add_keys": {
+  "Q6.a": [8, 136.7, 105.0],
+  "Q6.b": [8, 482.8, 105.0],
+  "Q7.a": [9, 175.8, 100.0],
+  "Q7.b": [9, 513.8, 105.0]
+ }
+}

@@ -1,0 +1,496 @@
+{
+ "reason": "Scanned 2002 Options (Paper 6) mark scheme with a speckled background: OCR reads '1.' as '4.', loses most question numbers and reads specks as keys, so the automatic keys are wrong (all read as Q1); every key is placed by hand at its printed line [page, line top pt, right edge of printed label]. 2(a)(i) is a sketch graph whose top ('(i) cofactor', Vmax) rises above the printed '2. (a) (i)' line, so its key is placed above the graph (p3 y148) and the printed label is whited out by a mask. Masks also hide the option headings (Biochemistry, Environmental Chemistry, Phase Equilibria, Spectroscopy, Transition Elements). 7(d): the graph's x-axis numbers (400-700) and 'wavelength/nm' are printed in the bottom 70 pt of p8 (to y790.5; this scan has no printed footer there), so page_bottom moves p8's content bottom to y795 to keep them. 1(c)(i)/(ii) and 7(a)/(b): the automatic cut runs through the top 'O' of the 1(c)(ii) phosphate drawing and of the 7(b) CH3CHO structure, so those boundaries are set by hand on blank rows (p2 y535, p8 y329). Blank scan background (speckle) above the first and below the last answer on each page is whited out so crops end at the marking text. 9(b)(i)/(ii): the scan prints each first (1) mark about 2 pt above its text line (ink from y434 and y471), so the automatic cuts at y436/y473 clipped the top of those marks; the boundaries are set by hand on blank rows (p10 y428, y462).",
+ "add_keys": {
+  "Q1": [
+   2,
+   172.3,
+   90
+  ],
+  "Q1.a.i": [
+   2,
+   172.3,
+   153
+  ],
+  "Q1.a.ii": [
+   2,
+   352.0,
+   150
+  ],
+  "Q1.b": [
+   2,
+   417.2,
+   124
+  ],
+  "Q1.c": [
+   2,
+   492.8,
+   124
+  ],
+  "Q1.c.i": [
+   2,
+   492.8,
+   148
+  ],
+  "Q1.c.ii": [
+   2,
+   539.8,
+   154
+  ],
+  "Q1.c.iii": [
+   2,
+   652.3,
+   156
+  ],
+  "Q2.a.i": [
+   3,
+   148.0,
+   75
+  ],
+  "Q2.a.ii": [
+   3,
+   444.3,
+   157
+  ],
+  "Q2.a.iii": [
+   3,
+   485.6,
+   160
+  ],
+  "Q2.b.i": [
+   3,
+   598.1,
+   154
+  ],
+  "Q2.b.ii": [
+   3,
+   642.7,
+   157
+  ],
+  "Q3.a": [
+   4,
+   163.6,
+   123
+  ],
+  "Q3.b": [
+   4,
+   302.1,
+   124
+  ],
+  "Q3.c": [
+   4,
+   364.9,
+   124
+  ],
+  "Q3.d": [
+   4,
+   453.0,
+   124
+  ],
+  "Q3.e": [
+   4,
+   603.9,
+   125
+  ],
+  "Q4.a": [
+   5,
+   162.7,
+   123
+  ],
+  "Q4.b": [
+   5,
+   300.1,
+   124
+  ],
+  "Q4.c.i": [
+   5,
+   450.8,
+   148
+  ],
+  "Q4.c.ii": [
+   5,
+   476.0,
+   151
+  ],
+  "Q4.d": [
+   5,
+   563.8,
+   125
+  ],
+  "Q5.a": [
+   6,
+   169.9,
+   123
+  ],
+  "Q5.b.i": [
+   6,
+   281.3,
+   148
+  ],
+  "Q5.b.ii": [
+   6,
+   384.6,
+   152
+  ],
+  "Q5.c.i": [
+   6,
+   574.4,
+   151
+  ],
+  "Q5.c.ii": [
+   6,
+   634.6,
+   155
+  ],
+  "Q6.a.i": [
+   7,
+   169.9,
+   147
+  ],
+  "Q6.a.ii": [
+   7,
+   217.6,
+   151
+  ],
+  "Q6.a.iii": [
+   7,
+   269.7,
+   155
+  ],
+  "Q6.b.i": [
+   7,
+   544.6,
+   152
+  ],
+  "Q6.b.ii": [
+   7,
+   594.3,
+   155
+  ],
+  "Q6.b.iii": [
+   7,
+   659.3,
+   159
+  ],
+  "Q7.a": [
+   8,
+   101.8,
+   131
+  ],
+  "Q7.b": [
+   8,
+   340.3,
+   129
+  ],
+  "Q7.c.i": [
+   8,
+   403.1,
+   152
+  ],
+  "Q7.c.ii": [
+   8,
+   428.7,
+   154
+  ],
+  "Q7.d": [
+   8,
+   515.3,
+   127
+  ],
+  "Q8.a.i": [
+   9,
+   162.7,
+   149
+  ],
+  "Q8.a.ii": [
+   9,
+   228.6,
+   151
+  ],
+  "Q8.b": [
+   9,
+   329.5,
+   124
+  ],
+  "Q8.c.i": [
+   9,
+   504.0,
+   147
+  ],
+  "Q8.c.ii": [
+   9,
+   541.7,
+   150
+  ],
+  "Q8.c.iii": [
+   9,
+   578.9,
+   153
+  ],
+  "Q9.a": [
+   10,
+   188.1,
+   125
+  ],
+  "Q9.b.i": [
+   10,
+   434.7,
+   154
+  ],
+  "Q9.b.ii": [
+   10,
+   471.9,
+   158
+  ],
+  "Q10.a": [
+   11,
+   166.7,
+   134
+  ],
+  "Q10.b": [
+   11,
+   203.5,
+   137
+  ],
+  "Q10.c.i": [
+   11,
+   353.2,
+   157
+  ],
+  "Q10.c.ii": [
+   11,
+   458.2,
+   159
+  ]
+ },
+ "masks": [
+  [
+   3,
+   75,
+   180.5,
+   154.3,
+   195
+  ],
+  [
+   2,
+   76,
+   141,
+   150,
+   156
+  ],
+  [
+   4,
+   70,
+   135,
+   210,
+   150
+  ],
+  [
+   6,
+   69,
+   142.5,
+   161,
+   157
+  ],
+  [
+   8,
+   76,
+   74.5,
+   155,
+   89
+  ],
+  [
+   10,
+   70,
+   163.5,
+   182,
+   178
+  ],
+  [
+   2,
+   30,
+   46,
+   594,
+   139
+  ],
+  [
+   3,
+   30,
+   46,
+   594,
+   148
+  ],
+  [
+   4,
+   30,
+   46,
+   594,
+   158
+  ],
+  [
+   5,
+   30,
+   46,
+   594,
+   158
+  ],
+  [
+   6,
+   30,
+   46,
+   594,
+   166
+  ],
+  [
+   7,
+   30,
+   46,
+   594,
+   165
+  ],
+  [
+   8,
+   30,
+   46,
+   594,
+   98
+  ],
+  [
+   9,
+   30,
+   46,
+   594,
+   158
+  ],
+  [
+   10,
+   30,
+   46,
+   594,
+   184
+  ],
+  [
+   11,
+   30,
+   46,
+   594,
+   162
+  ],
+  [
+   2,
+   30,
+   705,
+   594,
+   812
+  ],
+  [
+   3,
+   30,
+   688,
+   594,
+   812
+  ],
+  [
+   4,
+   30,
+   628,
+   594,
+   812
+  ],
+  [
+   5,
+   30,
+   655,
+   594,
+   812
+  ],
+  [
+   6,
+   30,
+   697,
+   594,
+   812
+  ],
+  [
+   7,
+   30,
+   720,
+   594,
+   812
+  ],
+  [
+   9,
+   30,
+   695,
+   594,
+   812
+  ],
+  [
+   10,
+   30,
+   600,
+   594,
+   812
+  ],
+  [
+   11,
+   30,
+   528,
+   594,
+   812
+  ]
+ ],
+ "segments": {
+  "Q1.c.i": [
+   [
+    2,
+    478.75,
+    535.0
+   ]
+  ],
+  "Q1.c.ii": [
+   [
+    2,
+    535.0,
+    647.25
+   ]
+  ],
+  "Q7.a": [
+   [
+    8,
+    95.0,
+    329.0
+   ]
+  ],
+  "Q7.b": [
+   [
+    8,
+    329.0,
+    395.5
+   ]
+  ],
+  "Q9.a": [
+   [
+    10,
+    125.5,
+    428.0
+   ]
+  ],
+  "Q9.b.i": [
+   [
+    10,
+    428.0,
+    462.0
+   ]
+  ],
+  "Q9.b.ii": [
+   [
+    10,
+    462.0,
+    811.0
+   ]
+  ]
+ },
+ "page_bottom": {
+  "8": 795
+ }
+}

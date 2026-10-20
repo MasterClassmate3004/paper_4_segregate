@@ -1,0 +1,41 @@
+{
+ "reason": "Oct/Nov 2006 Paper 4 mark scheme, Section B essays (Q6 on p7, Q7 on p8): each question first restates both parts in the answer column ('6 (a) Describe how the structure of neurones ... [6]', '(b) Explain, using a named example ... [9]', then '[Total: 15]'), and the numbered points follow with their own printed labels inside the text column: p7 '(a) 1 myelin sheath' (y175.5, points 1-11, '6 max') and '(b) 12 ref. specific example' (y352.7, points 12-24, '9 max'); p8 '(a) 1 light absorbed by chlorophyll' (y162.9, points 1-10, '6 max') and '(b)' (y314.8, points 11-23, '9 max'). The automatic keys took the italic restatement lines as the (a)/(b) keys, so Q6.a/Q7.a held only the restated question text and the (b) crops held the (a) points. The keys are placed at the printed '(a)'/'(b)' labels before the points. The Q7 restatement block at the top of p8 (y87-149: '7 (a) Describe the transfer of energy to ATP during photosynthesis. [6]', '(b) Describe the process of oxidative phosphorylation. [9]', '[Total: 15 ]') is question text, not marking, and sits before the first Q7 key, so it would be attached to the end of the Q6.b crop; it is whited out (the same block for Q6 on p7, y87-161, is whited out for the same reason: with the keys moved to the printed labels it precedes Q6.a's first point).",
+ "add_keys": {
+  "Q6.a": [
+   7,
+   175.5,
+   73.0
+  ],
+  "Q6.b": [
+   7,
+   352.7,
+   73.0
+  ],
+  "Q7.a": [
+   8,
+   162.9,
+   87.0
+  ],
+  "Q7.b": [
+   8,
+   314.8,
+   87.0
+  ]
+ },
+ "masks": [
+  [
+   8,
+   30,
+   85,
+   560,
+   151
+  ],
+  [
+   7,
+   30,
+   85,
+   560,
+   162
+  ]
+ ]
+}

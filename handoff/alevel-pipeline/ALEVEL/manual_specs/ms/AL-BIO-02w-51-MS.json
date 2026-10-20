@@ -1,0 +1,17 @@
+{
+ "reason": "Scanned 2002 Paper 5 mark scheme: a table (Qn | Expected Answers | Mark | Additional Guidance) whose printed keys '1 a i', '1 a ii', '1 a iii' (page 2) and '2 a', '2 f' (page 3) are not read by OCR (the table heading row at the top of page 2 is taken as a '1' key, which is dropped). Each missing key is placed by hand at its printed line; Question 1(a)(i)-(iii) are cut by hand on the blank gaps between the printed keys (the automatic last cut ran on to the bottom of the page and kept the printed question total) and the heading row and total are masked.",
+ "drop_keys": ["Q1"],
+ "add_keys": {
+  "Q1.a.i": [2, 187.1, 112],
+  "Q1.a.ii": [2, 278.5, 112],
+  "Q1.a.iii": [2, 364.7, 112],
+  "Q2.a": [3, 129.6, 112],
+  "Q2.f": [3, 477.7, 112]
+ },
+ "segments": {
+  "Q1.a.i": [[2, 172, 268]],
+  "Q1.a.ii": [[2, 268, 350]],
+  "Q1.a.iii": [[2, 350, 426]]
+ },
+ "masks": [[2, 60, 136, 570, 171], [2, 355, 430, 400, 458]]
+}

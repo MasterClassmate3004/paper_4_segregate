@@ -1,0 +1,5 @@
+{
+ "reason": "4(c) is printed as '(c) (i)' over three marking lines (p8 y619.7-675.7): 'C6H12O ... Mr = 100 [1]', then 'CH2 = CH - CH = CH - CH2CH3 [1]' and 'dehydration / elimination [1]' with no printed '(ii)' label. Since the MS does not label the QP's (c)(ii), 4(c) is kept whole: the automatic key 4(c)(i) is dropped and 4(c) is cut by hand over all three lines (p8 y615-700, blank rows; 4(d) starts on p9), so QP 4(c)(i) and 4(c)(ii) both see the whole 4(c) scheme (parent_ms_covers_child_qp).",
+ "drop_keys": ["Q4.c.i"],
+ "segments": {"Q4.c": [[8, 615, 700]]}
+}

@@ -1,0 +1,6 @@
+{
+ "reason": "The published MS has one row keyed 6(b)(i) worth [2] ('for turbulent flow, F_D/v^2 ... v = 58 m s-1'). It answers QP 6(b)(ii) (calculate the maximum speed, [2]); no marking point is printed for 6(b)(i) (laminar or turbulent, [3]).",
+ "drop_keys": ["Q6.b.i"],
+ "segments": {"Q6.b.ii": [[5, 407.0, 815.64], [6, 61.26, 104.5]]},
+ "absent": {"Q6.b.i": "no marking point printed for 6(b)(i); the row keyed (b)(i) answers (b)(ii)"}
+}

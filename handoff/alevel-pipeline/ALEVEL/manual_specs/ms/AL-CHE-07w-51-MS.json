@@ -1,0 +1,309 @@
+{
+ "reason": "2007 Paper 5 mark scheme is a ruled table (Question | Sections | Indicative material | Mark) keyed per part as '1 (a)' ... '2 (i)'; the text layer splits number and letter into separate cells so the splitter found no keys. Each printed key is placed by hand and each part is cut by hand on its table row. The p2 'MARK SCHEME' skill/marks breakdown table, the repeated 'Question Sections Indicative material Mark' column-header rows, the stray 'MARK SCHEME 9701/05 November 2007 Page 6 of 7 Coordination' line (p7), the 'Question 1 Total 16' / 'Question 2 Total 14' rows and the p8 'Appendix' / 'Question 1 (e)' / 'Question 2 (f)' headings are furniture and are whited out. The p8 appendix tables are referenced by 1(e) ('See appendix', masses of hydroxide) and 2(f) ('See appendix', relative concentrations) and are appended to those parts. keep_words: the student number \"2\" in the appendix results table is table content.",
+ "add_keys": {
+  "Q1.a": [
+   2,
+   337.7,
+   74
+  ],
+  "Q1.b": [
+   2,
+   480.9,
+   74
+  ],
+  "Q1.c": [
+   3,
+   129.0,
+   74
+  ],
+  "Q1.d": [
+   3,
+   543.6,
+   74
+  ],
+  "Q1.e": [
+   4,
+   129.0,
+   74
+  ],
+  "Q1.f": [
+   4,
+   506.3,
+   74
+  ],
+  "Q1.g": [
+   5,
+   123.0,
+   74
+  ],
+  "Q2.a": [
+   5,
+   363.1,
+   74
+  ],
+  "Q2.b": [
+   6,
+   129.0,
+   74
+  ],
+  "Q2.c": [
+   6,
+   230.0,
+   74
+  ],
+  "Q2.d": [
+   6,
+   343.1,
+   74
+  ],
+  "Q2.e": [
+   6,
+   431.4,
+   74
+  ],
+  "Q2.f": [
+   6,
+   570.4,
+   74
+  ],
+  "Q2.g": [
+   7,
+   144.6,
+   74
+  ],
+  "Q2.h": [
+   7,
+   320.3,
+   74
+  ],
+  "Q2.i": [
+   7,
+   509.3,
+   74
+  ]
+ },
+ "segments": {
+  "Q1.a": [
+   [
+    2,
+    331.0,
+    474.0
+   ]
+  ],
+  "Q1.b": [
+   [
+    2,
+    474.0,
+    664.0
+   ]
+  ],
+  "Q1.c": [
+   [
+    3,
+    122.0,
+    537.0
+   ]
+  ],
+  "Q1.d": [
+   [
+    3,
+    537.0,
+    650.0
+   ]
+  ],
+  "Q1.e": [
+   [
+    4,
+    122.0,
+    500.0
+   ],
+   [
+    8,
+    122.0,
+    330.0
+   ]
+  ],
+  "Q1.f": [
+   [
+    4,
+    500.0,
+    697.0
+   ]
+  ],
+  "Q1.g": [
+   [
+    5,
+    116.0,
+    257.0
+   ]
+  ],
+  "Q2.a": [
+   [
+    5,
+    356.0,
+    596.0
+   ]
+  ],
+  "Q2.b": [
+   [
+    6,
+    122.0,
+    223.0
+   ]
+  ],
+  "Q2.c": [
+   [
+    6,
+    223.0,
+    337.0
+   ]
+  ],
+  "Q2.d": [
+   [
+    6,
+    337.0,
+    425.0
+   ]
+  ],
+  "Q2.e": [
+   [
+    6,
+    425.0,
+    564.0
+   ]
+  ],
+  "Q2.f": [
+   [
+    6,
+    564.0,
+    627.0
+   ],
+   [
+    8,
+    382.0,
+    640.0
+   ]
+  ],
+  "Q2.g": [
+   [
+    7,
+    138.0,
+    314.0
+   ]
+  ],
+  "Q2.h": [
+   [
+    7,
+    314.0,
+    503.0
+   ]
+  ],
+  "Q2.i": [
+   [
+    7,
+    503.0,
+    628.5
+   ]
+  ]
+ },
+ "masks": [
+  [
+   2,
+   45,
+   75,
+   545,
+   257
+  ],
+  [
+   2,
+   45,
+   306,
+   545,
+   328
+  ],
+  [
+   3,
+   45,
+   97,
+   545,
+   119
+  ],
+  [
+   4,
+   45,
+   97,
+   545,
+   119
+  ],
+  [
+   5,
+   45,
+   91,
+   545,
+   113
+  ],
+  [
+   5,
+   45,
+   258,
+   545,
+   278
+  ],
+  [
+   5,
+   45,
+   331,
+   545,
+   353
+  ],
+  [
+   6,
+   45,
+   97,
+   545,
+   119
+  ],
+  [
+   7,
+   45,
+   76,
+   545,
+   135
+  ],
+  [
+   7,
+   45,
+   629,
+   545,
+   650
+  ],
+  [
+   8,
+   45,
+   76,
+   130,
+   92
+  ],
+  [
+   8,
+   45,
+   102,
+   130,
+   117
+  ],
+  [
+   8,
+   45,
+   364,
+   130,
+   379
+  ]
+ ],
+ "keep_words": [
+  [
+   8,
+   89.0,
+   483.8
+  ]
+ ]
+}

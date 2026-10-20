@@ -1,0 +1,134 @@
+
+    DOTS_RE=re.compile(r'^[.…]{3,}')
+    PLAIN_TOKEN_RE=re.compile(r'^(\d{1,2}|\[\d+\]|\(\w{1,4}\)|[.…,;:]+)$')
+    def answer_rows(pno):
+        """Dotted answer rows on a page: dicts y0/y1/labelled.
+
+        Words within 6 pt of a dotted leader belong to its row (raised
+        superscript units such as 's-1').  A row is 'labelled' when it
+        carries a quantity/unit/label besides dots, numbers and marks, e.g.
+        'speed = ...... m s-1 [2]'; plain '...... [1]' and numbered
+        '1 ......' rows are not.  Rows inside a drawn table are excluded:
+        dotted cells there are part of a table the candidate completes.
+        """
+        rows=[]
+        dots=[w for w in W[pno] if DOTS_RE.match(w[4])]
+        tables=[d['rect'] for d in doc[pno].get_drawings()
+                if d.get('rect') is not None and d['rect'].width>60 and d['rect'].height>30]
+        for dw in dots:
+            if any(r.y0-1<=dw[1] and dw[3]<=r.y1+1 and r.x0-1<=dw[0] and dw[2]<=r.x1+1 for r in tables):
+                continue
+            ws=[w for w in W[pno] if abs(w[1]-dw[1])<=6 or abs(w[3]-dw[3])<=6]
+            y0=min(w[1] for w in ws); y1=max(w[3] for w in ws)
+            if any(abs(r['y0']-y0)<4 for r in rows):
+                continue
+            labelled=any(not PLAIN_TOKEN_RE.match(w[4]) for w in ws if not DOTS_RE.match(w[4]))
+            rows.append({'y0':y0,'y1':y1,'labelled':labelled})
+        # A mark alone on its row (e.g. '[3]' under a blank working space)
+        # is kept with its leaf like a labelled answer line.
+        for w in W[pno]:
+            if re.fullmatch(r'\[\d+\]',w[4]) and not any(
+                    o is not w and abs(o[1]-w[1])<=4 for o in W[pno]):
+                if not any(abs(r['y0']-w[1])<4 for r in rows):
+                    rows.append({'y0':w[1],'y1':w[3],'labelled':True})
+        return sorted(rows,key=lambda r:r['y0'])
+
+    def whitespace_bounds(p,y0,y1,reach=8.0):
+        """Grow [y0,y1] outward to the nearest fully blank pixel rows.
+
+        Uses the strict (antialias-aware) ink projection, so a thin segment
+        never starts inside the descenders of the line above -- a fixed 3 pt
+        pad took a sliver of the 'g' in 'Fig. 6.2' (9702/42/M/J/24 Q6(b)(iii)).
+        """
+        ink=INK[p]; rows=ink.semantic.sum(axis=1)
+        top=ink._r(y0)-1; lim=ink._r(y0-reach)
+        while top>lim and rows[top]>0: top-=1
+        bot=ink._r(y1)+1; lim=ink._r(y1+reach)
+        while bot<lim and rows[bot]>0: bot+=1
+        if rows[top]>0 or rows[bot]>0:
+            raise RuntimeError(f'REVIEW_REQUIRED: no whitespace around answer row at y={y0:.1f} on page {p+1}')
+        return ink._p(top),ink._p(bot)
+
+    def alevel_answer_rows(emits):
+        """Decision D6 (2026-10-10): question text + labelled answer line(s).
+
+        For every leaf: (1) end each of its segments before an answer area
+        that sits at the bottom of the segment (only answer rows / marks /
+        blank space below the cut); (2) append, as thin extra segments, the
+        labelled answer rows between the leaf and the next emitted item
+        ('quantity = ...... unit [n]'), so the expected unit and marks stay
+        visible while blank working space and plain dotted lines are dropped.
+        """
+        AR={p:answer_rows(p) for p in range(doc.page_count)}
+        out=[list(e) for e in emits]
+        order=sorted(range(len(out)),key=lambda i:(out[i][1],out[i][2]))
+        first_seg={}
+        for i in order:
+            first_seg.setdefault(out[i][0],i)
+        def row_words_below(pno,y,ylim):
+            return [w for w in W[pno] if y<=w[1]<ylim]
+        added=[]
+        leaves=[lab for lab in dict.fromkeys(e[0] for e in out) if not lab.endswith('.stem')]
+        for lab in leaves:
+            segs=[i for i in order if out[i][0]==lab]
+            # (1) trim a trailing answer area out of each prompt segment
+            for i in segs:
+                _,pno,y0,y1=out[i]
+                inside=[r for r in AR[pno] if y0+8<r['y0']<y1]
+                if not inside:
+                    continue
+                cut=inside[0]['y0']
+                below=[w for w in row_words_below(pno,cut-1,y1)
+                       if not DOTS_RE.match(w[4]) and not any(r['y0']-1<=w[1]<=r['y1']+1 for r in AR[pno])]
+                if not below:
+                    out[i][3]=cut-2
+            # (2) labelled answer rows between this leaf and the next item
+            last=max(segs,key=lambda i:(out[i][1],out[i][3]))
+            lpno,ly1=out[last][1],out[last][3]
+            later=[i for i in order if (out[i][1],out[i][2])>(lpno,ly1-1) and out[i][0]!=lab]
+            npno,ny0=(out[later[0]][1],out[later[0]][2]) if later else (doc.page_count-1,FOOTER_Y)
+            for p in range(lpno,npno+1):
+                lo=ly1-1 if p==lpno else HEADER_Y
+                hi=ny0 if p==npno else FOOTER_Y
+                for r in AR[p]:
+                    if r['labelled'] and lo<=r['y0'] and r['y1']<=hi:
+                        added.append((lab,p)+whitespace_bounds(p,r['y0'],r['y1']))
+        # keep each leaf's appended rows right after its last emitted segment
+        final=[]
+        last_index={lab:max(i for i,e in enumerate(out) if e[0]==lab) for lab in leaves}
+        for i,e in enumerate(out):
+            final.append(tuple(e))
+            for a in added:
+                if a[0]==e[0] and last_index.get(e[0])==i:
+                    final.append(a)
+        return final
+
+    page_cap=min(CONTENT_BOTTOM,FOOTER_Y)
+    def leaf_continuation_segments(label,pno,y,next_anchor):
+        """A Level: the rest of a leaf's prompt printed on following pages.
+
+        Cambridge A Level papers have no 'Question N continued' header.  When
+        a leaf's own page holds neither its [mark] nor the start of its
+        answer area, the prompt carries on at the top of the next page, e.g.
+        9702/42/M/J/24 Q5(b): setup + Fig. 5.2 on p.12, then 'State three
+        conclusions ...' on p.13 above the numbered answer lines.  Append that
+        content (header -> first answer row / next label) as extra segments of
+        the same leaf, page by page, until an answer area or mark is reached.
+        """
+        if not IS_ALEVEL:
+            return []
+        if mark_bot(pno,y,page_cap) is not None or first_stop(pno,y)<page_cap:
+            return []
+        end_pno=next_anchor['pno'] if next_anchor else doc.page_count-1
+        segs=[]
+        for cpno in range(pno+1,end_pno+1):
+            floor=continued_floor(cpno,FOOTER_Y)
+            limit=(next_anchor['y']-2 if (next_anchor and cpno==next_anchor['pno'])
+                   else page_cap)
+            stop=first_stop(cpno,floor)
+            tail=min(stop,limit)
+            if segment_has_content(cpno,floor,tail):
+                segs.append((label,cpno,floor,tail))
+            if stop<limit or mark_bot(cpno,floor,limit) is not None:
+                break
+        return segs

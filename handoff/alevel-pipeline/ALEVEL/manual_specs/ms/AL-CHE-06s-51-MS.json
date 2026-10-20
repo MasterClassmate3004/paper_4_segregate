@@ -1,0 +1,128 @@
+{
+ "reason": "June 2006 Paper 5 mark scheme. (1) Question 1 prints no '(b)': after 1(a) (p2-p3, accuracy table ending '[6]') page 4 opens with the heading 'Graph' (p4 y78), whose three marks [1]+[2]+[1] are the [4] of QP 1(b) 'Plot lg(1000/time) against lg(volume of FB 1) and draw the best-fit straight line'; the printed 'Graph' heading stands where the (b) key belongs, so Q1.b is keyed by hand at that line (the heading is kept in the crop) and cut p4 y63-392.5, ending above '(c)'. (2) Question 2 prints no question number: page 6 starts with the heading 'ASSESSMENT OF PLANNING SKILLS.' (whited out) and the parts '(a)'..'(e)'; the splitter took the last three as a second set of Q1.c/Q1.d/Q1.e keys and dropped (a)/(b) as an appendix of 1(g). The keys 2(a) y103.3, 2(b) y229.7, 2(c) y356.2, 2(d) y394.1, 2(e) y419.4 are placed by hand at their printed labels and each part of Q1 (c)-(e) on p4, 1(g) on p5 and Q2 (a)-(e) on p6 is cut by hand on blank rows. MS 2(a) [3] is one block marking the whole apparatus diagram of QP 2(a) (whose (i)-(iii) are the three things the apparatus must allow, not separately labelled in the MS), so QP 2(a)(i)-(iii) all see 2(a) (parent_ms_covers_child_qp). The '(i)'-(iv)' inside MS 2(b) are alternative precautions for the one mark of 2(b), not QP parts, and stay in 2(b). keep_words: the \"(d)\" ending the 1(d) note and the \"(i)\" opening the 2(b) list are marking text, not repeated keys.",
+ "add_keys": {
+  "Q1.b": [
+   4,
+   78.0,
+   50.0
+  ],
+  "Q2.a": [
+   6,
+   103.3,
+   72.0
+  ],
+  "Q2.b": [
+   6,
+   229.7,
+   72.0
+  ],
+  "Q2.c": [
+   6,
+   356.2,
+   72.0
+  ],
+  "Q2.d": [
+   6,
+   394.1,
+   72.0
+  ],
+  "Q2.e": [
+   6,
+   419.4,
+   72.0
+  ]
+ },
+ "segments": {
+  "Q1.b": [
+   [
+    4,
+    63.04,
+    392.5
+   ]
+  ],
+  "Q1.c": [
+   [
+    4,
+    392.5,
+    419.5
+   ]
+  ],
+  "Q1.d": [
+   [
+    4,
+    419.5,
+    547.5
+   ]
+  ],
+  "Q1.e": [
+   [
+    4,
+    547.5,
+    794.74
+   ]
+  ],
+  "Q1.g": [
+   [
+    5,
+    183.5,
+    260.0
+   ]
+  ],
+  "Q2.a": [
+   [
+    6,
+    96.0,
+    222.5
+   ]
+  ],
+  "Q2.b": [
+   [
+    6,
+    222.5,
+    349.0
+   ]
+  ],
+  "Q2.c": [
+   [
+    6,
+    349.0,
+    387.0
+   ]
+  ],
+  "Q2.d": [
+   [
+    6,
+    387.0,
+    412.0
+   ]
+  ],
+  "Q2.e": [
+   [
+    6,
+    412.0,
+    490.0
+   ]
+  ]
+ },
+ "masks": [
+  [
+   6,
+   52.5,
+   77.0,
+   260.0,
+   90.0
+  ]
+ ],
+ "keep_words": [
+  [
+   4,
+   78.0,
+   516.7
+  ],
+  [
+   6,
+   77.9,
+   254.5
+  ]
+ ]
+}

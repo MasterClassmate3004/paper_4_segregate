@@ -1,0 +1,4 @@
+{
+ "reason": "QP 8(d) asks its two tasks (name a thermoplastic polymer; state the type of polymerisation and explain) as unlabelled lines of one part [3], while the MS prints them as '(d) (i)' (p9 y517) and '(ii)' (p9 y542). Both belong to Q8.d (the splitter already maps the misprinted (d)(i) key to Q8.d and its rows run to the [Total]); the printed inner label '(ii)' (p9 y542, x90-103.5) is whited out so the crop shows no key label. 6(a)(ii): the MS prints only 'Skeletal formula required [1]' with no drawn structure, so that crop is left as printed.",
+ "masks": [[9, 89.0, 541.3, 104.5, 553.8]]
+}

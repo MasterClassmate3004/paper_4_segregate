@@ -1,0 +1,5 @@
+{
+ "reason": "The mark scheme's 2(d) labels are shifted against the question paper: under '(d)(i)' it prints the equation (QP (d)(i)) and then, unlabelled, 'from -2 (1) to +4 (1) / allow e.c.f. on equation' (p5 y198.7), which answers QP (d)(ii) (change in oxidation number of sulphur); the line it labels '(ii)' ('68.2g H2S react with 3 x 24 dm3 O2 ... [5]', p5 y236.7) answers QP (d)(iii) (volume of oxygen for 8.65 g H2S). Keys placed by hand: Q2.d.ii at the unlabelled 'from -2' line, Q2.d.iii at the misprinted '(ii)'. The closing '[Total: 13 max]' of Q4 (p6 y622.5) is not caught by the [Total] rule and is whited out by hand.",
+ "add_keys": {"Q2.d.ii": [5, 198.7, 140], "Q2.d.iii": [5, 236.7, 139]},
+ "masks": [[6, 462.0, 621.5, 543.5, 637.5]]
+}
