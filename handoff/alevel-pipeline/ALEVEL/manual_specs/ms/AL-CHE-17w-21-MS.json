@@ -1,0 +1,8 @@
+{
+ "reason": "Page 2 of this MS (rotated landscape) has a text layer split into glyph runs: the printed keys 1(a)(ii) (y129.4) and 1(b)(ii) (y350.7) read as '1(' + '(a)(ii)' / '1(' + '(b)(ii)', so they were not found and are placed by hand at their printed lines (label tokens end before x=101, answer text starts at x=121.7). The same split runs ('Que estion Answer Ma arks', '© U CLES 2017 Page 2 of 7') stop the page-2 column-heading row (y56.1-68.4) and copyright footer (y549.7-558.6) being recognised as furniture, so both are whited out by position; neither lies inside any answer crop.",
+ "add_keys": {
+  "Q1.a.ii": [2, 129.4, 101],
+  "Q1.b.ii": [2, 350.7, 101]
+ },
+ "masks": [[2, 58.0, 55.5, 783.0, 69.0], [2, 58.0, 548.5, 790.0, 560.5]]
+}

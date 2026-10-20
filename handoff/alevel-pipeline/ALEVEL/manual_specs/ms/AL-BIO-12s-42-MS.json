@@ -1,0 +1,29 @@
+{
+ "reason": "9700/42 M/J 2012 mark scheme question 7 prints only (a) [2] and a part labelled '(b)' [6] (page 10 y189.5-327, 'parental genotypes AaDd x AaDd ... 3 out of 16', Total 8). In the question paper 7(b) is the unmarked introduction to the budgerigar cross (Fig. 7.1 and the colour rules) and the genetic-diagram question with [6] is 7(c): the printed '(b)' is a misprint for (c). The printed line is keyed Q7.c by hand and the automatic Q7.b key is dropped. QP 7(b) is the context of that cross (Fig. 7.1, colour rules, no mark): the scheme's (b) block covers QP 7(b)+7(c) together, so both leaves get the same rows (as shared blocks elsewhere, e.g. AL-BIO-04s-51 1(b)(i)&(ii)); nothing is assigned by reading.",
+ "drop_keys": [
+  "Q7.b"
+ ],
+ "add_keys": {
+  "Q7.c": [
+   10,
+   189.5,
+   85.0
+  ]
+ },
+ "segments": {
+  "Q7.b": [
+   [
+    10,
+    175.8,
+    354.4
+   ]
+  ],
+  "Q7.c": [
+   [
+    10,
+    175.8,
+    354.4
+   ]
+  ]
+ }
+}

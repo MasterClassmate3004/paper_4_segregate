@@ -1,0 +1,39 @@
+    SNAP_DPI=200; snap_cache={}
+    def snap_edges_to_blank(pno,y0,y1,x1):
+        """A Level: move crop edges off glyphs onto blank pixel rows.
+
+        A boundary row touching ink slices a glyph (descenders of 'g'/'y'
+        above, the tops of '[2]' brackets below; 7 cases in 9702/42/M/J/24,
+        one of which surfaced as a stray dash).  The touched ink run goes to
+        the side holding most of it; neighbours sharing an edge apply the
+        same rule, so a run is never split or duplicated.  A run taller than
+        14 pt means no nearby whitespace: REVIEW_REQUIRED.
+        """
+        if pno not in snap_cache:
+            pm=doc[pno].get_pixmap(dpi=SNAP_DPI,colorspace=fitz.csGRAY,alpha=False)
+            snap_cache[pno]=np.frombuffer(pm.samples,np.uint8).reshape(pm.height,pm.width)
+        img=snap_cache[pno]; k=SNAP_DPI/72.0
+        xa,xb=int(CONTENT_L*k),int(x1*k)
+        inked=(img[:,xa:xb]<200).any(axis=1)
+        def run(row):
+            a=b=row
+            while a>0 and inked[a-1]: a-=1
+            while b<len(inked)-1 and inked[b+1]: b+=1
+            if (b-a)/k>14:
+                raise RuntimeError(f'REVIEW_REQUIRED: no blank row near y={row/k:.1f} on page {pno+1}')
+            return a,b
+        r0=int(round(y0*k))
+        if 0<=r0<len(inked) and inked[r0]:
+            a,b=run(r0)
+            y0=(a-1)/k if (b-r0)>=(r0-a) else (b+1)/k
+        r1=int(round(y1*k))
+        if 0<=r1<len(inked) and inked[r1]:
+            a,b=run(r1)
+            y1=(b+1)/k if (r1-a)>=(b-r1) else (a-1)/k
+        return y0,y1
+
+    rendered={}; provenance={}
+    for label,pno,cy0,cy1,_rt,_rb,emit_order,masks,hard_y0,hard_y1 in sorted(boxes,key=lambda b:b[6]):
+        render_right=INK[pno].content_r
+        if IS_ALEVEL and not masks:
+            cy0,cy1=snap_edges_to_blank(pno,cy0,cy1,render_right)

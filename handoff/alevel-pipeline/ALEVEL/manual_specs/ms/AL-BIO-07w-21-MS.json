@@ -1,0 +1,4 @@
+{
+ "reason": "Oct/Nov 2007 Paper 2 mark scheme: page 2 prints a marking-notation legend (A = accept, R = reject, AW = alternative wording, ora = or reverse argument, AVP = additional valid point; y75-138) above 1(a). It is not marking content for any question part and lies above the first segment, so the gate counts its 20 words as missing; it is whited out.",
+ "masks": [[2, 30, 74, 400, 139]]
+}

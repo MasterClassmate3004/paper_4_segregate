@@ -1,0 +1,29 @@
+# Maths 9709 worklist (started 2026-10-19)
+[done] sources: al_fetch_sources.py 9709 -> 1478/1479 fetched (Phase 0 approved, DP 1417 + PapaCambridge 62); FAIL 9709_s02_qp_6.pdf (stripped 4 pages vs Phase 0 3) -> check
+[open] Phase 0 held 225 9709 files: watermark_suspect 215 = whole sessions s19 (42), w24 (36), w25 (47), s26 (48, out of scope?) + strays; 10 iCloud read errors (al_fetch_sources --read-errors) -> look before the batch (s19/w24/w25 QPs absent)
+[done] calibration run mth_cal (7 papers: 24s-12/32/42/52, 17w-12, 13s-62, 07w-41): 7/7 PASS both gates after splitter b590d85 (IS_MATHS-gated; 3 approved Bio papers byte-identical); 23 contact sheets reviewed by eye, clean
+[decided 2026-10-20] blank answer grids (24s-52 Q4.b graph paper) are KEPT in their leaf
+[decided 2026-10-20] separately marked (a)/(b) under a roman are leaves (Q6.ii.stem + Q6.ii.a/b) -> splitter + leaf gate changed (commit above); calibration 7/7 PASS again
+[note] context placement: after a part's answer lines before the next label -> top of next leaf (Q8.b) or Qn.x.stem (page head / roman-as-part) -- both per house rule
+[next] after user approves calibration: batch all 9709 QPs (run mth_b1), dedupe aliases (pixel scan of same-session variants too), review groups <=40 sheets, 4-5 agents; then MS
+[done] batch mth_b1 730 QPs: 451 PASS first run; '[Question N is printed on the next page.]' furniture (4ef7211) -> 479 PASS
+[open] holds 251: coverage 166, leaves 27 (a/b-under-roman rule mismatch), REVIEW_REQUIRED ~38 -> see _HANDOFF.md
+[done] 2026-10-20 user OK: al_fetch_sources --recheck-held (184dbd1) -> 160/161 Phase 0-held DP files accepted clean: s19/w24/w25 63 QP + 63 MS, +34 older rotated-label false positives; still out: 9709_w11_ms_62 (watermark_suspect), 9709_s02_qp_6 (pages 4 vs 3), s26/m26 PapaCambridge. New QPs not yet in mth_b1 (told the Maths session)
+[2026-10-20 session 2] hold reduction (splitter IS_MATHS-gated; scratch runs mth_t (holds) / mth_b2 (full 730, comparison vs mth_b1)):
+  - maths_raised_question_rows: question's first row rising above its number (integral limits, superscripts, diagram label beside the number) -> cut in the white run above that ink (was: prev crop ended at the number row, next started 6 pt above -> sliced/duplicated)
+  - maths_row_gap_cut: raised limit on a child's own row taken as stem content -> needless 2-D seam; cut in the white run above the child's ink block instead (no prose row in it)
+  - alevel_answer_rows (maths): 'later' items ordered by the leaf's start (next question's '[2]' row was appended to the previous question)
+  - orphan_prose maths: NFKC ('deﬁned' ligature) -> 'The function g is defined by ...' page-head context claimed
+  - maths_bracket_hints: '[The volume of a cone is 1/3 pi r^2 h.]' after a leaf's mark -> that leaf (DECISION mine, report to user: hint goes with the leaf printed directly above it, also at question end)
+  - maths_drawings_across_bottom: sketch axes running below the x-axis labels kept whole
+  - maths_gap_above_grid: blank working space between prompt and printed graph-paper grid cut out (leaf = prompt + grid segments)
+  - trim_bottom_border maths: only a >=85%-width line is an answer-box border (ground line of a diagram kept)
+  - big-bracket text boxes taller than their ink: crop edge widened over white rows to the box centre (gate counts centres)
+  - letter tasks under a roman: inline '(ii) (a)' detected; leaves only when separately marked (same rule as the leaf gate)
+  - gate: '[Question N continues on the next page.]' furniture (bracketed form)
+  holds in scratch: 251 -> 22 ; Bio 3/3 byte-identical after each change
+  - then (commit 94420f5): copyright cap, mid-page copyright not orphan prose, blank axes after answer lines = leaf's extra segment, short context rows ('The median of X is m.', lone 'Hence'), diagram beside a question number opens its first crop, '(c) (ii)' reprinted part letter, fused label leaders ('AB.......', fused_marks opt-in for AL-MTH/AL-FMT in splitter + both gates)
+[done 2026-10-20] 96 more QPs added to mth_b1 (s19/w24/w25 + 34 re-checked files, sources from the Bio-MS session, commit 184dbd1); review/mth/all_qp2.txt = 826 QPs
+[done 2026-10-20] mth_b1 re-run in full at 94420f5: 814/826 PASS (was 479/730); identical to an independent full run; changed previously-PASS papers (17 + 5) viewed by eye, all improvements
+[open] 12 holds -> review/mth/manual_specs_needed.txt (6 image-only scans, 09s-71 combined 71+72 source, 3 footer/answer-row layouts, 2 genuine 2-D interleaves)
+[next, needs user OK] dedupe aliases (al_dedupe + pixel scan of same-session variants), sheets for PASS, review groups <=40 sheets, 4-5 agents (time one test agent first, df -h before each wave)

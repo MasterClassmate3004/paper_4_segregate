@@ -1,0 +1,4 @@
+{
+ "reason": "June 2005 Paper 4 mark scheme: the column-header row 'Question ... Marks' printed at the top of page 4 (y88-99, above 1(a)) has no 'Answer' word, so the gate does not recognise it as a header row and counts its two words as missing. It is not marking content and lies above the first segment; it is whited out.",
+ "masks": [[4, 10, 87, 560, 100.5]]
+}

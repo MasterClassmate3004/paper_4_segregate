@@ -1,0 +1,56 @@
+{
+ "reason": "Scanned 2002 Paper 5 mark scheme (no text layer). Question 2 (planning) is printed as '2 Assessment of Planning Skills' (p4 y93.5) and is marked by lettered skill points a-i, not by question-paper parts; the QP has Question 2 as one leaf, so its key is placed by hand at the printed '2' and the whole of Question 2 (p4-p6, including the p6 worked 'Examples' Methods 1-4 the scheme refers the examiner to) is kept as one crop. On p5 the 'Total for Paper 30.' line and the 'Turn over for Examples' page-turn instruction are not marking content and are whited out. In Question 1 the headings 'Compare experiments 2 and 3' (p3 y108.5, printed above '(b) (i)') and 'Compare experiments 2 and 4' (p3 y382, above '(c) (i)') introduce parts (b) and (c); the automatic cut gave them to 1(a) and 1(b)(iii), so they are cut by hand onto the top of 1(b)(i) and 1(c)(i).",
+ "add_keys": {
+  "Q2": [
+   4,
+   93.5,
+   70
+  ]
+ },
+ "masks": [
+  [
+   5,
+   422,
+   648,
+   540,
+   663
+  ],
+  [
+   5,
+   100,
+   682,
+   305,
+   705
+  ]
+ ],
+ "segments": {
+  "Q1.a": [
+   [
+    2,
+    99.75,
+    811.0
+   ]
+  ],
+  "Q1.b.i": [
+   [
+    3,
+    100.0,
+    147.0
+   ]
+  ],
+  "Q1.b.iii": [
+   [
+    3,
+    164.0,
+    372.0
+   ]
+  ],
+  "Q1.c.i": [
+   [
+    3,
+    372.0,
+    421.25
+   ]
+  ]
+ }
+}

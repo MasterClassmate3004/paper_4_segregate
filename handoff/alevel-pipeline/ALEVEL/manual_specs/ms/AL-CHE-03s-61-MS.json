@@ -1,0 +1,222 @@
+{
+ "reason": "Paper 6 (Options) section of the combined June 2003 booklet (pp30-39): keys are printed as '1. (a)', '4 (a)', '10. (a)' etc., which the splitter does not read (it found only '(b) (i)' and a stray Q1 key at the marking line '1 correct graph (1)', p30 y654.1), so every key is placed by hand at its printed line [page, line top pt, right edge of printed label]. Every printed label matches a QP leaf (Q2 is one part, keyed at '2.'). Masks hide the option headings Biochemistry (p30), Environmental Chemistry (p32), Phase Equilibria (p34), Spectroscopy (p36) and Transition Elements (p38). The question key Q1 is placed at the printed '1.' (p30 y110.2), which replaces that stray key so the line '1 correct graph (1)' stays in 1(b) unmasked.",
+ "add_keys": {
+  "Q1": [
+   30,
+   110.2,
+   81
+  ],
+  "Q1.a": [
+   30,
+   110.2,
+   121.5
+  ],
+  "Q1.b": [
+   30,
+   312.6,
+   122
+  ],
+  "Q2": [
+   31,
+   97.5,
+   81
+  ],
+  "Q3.a": [
+   32,
+   110.2,
+   121.5
+  ],
+  "Q3.b.i": [
+   32,
+   262.0,
+   145.5
+  ],
+  "Q3.b.ii": [
+   32,
+   299.9,
+   148.5
+  ],
+  "Q3.b.iii": [
+   32,
+   395.7,
+   151.5
+  ],
+  "Q3.b.iv": [
+   32,
+   469.5,
+   151.5
+  ],
+  "Q3.c": [
+   32,
+   547.5,
+   121.5
+  ],
+  "Q4.a": [
+   33,
+   97.5,
+   121.5
+  ],
+  "Q4.b": [
+   33,
+   287.0,
+   122
+  ],
+  "Q4.c": [
+   33,
+   439.8,
+   121.5
+  ],
+  "Q5.a.i": [
+   34,
+   110.2,
+   145.5
+  ],
+  "Q5.a.ii": [
+   34,
+   185.4,
+   148.5
+  ],
+  "Q5.b": [
+   34,
+   259.4,
+   122
+  ],
+  "Q5.c": [
+   34,
+   579.8,
+   121.5
+  ],
+  "Q6.a.i": [
+   35,
+   97.6,
+   145.5
+  ],
+  "Q6.a.ii": [
+   35,
+   388.5,
+   148.5
+  ],
+  "Q6.b.i": [
+   35,
+   477.0,
+   145.5
+  ],
+  "Q6.b.ii": [
+   35,
+   528.3,
+   148.5
+  ],
+  "Q6.b.iii": [
+   35,
+   566.2,
+   151.5
+  ],
+  "Q7.a": [
+   36,
+   110.2,
+   121.5
+  ],
+  "Q7.b.i": [
+   36,
+   285.2,
+   145.5
+  ],
+  "Q7.b.ii": [
+   36,
+   335.8,
+   148.5
+  ],
+  "Q7.b.iii": [
+   36,
+   361.1,
+   151.5
+  ],
+  "Q8.a": [
+   37,
+   84.6,
+   121.5
+  ],
+  "Q8.b": [
+   37,
+   463.7,
+   121.5
+  ],
+  "Q9.a": [
+   38,
+   110.2,
+   121.5
+  ],
+  "Q9.b": [
+   38,
+   262.0,
+   122
+  ],
+  "Q9.c": [
+   38,
+   337.9,
+   121.5
+  ],
+  "Q10.a": [
+   39,
+   95.5,
+   121.5
+  ],
+  "Q10.b.i": [
+   39,
+   198.1,
+   145.5
+  ],
+  "Q10.b.ii": [
+   39,
+   233.9,
+   148.5
+  ],
+  "Q10.c.i": [
+   39,
+   335.1,
+   145.5
+  ],
+  "Q10.c.ii": [
+   39,
+   425.6,
+   148.5
+  ]
+ },
+ "masks": [
+  [
+   30,
+   220,
+   83.5,
+   380,
+   97.5
+  ],
+  [
+   32,
+   220,
+   83.5,
+   380,
+   97.5
+  ],
+  [
+   34,
+   220,
+   83.5,
+   380,
+   97.5
+  ],
+  [
+   36,
+   220,
+   83.5,
+   380,
+   97.5
+  ],
+  [
+   38,
+   220,
+   83.5,
+   380,
+   97.5
+  ]
+ ]
+}

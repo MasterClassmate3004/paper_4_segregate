@@ -1,0 +1,50 @@
+{
+ "reason": "Scanned 2002 mark scheme: OCR misreads or loses keys ('8' read as '$', '(b) (i)' as '(b) (21.', '14 (b) (i)' as '(2)', '(c)' as '(e)', '(i)' as '@', and drops '(a) (i)' after '6' and '(i)' after '11 (b)'); keys placed by hand at their printed positions [page, line top pt, right edge of printed label].",
+ "add_keys": {
+  "Q6.a.i": [
+   4,
+   318.7,
+   128
+  ],
+  "Q6.a.ii": [
+   4,
+   332.0,
+   125
+  ],
+  "Q8.a": [
+   5,
+   121,
+   62
+  ],
+  "Q8.b.i": [
+   5,
+   209,
+   90
+  ],
+  "Q8.b.ii": [
+   5,
+   280,
+   95
+  ],
+  "Q11.b.i": [
+   5,
+   677.8,
+   100
+  ],
+  "Q14.b.i": [
+   6,
+   566,
+   128
+  ],
+  "Q14.c": [
+   6,
+   624,
+   100
+  ],
+  "Q16.c.i": [
+   7,
+   416.7,
+   100
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "reason": "The MS prints the key (c)(iii) twice on page 3: 'Worst acceptable straight line' belongs to QP (c)(ii) (draw best-fit AND worst acceptable line); the second (c)(iii) (gradient of best-fit line, under 'Conclusion') is QP (c)(iii). Page 4 'error in gradient' row is the (c)(iii) revisit.",
+ "segments": {"Q2.c.ii": [[3, 343.5, 419.0]], "Q2.c.iii": [[3, 419.0, 516.75], [4, 251.0, 288.75]]}
+}

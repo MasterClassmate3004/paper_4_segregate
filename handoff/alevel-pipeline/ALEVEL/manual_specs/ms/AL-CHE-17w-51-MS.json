@@ -1,0 +1,76 @@
+{
+ "reason": "Page 5 of this MS has a garbled text layer (split glyph runs such as 'Q uestion', 'Mar rks', 'Ca ambridge Interna ational', '2 2(e)(ii)'), so its keys 2(e)(i) (p5 y80.5), 2(e)(ii) (y298.5), 2(f)(i) (y322.9) and 2(f)(ii) (y493.5) were not read and the page-5 running header (y21-47), the 'Question Answer Marks' column-header row (y56-68) and the copyright footer (y550-559) were not recognised as furniture. The four keys are placed by hand at their printed lines and the page-5 header, column-header row and footer are whited out by position. Because the text-layer word boxes of the garbled labels do not match the drawn glyphs, the automatic label white-out left the printed '(e)(ii)' and the parenthesis tails of '2(e)(i)' and '2(f)(ii)' in the crops; the four printed labels in the Question column (x70-118) are whited out by hand.",
+ "add_keys": {
+  "Q2.e.i": [
+   5,
+   80.5,
+   106.2
+  ],
+  "Q2.e.ii": [
+   5,
+   298.5,
+   107.4
+  ],
+  "Q2.f.i": [
+   5,
+   322.9,
+   104.7
+  ],
+  "Q2.f.ii": [
+   5,
+   493.5,
+   105.9
+  ]
+ },
+ "masks": [
+  [
+   5,
+   55.0,
+   20.5,
+   790.0,
+   47.5
+  ],
+  [
+   5,
+   55.0,
+   55.0,
+   790.0,
+   69.5
+  ],
+  [
+   5,
+   55.0,
+   548.5,
+   790.0,
+   560.0
+  ],
+  [
+   5,
+   70.0,
+   78.5,
+   118.0,
+   95.5
+  ],
+  [
+   5,
+   70.0,
+   296.5,
+   118.0,
+   313.5
+  ],
+  [
+   5,
+   70.0,
+   321.0,
+   118.0,
+   338.0
+  ],
+  [
+   5,
+   70.0,
+   491.5,
+   118.0,
+   508.5
+  ]
+ ]
+}

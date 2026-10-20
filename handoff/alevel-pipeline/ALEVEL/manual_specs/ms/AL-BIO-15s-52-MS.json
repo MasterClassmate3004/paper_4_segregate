@@ -1,0 +1,11 @@
+{
+ "reason": "Paper 5 2015 MS pages 7-8 print question 2 as a ruled table with labels '2 (a)' (p7 y80), '(b)' (p8 y80.3), '(c) (i)' (y152.5), '(ii)' (y250.1), '(iii)' (y297.0), '(d)' (y394.6); the automatic key finder only found question 1, so all of Q2 was swallowed into the foot of 1(d)(iv). The six printed labels are placed by hand at their printed lines (label column ends before the marking text at x120).",
+ "add_keys": {
+  "Q2.a": [7, 80.0, 120],
+  "Q2.b": [8, 80.3, 120],
+  "Q2.c.i": [8, 152.5, 120],
+  "Q2.c.ii": [8, 250.1, 120],
+  "Q2.c.iii": [8, 297.0, 120],
+  "Q2.d": [8, 394.6, 120]
+ }
+}

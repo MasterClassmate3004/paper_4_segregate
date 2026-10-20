@@ -1,0 +1,5 @@
+{
+ "reason": "2011 Paper 53 mark scheme prints '2 (a) 3 of:' as a single shared header with one [max 3] mark total for the whole of part (a), followed by the labelled rows (i) cross 1 / cross 2 and (ii) cross 4. The automatic keys left the bare '2 (a)' header as an orphan. Since the 3 marks are awarded across (i) and (ii) together, Q2.a is kept whole (automatic Q2.a dropped with its children; hand segment p7 y95-287 on the blank rows between the table header and '(b)') so both Q2.a.i and Q2.a.ii see the whole part (a) scheme (parent_ms_covers_child_qp).",
+ "drop_keys": ["Q2.a"],
+ "segments": {"Q2.a": [[7, 95, 287]]}
+}

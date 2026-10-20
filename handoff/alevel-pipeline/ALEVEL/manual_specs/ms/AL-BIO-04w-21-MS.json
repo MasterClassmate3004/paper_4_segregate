@@ -1,0 +1,4 @@
+{
+ "reason": "Nov 2004 Paper 2 mark scheme: Question 5 prints its part labels (a), (b), (c), (c), (e): the line at p9 y275.0 ('(c) curve same shape with same optimum ... lower (starting at pH 1 ...)') is the scheme for the question paper's 5(d) ('Draw a curve on Fig. 5.1 ... at a temperature of 20 C'), so the printed '(d)' is misprinted as a second '(c)' (the first '(c)' at p9 y72.6, 'some enzymes active ... low pH ... denatured', marks 5(c) 'Explain why the activity of phosphatase is very low at pH 1'). The misprinted label is placed as Q5.d at its printed line (label right edge x104).",
+ "add_keys": {"Q5.d": [9, 275.0, 104.0]}
+}

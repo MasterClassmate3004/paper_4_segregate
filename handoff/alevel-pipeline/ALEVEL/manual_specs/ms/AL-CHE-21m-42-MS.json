@@ -1,0 +1,4 @@
+{
+ "reason": "On p9 the last table row, 5(b)(iv) (key printed at y395; mechanism diagram and M1-M3 down to y520), has no closing bottom rule, so the content band ended at the rule above it (y387) and the whole cell was cut off as if it were page furniture. The page's content bottom is moved by hand to y532 (footer '© UCLES 2021' at y550); the automatic key then resolves.",
+ "page_bottom": {"9": 532}
+}

@@ -1,0 +1,4 @@
+{
+ "reason": "MS prints one key 4(a)(i) for two lines; the QP asks (i) change in GPE and (ii) change in KE. Line 1 (GMm{...}) answers (i), line 2 (1/2 m{v1^2 - v2^2}) answers (ii).",
+ "segments": {"Q4.a.i": [[2, 512.0, 528.4]], "Q4.a.ii": [[2, 528.4, 545.0]]}
+}

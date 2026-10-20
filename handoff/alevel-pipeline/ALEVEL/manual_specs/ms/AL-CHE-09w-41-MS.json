@@ -1,0 +1,8 @@
+{
+ "reason": "QP 2(b) is a stem ('Suggest ... how the lattice energies of the following salts might compare with that of calcium chloride') with leaves (i) CaF2 and (ii) CaS. The MS prints on the (b) row the comparison mark shared by both salts, 'CaF2 and CaS both have larger lattice energies (than CaCl2) [1]' (p3 y127), then (i) 'F- is smaller than Cl-' and (ii) 'S2- is more highly charged than Cl-', with the [3] total. The (b) row is not a QP leaf and was left an orphan; it marks both parts, so its rows (p3 y113.5-144.2) are given to both Q2.b.i and Q2.b.ii, each followed by its own row.",
+ "drop_keys": ["Q2.b"],
+ "segments": {
+  "Q2.b.i": [[3, 113.5, 144.2], [3, 144.2, 169.5]],
+  "Q2.b.ii": [[3, 113.5, 144.2], [3, 169.5, 214.8]]
+ }
+}

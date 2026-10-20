@@ -1,0 +1,6 @@
+{
+ "reason": "The mark scheme marks 2(d) as one combined '(d) (i) and (ii)' table (element row, melting point row, conductivity row, one mark per column) [5], not separately per part: 2(d) is kept whole (p3 y455-612) and both QP parts (i) melting point and (ii) conductivity are shown the complete table; the printed 'and (ii)' label words are whited out.",
+ "drop_keys": ["Q2.d"],
+ "segments": {"Q2.d": [[3, 455.0, 612.0]]},
+ "masks": [[3, 112.4, 468.5, 149.7, 481.0]]
+}

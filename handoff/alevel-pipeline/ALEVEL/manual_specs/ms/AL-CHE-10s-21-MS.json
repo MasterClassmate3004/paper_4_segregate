@@ -1,0 +1,6 @@
+{
+ "reason": "QP 3(c)(iii) (explain why IF7 exists but ClF7 does not, [4] shared) is marked in the MS as two printed parts: (iii) 'I atom is larger than Cl atom' and (iv) 'cannot pack 7 F atoms around Cl atom ...' (p5 y456). The QP has no (c)(iv), so both points stay in Q3.c.iii (the automatic cut) and the printed '(iv)' label is masked.",
+ "masks": [
+  [5, 86.0, 455.7, 104.5, 468.2]
+ ]
+}

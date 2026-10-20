@@ -1,0 +1,14 @@
+{
+ "reason": "Summer 2003 Paper 5 mark scheme (component 5 of the combined file). Each question ends with a bold question total '(10)' (page 18 y386-397 after 1(b); page 19 y160-171 after 2(c); page 19 y539-550 after 3(d)) and the paper ends with 'Paper Total 30' (page 19 y565-576). The automatic cuts of 1(b), 2(c) and 3(d) ran on to the next question / end of content and kept these totals (3(d) kept a fragment 'Paper'). The three parts are cut by hand on the blank rows just below their last marking line, and the printed totals are whited out.",
+ "segments": {
+  "Q1.b": [[18, 304.5, 400]],
+  "Q2.c": [[19, 65.75, 175]],
+  "Q3.d": [[19, 482.25, 580]]
+ },
+ "masks": [
+  [18, 350, 382, 385, 402],
+  [19, 350, 156, 385, 178],
+  [19, 350, 535, 385, 558],
+  [19, 445, 562, 535, 578]
+ ]
+}

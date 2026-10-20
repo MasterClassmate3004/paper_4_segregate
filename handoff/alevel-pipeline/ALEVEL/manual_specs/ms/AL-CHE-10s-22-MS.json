@@ -1,0 +1,5 @@
+{
+ "reason": "QP 2(c) has parts (i) 'How does chlorine behave in its reaction with copper?' and (ii) 'Suggest a reason for the lack of a reaction between argon and chlorine' [2 for (c)]. The MS prints '(c) (i)' (p3 y301.7) and then four lines with no '(ii)' label ('oxidising agent or electron acceptor (1) / Ar has very high first I.E / or Ea for reaction is very high / or Ar has full valency shell/complete octet (1) [2]'), so Q2.c.ii was unresolved. As the MS does not print the (ii) label, the block is not divided by reading: the automatic 2(c)(i) key is dropped and 2(c) is kept whole (p3 y288-364) so both QP parts 2(c)(i) and 2(c)(ii) see the whole 2(c) scheme (parent_ms_covers_child_qp).",
+ "drop_keys": ["Q2.c"],
+ "segments": {"Q2.c": [[3, 288.0, 364.0]]}
+}

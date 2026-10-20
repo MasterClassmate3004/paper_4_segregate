@@ -1,0 +1,5 @@
+{
+ "reason": "Page 6 prints a repeated column-header row ('Questions | Expected answers | Extra guidance | Mark') whose 'Questions' is plural so it is not recognised as table furniture; it was being attached to the foot of 1(a)(iii). The header row is whited out and 1(a)(iii) is cut to its own rows on pages 4-5 (same rectangles as the automatic cut, minus the page-6 header strip).",
+ "masks": [[6, 40, 76, 800, 93]],
+ "segments": {"Q1.a.iii": [[4, 93.89, 540.7], [5, 93.89, 376.3]]}
+}

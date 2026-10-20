@@ -1,0 +1,7 @@
+{
+ "reason": "(1) The mark scheme misprints the key of 3(a) as '3(a)(i)' (p9 y80; answer 'number of possible arrangements ... AND energy', the definition of entropy asked by the QP's 3(a), which has no sub-parts); the key is placed by hand at that printed line as 3(a). (2) Question 5(c) is not marked (see absent).",
+ "add_keys": {"Q3.a": [9, 80.5, 108]},
+ "absent": {
+  "Q5.c": "The published 9701/42/M/J/25 mark scheme has no 5(c) row: on p11 the Question 5 table runs (b)(i), 5(b)(ii) (y105-130) and then 5(d)(i) (y142); nothing marks the QP's 5(c) (two equations showing how H2PO4- acts as a buffer, [2])."
+ }
+}

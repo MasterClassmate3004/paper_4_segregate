@@ -1,0 +1,77 @@
+{
+ "reason": "2004 Paper 5 mark scheme (component 5 of the combined 9700 June 2004 file, p26) prints one shared key '1 (b) (i) & (ii)' for question parts 1(b)(i) and 1(b)(ii); the automatic keys only matched (i), leaving Q1.b.ii unresolved. The shared scheme (spaces with six readings, time with units, means, 1.0 faster than 0.2, 5 marks) is shown for both parts: Q1.b.i and Q1.b.ii are both cut by hand on the same rows (p26 y223-292.3, between the end of 1(a)(ii) and the 1(b)(iii) line) and the printed '& (ii)' label is masked. Q2.c is also cut by hand (p26 y656-770) and the 'Total 8' and 'Paper Total 30' lines are whited out as totals (not marking points), because the automatic crop carried a stray 'Paper' fragment from the 'Paper Total 30' line. Column slices: the Additional Guidance cell of the 1(b)(iii) safety row (\"Accept mop up spills ... skin\", x388-527) starts beside the last two rows of the shared (i)&(ii) block (y265-292); rows y264.5-292.3 are split at x380 so that note goes to Q1.b.iii (above its goggles row and the note tail \"or any other sensible procedure relating to safety\").",
+ "segments": {
+  "Q1.b.i": [
+   [
+    26,
+    223,
+    264.5
+   ],
+   [
+    26,
+    264.5,
+    292.3,
+    113.5,
+    380.0
+   ]
+  ],
+  "Q1.b.ii": [
+   [
+    26,
+    223,
+    264.5
+   ],
+   [
+    26,
+    264.5,
+    292.3,
+    113.5,
+    380.0
+   ]
+  ],
+  "Q2.c": [
+   [
+    26,
+    656,
+    770
+   ]
+  ],
+  "Q1.b.iii": [
+   [
+    26,
+    264.5,
+    292.3,
+    380.0,
+    526.7
+   ],
+   [
+    26,
+    293.75,
+    312.25
+   ]
+  ]
+ },
+ "masks": [
+  [
+   26,
+   105,
+   227,
+   146,
+   239
+  ],
+  [
+   26,
+   100,
+   705,
+   560,
+   717
+  ],
+  [
+   26,
+   100,
+   748,
+   560,
+   766
+  ]
+ ]
+}

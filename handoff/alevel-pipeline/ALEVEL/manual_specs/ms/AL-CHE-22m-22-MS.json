@@ -1,0 +1,4 @@
+{
+ "reason": "The last answer-table row on p9, key '4(b)(iv)' (y198-236), falls outside the page's detected content band, so the key and its three 'step' lines were dropped. The page's content bottom is moved below that row (y241, above the blank space before the footer).",
+ "page_bottom": {"9": 241}
+}

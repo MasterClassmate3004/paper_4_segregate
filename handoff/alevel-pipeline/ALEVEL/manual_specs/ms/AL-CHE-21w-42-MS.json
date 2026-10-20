@@ -1,0 +1,4 @@
+{
+ "reason": "The mark scheme misprints the keys of 1(b) and 1(c) as '1(b)b' (p5 y158) and '1(c)c' (p5 y183), so the text layer does not read them as keys; both are placed by hand at their printed lines.",
+ "add_keys": {"Q1.b": [5, 158.2, 120], "Q1.c": [5, 183.0, 120]}
+}

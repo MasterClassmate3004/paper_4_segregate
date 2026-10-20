@@ -1,0 +1,33 @@
+{
+ "reason": "Scanned 2002 Paper 4 mark scheme: OCR lost or misread several printed sub-part labels, which are placed by hand from the picture: 1(b) p2 y157.6; 2(b)(iii) p3 y502.2; 3(c)(ii) p4 y635.1; 4(b)(i) p5 y109.2 and 4(b)(ii) p5 y169.4; 4(c)(iii) p5 y319.3 (OCR read '(ii)'); 5(c)(ii) p5 y723.6; 6(b)(ii) p6 y201.8 (OCR read '(i)'); 7(b)(iii) p7 y186.9; 7(c)(iii) p7 y322.5; and the '(i)' of the combined labels 6(a)(i), 7(b)(i), 7(c)(i) so the '(i)' is not left in the crop. 2(b)(i) says 'from graph (see next page)': the printed 'Graph for part (b)' at the top of p4 (y82-345) is 2(b)(i) marking content, so Q2.b.i is cut by hand to include it (its '2.' label is whited out). 7(a): the Y structure rises above the printed label line, so Q7.a is cut by hand from y398 on p6. 4(c)(ii)/(iii) and 5(a), 5(b)(i)-(iii) are cut by hand on the blank rows between the drawn structures/superscripts (the automatic cuts sliced the Br and ring drawings); their printed labels are whited out. The 'total: 11' of Q7 (p7) is whited out; the two whole-paper notes after it ('No circle in benzene ring ...', 'Sticks rather than C-H bonds ...') stay with 7(c)(iii), the last structure-drawing part.",
+ "add_keys": {
+  "Q1.b": [2, 157.6, 108],
+  "Q2.b.iii": [3, 502.2, 150],
+  "Q3.c.ii": [4, 635.1, 156],
+  "Q4.b.i": [5, 109.2, 153],
+  "Q4.b.ii": [5, 169.4, 156],
+  "Q4.c.iii": [5, 319.3, 162],
+  "Q5.c.ii": [5, 723.6, 154],
+  "Q6.a.i": [6, 90.9, 144],
+  "Q6.b.ii": [6, 201.8, 149],
+  "Q7.b.i": [7, 106.5, 151],
+  "Q7.b.iii": [7, 186.9, 160],
+  "Q7.c.i": [7, 239.7, 154],
+  "Q7.c.iii": [7, 322.5, 163]
+ },
+ "drop_keys": ["Q5.b"],
+ "segments": {
+  "Q2.b.i": [[3, 307.5, 467.25], [4, 82.0, 345.0]],
+  "Q4.c.ii": [[5, 269.5, 312.0]],
+  "Q4.c.iii": [[5, 312.0, 361.5]],
+  "Q5.a": [[5, 411.2, 514.5]],
+  "Q5.b.i": [[5, 514.5, 597.0]],
+  "Q5.b.ii": [[5, 597.0, 640.0]],
+  "Q5.b.iii": [[5, 640.0, 687.2]],
+  "Q7.a": [[6, 398.0, 612.0]]
+ },
+ "masks": [[4, 58.0, 84.0, 80.0, 101.0], [6, 50.0, 400.0, 115.0, 445.0],
+           [5, 135.0, 316.0, 166.0, 332.0], [5, 50.0, 446.0, 120.0, 465.0],
+           [5, 98.0, 527.0, 154.0, 546.0], [5, 135.0, 611.0, 158.0, 629.0], [5, 135.0, 652.0, 160.0, 670.0],
+           [7, 505.0, 400.0, 556.0, 414.0]]
+}

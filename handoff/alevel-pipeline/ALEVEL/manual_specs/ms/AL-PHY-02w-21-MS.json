@@ -1,0 +1,58 @@
+{
+ "reason": "Scanned 2002 mark scheme: page 1 is the cover (OCR noise read as a key); OCR loses or misreads keys ('2.' far left so Q2 (a)-(c) are lost, '(i)' read as '@', the (iii)1. and (c)(i) lines are dropped, 7(b)(ii) read as '(iii)'). Keys placed by hand at the printed line tops measured from the pixels [page, y pt, right edge of label].",
+ "skip_pages": [
+  1
+ ],
+ "add_keys": {
+  "Q2.a": [
+   2,
+   257,
+   72
+  ],
+  "Q2.b": [
+   2,
+   285.5,
+   72
+  ],
+  "Q2.c": [
+   2,
+   314,
+   72
+  ],
+  "Q5.b.iii": [
+   3,
+   270,
+   93
+  ],
+  "Q6.c.i": [
+   3,
+   472.5,
+   100
+  ],
+  "Q6.c.ii": [
+   3,
+   531,
+   100
+  ],
+  "Q7.a.i": [
+   4,
+   108,
+   100
+  ],
+  "Q7.b.i": [
+   4,
+   226,
+   100
+  ],
+  "Q7.b.ii": [
+   4,
+   285,
+   100
+  ],
+  "Q9.a.i": [
+   4,
+   432.1,
+   100
+  ]
+ }
+}

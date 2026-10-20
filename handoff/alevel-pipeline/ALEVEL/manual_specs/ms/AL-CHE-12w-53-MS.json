@@ -1,0 +1,33 @@
+{
+ "reason": "Pages 5-6 are an 'Appendix' after Question 3's 'Total [15]', which the automatic [Total] rule had dropped: page 5 'Guide for 2(b)(iii) and 2(b)(v)' is the table of masses of CuCO3 for each volume of gas by equations 2.1 and 2.2 (referred to by 2(b)(iii) 'See appendix to mark scheme'), so it is cut by hand into Q2.b (p5 y118-505, below the 'Appendix' and 'Guide for ...' headings); page 6 'Graphs for 3(b)' is the expected measured/calculated density curves, so it is cut by hand into Q3.b (p6 y92-540, below its heading). Q2.b and Q3.b keep their automatic rows on pages 2 and 4. On page 3 the 3(a) answer table spans the full page width, but the page is a continued answer table whose crop starts at the Sections column (x116), so the table's first column 'percentage by mass of sulphuric acid' (x55-127, values 0-100) cannot be included and its glyphs were sliced at the crop edge; that column is the QP-given row label (the QP prints it filled in, and it equals the 'mass of sulphuric acid /g' column beside it), carries no marking point, and is whited out so the crop shows the table from 'mass of sulphuric acid' on without cut glyphs. Page 3's 3(a) answer table spans the Question column, so page 3 crops run from the table's left rule (full_width_pages) instead of masking its first column.",
+ "masks": [],
+ "segments": {
+  "Q2.b": [
+   [
+    2,
+    462.8,
+    698.6
+   ],
+   [
+    5,
+    118.0,
+    505.0
+   ]
+  ],
+  "Q3.b": [
+   [
+    4,
+    74.9,
+    249.6
+   ],
+   [
+    6,
+    92.0,
+    540.0
+   ]
+  ]
+ },
+ "full_width_pages": [
+  3
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "reason": "Page 6 of this MS has a garbled text layer (split glyph runs such as '970 01/22', 'Ca ambridge Interna ational', 'Que estion', 'Ma arks', and each key split as '3(' + '(b)(ii)'), so the printed keys 3(b)(ii) (p6 y192.0), 3(c)(ii) (y320.8), 3(c)(iii) (y345.6), 3(c)(iv) (y370.0) and 3(d)(ii) (y418.9) were not read, and the page-6 running header (y21-47), the 'Question Answer Marks' column-header row (y56-68) and the copyright footer (y550-559) were not recognised as furniture. The five keys are placed by hand at their printed lines; the page-6 header, column-header row and footer are whited out by position, and because the garbled word boxes do not match the drawn glyphs, all eight printed labels in the page-6 Question column (x64-112) are whited out by hand.",
+ "add_keys": {
+  "Q3.b.ii": [6, 192.0, 100.2],
+  "Q3.c.ii": [6, 320.8, 99.9],
+  "Q3.c.iii": [6, 345.6, 101.1],
+  "Q3.c.iv": [6, 370.0, 101.4],
+  "Q3.d.ii": [6, 418.9, 100.2]
+ },
+ "masks": [
+  [6, 55.0, 20.5, 790.0, 47.5], [6, 55.0, 55.0, 790.0, 69.5], [6, 55.0, 548.5, 790.0, 560.0],
+  [6, 64.0, 79.0, 112.0, 95.0], [6, 64.0, 190.5, 112.0, 206.5], [6, 64.0, 295.0, 112.0, 311.0],
+  [6, 64.0, 319.0, 112.0, 335.5], [6, 64.0, 344.0, 112.0, 360.0], [6, 64.0, 368.5, 112.0, 384.5],
+  [6, 64.0, 393.0, 112.0, 409.0], [6, 64.0, 417.5, 112.0, 433.5]
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "reason": "9700/42 O/N 2009 mark scheme. (1) Page 8 prints the label of 8(c) as the copyright symbol '\u00a9' (y432.6; 'c' in a circle read by the text layer as \u00a9), so no key Q8.c was found; the line (1 photosynthesis takes place ... 3 max) is keyed Q8.c by hand. (2) Answer tables print the sub-part labels '(i)' (on the same line as the lettered part, e.g. '3 (a) (i)') and '(ii)', '(iii)' (set inside the Answer column, right of the Question column rule, where the splitter does not look for keys), so Q3(a), 4(a), 5(b), 5(d), 6(a) and 7(b) were each shown whole to every sub-part. The printed (i)/(ii)/(iii) labels are keyed by hand so each sub-part gets its own marking points.",
+ "add_keys": {
+  "Q8.c": [
+   8,
+   432.6,
+   85.0
+  ],
+  "Q3.a.i": [
+   3,
+   93.3,
+   122.5
+  ],
+  "Q3.a.ii": [
+   3,
+   117.8,
+   122.4
+  ],
+  "Q3.a.iii": [
+   3,
+   319.3,
+   122.4
+  ],
+  "Q4.a.i": [
+   4,
+   434.3,
+   122.5
+  ],
+  "Q4.a.ii": [
+   5,
+   81.9,
+   122.4
+  ],
+  "Q5.b.i": [
+   5,
+   508.5,
+   122.5
+  ],
+  "Q5.b.ii": [
+   5,
+   533.0,
+   122.4
+  ],
+  "Q5.b.iii": [
+   5,
+   633.3,
+   122.4
+  ],
+  "Q5.d.i": [
+   6,
+   81.9,
+   122.5
+  ],
+  "Q5.d.ii": [
+   6,
+   308.7,
+   122.4
+  ],
+  "Q5.d.iii": [
+   6,
+   383.7,
+   122.4
+  ],
+  "Q6.a.i": [
+   6,
+   571.8,
+   122.5
+  ],
+  "Q6.a.ii": [
+   6,
+   697.4,
+   122.4
+  ],
+  "Q7.b.i": [
+   7,
+   408.2,
+   122.5
+  ],
+  "Q7.b.ii": [
+   7,
+   432.6,
+   122.4
+  ],
+  "Q7.b.iii": [
+   7,
+   457.1,
+   122.4
+  ]
+ }
+}

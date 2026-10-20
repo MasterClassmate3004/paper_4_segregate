@@ -1,0 +1,270 @@
+{
+ "reason": "Scanned 2002 Options (Paper 6) mark scheme, typed with handwritten additions: OCR misreads or loses most keys ('1.' read as '4.', '2.' as 'Zz.', 5(d) '(d)' as '(a)', 8(c) '(c)' as '(e)', 9(c)(i) as '(c) fi)', 9(c)(iii) as '{iiiy', 6(b) lost) and reads specks as keys, so every key is placed by hand at its printed line [page, line top pt, right edge of printed label]. 2(b) is marked as one list ([max 6]) and covers QP 2(b)(i) and 2(b)(ii). Masks hide the option headings (Biochemistry, Environmental Chemistry, Phase Equilibria, Spectroscopy, Transition Elements). 10(b)(ii)'s last line and its total '[4]' are printed in the bottom 70 pt of p10 (to y793.4; no printed footer there), so page_bottom moves p10's content bottom to y798.",
+ "add_keys": {
+  "Q1": [
+   2,
+   209.0,
+   75
+  ],
+  "Q1.a": [
+   2,
+   209.0,
+   116
+  ],
+  "Q1.b": [
+   2,
+   290.4,
+   117
+  ],
+  "Q1.c": [
+   2,
+   388.4,
+   115
+  ],
+  "Q1.c.i": [
+   2,
+   388.4,
+   139
+  ],
+  "Q1.c.ii": [
+   2,
+   518.7,
+   142
+  ],
+  "Q1.c.iii": [
+   2,
+   582.0,
+   146
+  ],
+  "Q2.a": [
+   3,
+   173.7,
+   112
+  ],
+  "Q2.b": [
+   3,
+   467.1,
+   112
+  ],
+  "Q3.a": [
+   4,
+   208.5,
+   110
+  ],
+  "Q3.b": [
+   4,
+   347.6,
+   111
+  ],
+  "Q3.c": [
+   4,
+   445.5,
+   110
+  ],
+  "Q3.d": [
+   4,
+   550.4,
+   111
+  ],
+  "Q4.a": [
+   5,
+   168.2,
+   111
+  ],
+  "Q4.b.i": [
+   5,
+   308.1,
+   135
+  ],
+  "Q4.b.ii": [
+   5,
+   384.4,
+   138
+  ],
+  "Q4.b.iii": [
+   5,
+   510.3,
+   141
+  ],
+  "Q5.a.i": [
+   6,
+   106.3,
+   121
+  ],
+  "Q5.a.ii": [
+   6,
+   360.7,
+   124
+  ],
+  "Q5.b.i": [
+   6,
+   423.8,
+   120
+  ],
+  "Q5.b.ii": [
+   6,
+   461.0,
+   123
+  ],
+  "Q5.c": [
+   6,
+   523.4,
+   96
+  ],
+  "Q5.d": [
+   6,
+   586.6,
+   97
+  ],
+  "Q6.a": [
+   7,
+   145.2,
+   105
+  ],
+  "Q6.b": [
+   7,
+   386.0,
+   108
+  ],
+  "Q6.c": [
+   7,
+   676.1,
+   110
+  ],
+  "Q7.a": [
+   8,
+   100.5,
+   86
+  ],
+  "Q7.b.i": [
+   8,
+   274.9,
+   111
+  ],
+  "Q7.b.ii": [
+   8,
+   339.2,
+   114
+  ],
+  "Q7.c": [
+   8,
+   391.9,
+   85
+  ],
+  "Q8.a.i": [
+   9,
+   82.5,
+   135
+  ],
+  "Q8.a.ii": [
+   9,
+   109.4,
+   138
+  ],
+  "Q8.b": [
+   9,
+   186.2,
+   111
+  ],
+  "Q8.c": [
+   9,
+   273.3,
+   111
+  ],
+  "Q8.d": [
+   9,
+   376.4,
+   111
+  ],
+  "Q9.a": [
+   9,
+   594.3,
+   118
+  ],
+  "Q9.b.i": [
+   9,
+   669.4,
+   142
+  ],
+  "Q9.b.ii": [
+   9,
+   696.2,
+   144
+  ],
+  "Q9.c.i": [
+   10,
+   82.8,
+   141
+  ],
+  "Q9.c.ii": [
+   10,
+   210.2,
+   143
+  ],
+  "Q9.c.iii": [
+   10,
+   248.1,
+   146
+  ],
+  "Q10.a.i": [
+   10,
+   392.7,
+   145
+  ],
+  "Q10.a.ii": [
+   10,
+   512.0,
+   146
+  ],
+  "Q10.b.i": [
+   10,
+   625.0,
+   143
+  ],
+  "Q10.b.ii": [
+   10,
+   661.7,
+   145
+  ]
+ },
+ "masks": [
+  [
+   2,
+   60,
+   187,
+   140,
+   202
+  ],
+  [
+   4,
+   55,
+   181,
+   196,
+   196
+  ],
+  [
+   6,
+   42,
+   79,
+   136,
+   94
+  ],
+  [
+   8,
+   30,
+   73,
+   112,
+   88
+  ],
+  [
+   9,
+   62,
+   566,
+   178,
+   580
+  ]
+ ],
+ "page_bottom": {
+  "10": 798
+ }
+}

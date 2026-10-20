@@ -1,0 +1,14 @@
+{
+ "reason": "(1) Question 1 of this 2005 Paper 5 mark scheme does not follow the QP parts: it starts at '1 (b)' (p4 y76) and the three marks of QP 1(a) [3] (recording the weighings in Tables 1.1/1.2) are printed as an unlabelled 'ACCURACY - CANDIDATE SCRIPTS ... [3]' block inside (c) (p4 y208-475), with a 2-d.p. deduction note under (b). Since the MS does not label 1(a), question 1 is kept whole: the automatic Q1 keys are dropped and Q1 is cut by hand over p4 y72-650 (to the '[Total: 8]' line, which is whited out), so every Q1 leaf (a)-(f) is shown the complete Q1 mark scheme (parent_ms_covers_child_qp). (2) Question 2: the 'Graph' heading of 2(b) (p7 y76) fell into 2(a)'s crop, and the boxed alternative scheme for Centres without the Erratum slip (p8 y87-537: 'mark the remainder of the question as below', then 'Graph' [3], '(c)' [0], '(d)' [1], '(e)' [1], '(f)' [2]) was all appended to 2(f). Its printed labels follow the QP parts, so each alternative part is cut by hand onto its own part after the main scheme: 2(a) = p5-p6 only; 2(b) = p7 y70-364 plus the box heading and alternative Graph p8 y84-302; 2(c) + p8 y302-342; 2(d) + p8 y342-414; 2(e) + p8 y414-450; 2(f) + p8 y450-545 (the '[Total: 12]' line is whited out). The alternative labels '(c)', '(d)', '(e)', '(f)' (p8 x127-141) are whited out by hand.",
+ "drop_keys": ["Q1"],
+ "segments": {
+  "Q1": [[4, 72, 650]],
+  "Q2.a": [[5, 69.75, 794.28], [6, 63.6, 794.28]],
+  "Q2.b": [[7, 70, 364], [8, 84, 302]],
+  "Q2.c": [[7, 364, 452.5], [8, 302, 342]],
+  "Q2.d": [[7, 452.5, 507.5], [8, 342, 414]],
+  "Q2.e": [[7, 507.5, 533.25], [8, 414, 450]],
+  "Q2.f": [[7, 533.25, 794.28], [8, 450, 545]]
+ },
+ "masks": [[8, 126.5, 308.5, 142, 321], [8, 126.5, 353.2, 142.5, 365.5], [8, 126.5, 426.1, 142, 438.5], [8, 126.5, 458, 139.5, 470.5]]
+}

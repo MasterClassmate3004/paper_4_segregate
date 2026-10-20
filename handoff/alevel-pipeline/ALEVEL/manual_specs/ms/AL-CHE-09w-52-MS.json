@@ -1,0 +1,7 @@
+{
+ "reason": "The MS misprints the key of 1(g) as '(h)' (p2 y602; there is no (g) and the QP has no (h)): the row 'Use of gloves / protective clothing / eye or face protection' answers QP 1(g) (precaution for harmful HCl / corrosive NaOH), so the key is placed by hand at the printed '(h)'. Page 5 is an 'Appendix' of expected tables for 2(a), 3(a) and 3(c). The 2(a) table (p5 y101-310, 'See appendix' in 2(a)) had been carried into the end of Q3.d: it is cut by hand into Q2.a, and Q3.d ends on page 4. The 'Appendix' heading and the printed '2 (a)' label are whited out, as are the 'Qn N Total [n]' lines that close each question.",
+ "add_keys": {"Q1.g": [2, 601.8, 85.0]},
+ "masks": [[5, 48.6, 75.2, 100.7, 87.4], [5, 48.6, 100.5, 85.3, 112.6],
+           [2, 48.6, 638.4, 541.4, 651.5], [3, 48.6, 446.1, 541.4, 459.2], [4, 48.6, 217.6, 541.4, 230.7]],
+ "segments": {"Q2.a": [[3, 88.5, 165.5], [5, 97.0, 321.75]], "Q3.d": [[4, 152.0, 240.0]]}
+}

@@ -1,0 +1,42 @@
+{
+ "reason": "2007 Paper 4 mark scheme prints a four-line abbreviation key at the top of its first content page (p2 y91-140: 'A = accept', 'R = reject', 'AW = alternative wording', 'ora = or reverse argument') above question 1(a). It is general marking-instruction preamble, not the marking of any question part, so it is whited out by hand (the 15 words reported missing). The 'Section B' heading and column-header row at the top of p8, which the splitter drops as an appendix of Q9.b, are already excluded from the Q9.b crop and need no override. Question 1 is printed as one table whose rows carry the (b) and (c) labels: header row 'unicell P | unicell R' (p2 y229-242), the 'kingdom' row labelled (b) (y242-280), then the 'features' block labelled (c) whose first row (1: '0.5 - 5 um | up to 40um', y282-293) is printed above the '(c)' label. The automatic cut put the table header at the foot of 1(a) and feature row 1 at the foot of 1(b) (and left the (c) block without its first row), so Q1.a, Q1.b and Q1.c are cut by hand on the table rules: 1(a) p2 y150-224 (marking text only), 1(b) y224-280.8 (table header plus the kingdom row), 1(c) y280.8-681 (feature rows 1-8, '[5 max]' and the notes); the 'Total: 9' line below is whited out.",
+ "masks": [
+  [
+   2,
+   30,
+   88,
+   600,
+   143
+  ],
+  [
+   2,
+   450,
+   687,
+   600,
+   701
+  ]
+ ],
+ "segments": {
+  "Q1.a": [
+   [
+    2,
+    150,
+    224
+   ]
+  ],
+  "Q1.b": [
+   [
+    2,
+    224,
+    280.8
+   ]
+  ],
+  "Q1.c": [
+   [
+    2,
+    280.8,
+    681
+   ]
+  ]
+ }
+}

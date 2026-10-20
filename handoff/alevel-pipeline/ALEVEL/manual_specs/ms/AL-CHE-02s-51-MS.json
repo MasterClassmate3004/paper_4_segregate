@@ -1,0 +1,114 @@
+{
+ "reason": "Scanned 2002 Paper 5 mark scheme. Its parts follow the question paper's printed labels (1(a)-(g), 2(a)-(e)), so parts are kept separate; OCR lost the printed labels 1(d) (p4 y142), 1(e) (p4 y209.4) and 2(c) (p5 y510.3), which are placed by hand. 1(d) (Experiment 2, QP [3]) prints 'MARK THE GRAPH BEFORE ASSESSING MARKS FOR ACCURACY' and its 3 marks are the 'ACCURACY MARKS' table printed after 1(g) (p4 y550-776; 1(g) is worth [1]), so that block is appended to Q1.d. The 'Calculations' heading and boxed note 'In all calculations, ignore evaluation errors if working is shown' (p3 y185-255) cover both calculation parts 1(b) and 1(c) and are shown with each. 1(b)/1(c) are cut by hand on blank rows (the automatic cuts sliced the printed fractions), and Q1.a keeps the opening N.B. about the Standing Instructions booklet (p2 y120) that its boxed references rely on. 1(b) is also placed by hand at its printed '(b)' (p3 y291.8) so the automatic scan-label clean-up does not white out the 'i' of the following 'Give' (OCR read it as a roman label). The printed 'Total for Question 2 is 9' line (p5 y769) is whited out.",
+ "add_keys": {
+  "Q1.d": [
+   4,
+   142.0,
+   54
+  ],
+  "Q1.e": [
+   4,
+   209.4,
+   53
+  ],
+  "Q2.c": [
+   5,
+   510.3,
+   73
+  ],
+  "Q1.b": [
+   3,
+   291.8,
+   106
+  ]
+ },
+ "segments": {
+  "Q1.a": [
+   [
+    2,
+    118.0,
+    742.0
+   ]
+  ],
+  "Q1.b": [
+   [
+    3,
+    185.0,
+    255.0
+   ],
+   [
+    3,
+    275.0,
+    340.0
+   ]
+  ],
+  "Q1.c": [
+   [
+    3,
+    185.0,
+    255.0
+   ],
+   [
+    3,
+    345.0,
+    405.0
+   ]
+  ],
+  "Q1.d": [
+   [
+    4,
+    135.0,
+    191.0
+   ],
+   [
+    4,
+    550.0,
+    778.0
+   ]
+  ],
+  "Q1.e": [
+   [
+    4,
+    191.0,
+    421.0
+   ]
+  ],
+  "Q1.g": [
+   [
+    4,
+    497.0,
+    550.0
+   ]
+  ]
+ },
+ "masks": [
+  [
+   4,
+   38.0,
+   139.0,
+   58.0,
+   155.0
+  ],
+  [
+   4,
+   38.0,
+   206.0,
+   57.0,
+   224.0
+  ],
+  [
+   4,
+   38.0,
+   501.0,
+   58.0,
+   517.0
+  ],
+  [
+   5,
+   418.0,
+   766.0,
+   545.0,
+   780.0
+  ]
+ ]
+}

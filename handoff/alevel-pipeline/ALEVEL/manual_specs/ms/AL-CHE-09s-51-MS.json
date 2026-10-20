@@ -1,0 +1,11 @@
+{
+ "reason": "1(b): the label '(ii)' is printed on the second line of the second marking point (p2 y231.9, beside 'dependent variable...'), not at its first line 'Volume/amount/mass of gas collected identified as the' (y219.2), so the automatic cut split that point across (b)(i) and (b)(ii). Q1.b.i and Q1.b.ii are cut by hand at the blank row between the two marking points (p2 y215); the printed '(ii)' stays masked as the key label. 1(f): the QP part (f) has no sub-parts but the MS prints (f)(i), (ii), (iii) as the three marks of one answer; the whole (f) block is kept for QP 1(f) and the printed '(ii)' (p3 y107) and '(iii)' (p3 y132) labels are masked.",
+ "segments": {
+  "Q1.b.i": [[2, 177.5, 215.0]],
+  "Q1.b.ii": [[2, 215.0, 252.5]]
+ },
+ "masks": [
+  [3, 94.6, 106.6, 110.6, 119.1],
+  [3, 91.6, 131.9, 110.6, 144.4]
+ ]
+}

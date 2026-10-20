@@ -1,0 +1,5 @@
+{
+ "reason": "The mark scheme prints 3(c)(i) and 3(c)(ii) as one block under '(c) (i)' with no '(ii)' label: the n(S2Cl2) = 0.02 line answers (i), and the 0.96/32.1 = 0.03 mol S and 1.0 mol S2Cl2 -> 1.5 mol S lines (p5 y143-204) answer the QP's (ii) (moles of S from 1.0 mol S2Cl2). The omitted (ii) key is placed by hand at the first of those lines. 4(b) answer is a picture (cis/trans structures, p5 x97-319) that starts left of the text column, so the automatic crop cut off the cis H3C group: the 4(b) key is re-placed with its printed '(b)' label kept out of the label set (so the crop's left edge follows the label column and the whole picture is kept) and the '(b)' label is whited out by a hand mask.",
+ "add_keys": {"Q3.c.ii": [5, 143.3, 105], "Q4.b": [5, 593.5, 60]},
+ "masks": [[5, 69.4, 593.0, 86.4, 605.5]]
+}

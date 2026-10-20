@@ -1,0 +1,5 @@
+{
+ "reason": "Nov 2012 Paper 51 mark scheme (landscape table). 2(d) is the last part of the paper: its marking rows end with '[max 3]' (page 6 y475-486) above the table rule at y490, then the printed question-total row '[10]' (y499-510, x746-770) and 'Total:' (y512-523, x480-520) follows. The automatic cut ran on to the page footer and kept the total row. 2(d) is cut by hand just above the rule (y489.5) and the '[10] Total:' row is whited out.",
+ "segments": {"Q2.d": [[6, 366.4, 489.5]]},
+ "masks": [[6, 440, 494, 790, 530]]
+}

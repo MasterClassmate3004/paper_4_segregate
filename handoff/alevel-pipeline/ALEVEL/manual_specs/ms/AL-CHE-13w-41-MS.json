@@ -1,0 +1,62 @@
+{
+ "reason": "Page 9 (Question 7) has a garbled text layer (duplicated glyphs: '7 ( (a)', '( (b) )', '(i i)', '(ii i)', '\u00a9 Ca amb brid dge'), so the splitter read only the bare '7' key, gave all of Question 7 to every QP leaf, and did not recognise the footer, which showed at the foot of the shared crop. The printed keys are placed by hand from the picture at their printed lines: 7(a) y75.4, (b) y353.7, (c) y455.1 (label right edge x86), (d)(i) y543.4 and (ii) y606.9 (label right edge x104). The MS prints a further '(iii)' (p9 y657.5, 'Second extraction ... mass extracted = 2.67 + 0.89 = 3.56/3.6 g') but the QP's 7(d) has only (i) 0.050 dm3 and (ii) two successive portions of 0.025 dm3: the MS's (ii) 'First extraction' and (iii) 'Second extraction' together answer the QP's (d)(ii), so 7(d)(ii) is cut by hand over both (p9 y600-764, ending above the '[Total: 11]' line and the footer) and the printed '(iii)' label is whited out by a hand mask. Because the text layer is garbled, the '[Total: 11]' line (p9 y771-782) and the footer '\u00a9 Cambridge International Examinations 2013' (p9 y796.7-806.7) are not recognised as a total/footer by the rules; both are page furniture outside every crop and are whited out by hand masks.",
+ "add_keys": {
+  "Q7.a": [
+   9,
+   75.4,
+   86
+  ],
+  "Q7.b": [
+   9,
+   353.7,
+   86
+  ],
+  "Q7.c": [
+   9,
+   455.1,
+   86
+  ],
+  "Q7.d.i": [
+   9,
+   543.4,
+   104
+  ],
+  "Q7.d.ii": [
+   9,
+   606.9,
+   104
+  ]
+ },
+ "segments": {
+  "Q7.d.ii": [
+   [
+    9,
+    600.0,
+    764.0
+   ]
+  ]
+ },
+ "masks": [
+  [
+   9,
+   85.5,
+   656.8,
+   104.5,
+   669.5
+  ],
+  [
+   9,
+   491.5,
+   770.5,
+   547.0,
+   783.5
+  ],
+  [
+   9,
+   194.0,
+   796.0,
+   401.0,
+   807.5
+  ]
+ ]
+}

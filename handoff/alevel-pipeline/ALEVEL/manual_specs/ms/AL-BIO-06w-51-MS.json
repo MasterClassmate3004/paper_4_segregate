@@ -1,0 +1,151 @@
+{
+ "reason": "Oct/Nov 2006 Paper 5 mark scheme is a Qn / G / Expected Answers / Marks / Additional Guidance table whose Qn column prints the full part labels '1 a', '1 b', '1 c', '2 a', '2 b i', '2 b ii', '2 b iii', '2 b iv'. The splitter only recognised the bare '1' and '2' of the '1 c' and '2 b iv' lines, so 1(a), 1(b), 2(a) and 2(b)(i)-(iii) had no cut. The automatic Q1/Q2 keys are dropped and every part is cut by hand on the blank rows between the printed labels (p2), each printed Qn label whited out. The column-header row (p2 y75-85), the two 'Total 15' lines and the 'Paper 30' line are not marking points and are whited out (the gate does not recognise 'Qn ... Expected Answers' as a header row).",
+ "drop_keys": [
+  "Q1",
+  "Q2"
+ ],
+ "segments": {
+  "Q1.a": [
+   [
+    2,
+    87,
+    152
+   ]
+  ],
+  "Q1.b": [
+   [
+    2,
+    152,
+    254
+   ]
+  ],
+  "Q1.c": [
+   [
+    2,
+    254,
+    385.3
+   ]
+  ],
+  "Q2.a": [
+   [
+    2,
+    399.5,
+    485
+   ]
+  ],
+  "Q2.b.i": [
+   [
+    2,
+    485,
+    552
+   ]
+  ],
+  "Q2.b.ii": [
+   [
+    2,
+    552,
+    666
+   ]
+  ],
+  "Q2.b.iii": [
+   [
+    2,
+    666,
+    710
+   ]
+  ],
+  "Q2.b.iv": [
+   [
+    2,
+    710,
+    738
+   ]
+  ]
+ },
+ "masks": [
+  [
+   2,
+   40,
+   89.5,
+   100,
+   101.0
+  ],
+  [
+   2,
+   40,
+   156.8,
+   100,
+   168.3
+  ],
+  [
+   2,
+   40,
+   258.6,
+   100,
+   270.1
+  ],
+  [
+   2,
+   40,
+   399.7,
+   100,
+   411.2
+  ],
+  [
+   2,
+   40,
+   490.0,
+   100,
+   501.5
+  ],
+  [
+   2,
+   40,
+   557.2,
+   100,
+   568.7
+  ],
+  [
+   2,
+   40,
+   670.5,
+   100,
+   682.0
+  ],
+  [
+   2,
+   40,
+   714.8,
+   100,
+   726.3
+  ],
+  [
+   2,
+   40,
+   73,
+   560,
+   86.5
+  ],
+  [
+   2,
+   40,
+   385.6,
+   560,
+   399
+  ],
+  [
+   2,
+   40,
+   738.5,
+   560,
+   751.5
+  ],
+  [
+   2,
+   40,
+   752.5,
+   560,
+   766
+  ]
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "reason": "June 2007 Paper 5 mark scheme is a ruled table that repeats its column-header row 'Question Sections Indicative material Mark' at the top of every page. 1(f), 2(b) and 2(e) run to the foot of pages 3, 4 and 5, and the automatic cut carried each of them onto the next page's header row only (p4 y89, p5 y89, p6 y88; no marking content above the next key), so they are cut by hand to end at their page foot: Q1.f p3 y597.5-795.7, Q2.b p4 y266-795.7, Q2.e p5 y481.5-795.7. Page 7, after Question 2's '[Total: 15]', is an 'Appendix / Data for Question 2' that the [Total] rule had dropped: (1) the completed results table with the processed columns D (B-A), E (C-A), F (B-C)/(D-E) and the note 'Zero required as second decimal place. Treat each error as a separate error' (p7 y160-545) is the expected answer to QP 2(a) (process the results into the additional columns D-F; its marks are 'correct subtractions' and 'each subtraction recorded to 1 decimal place ... separate error'), so it is appended to Q2.a; (2) the table 'Candidate plots the following masses: y axis / x axis / equation (slope x (201 + 35.5x) = 201 ...)' (p7 y575-742) gives the slope equations used to calculate x in HgClx, which is QP 2(e) (derive x from the graph), so it is appended to Q2.e. The 'Appendix' and 'Data for Question 2' headings (p7 y88-125) are whited out. Question 1(d) is marked as seven points '(i)'..'(vii)' [7] while QP 1(d) lists only six parts (i)-(vi): MS (vii) (p3 y216-292, 'Do not accept concentrations greater than 2 mol dm-3 [1] / The plan is presented logically with an effective way of preventing loss of gas / dropping or thistle funnels permitted ... without loss of gas', with the (d) total [7]) has no QP part of its own and marks the plan as a whole, so it is not given to one part by reading: its row is cut by hand (p3 y209.5-293.5, blank row above it) and appended to every QP part 1(d)(i)-(vi) after that part's own row, and its printed '(vii)' label is whited out. Q1.d.vi now ends at p3 y209.5.",
+ "segments": {
+  "Q1.d.i": [
+   [
+    2,
+    279.75,
+    362.0
+   ],
+   [
+    3,
+    209.5,
+    293.5
+   ]
+  ],
+  "Q1.d.ii": [
+   [
+    2,
+    362.0,
+    412.5
+   ],
+   [
+    3,
+    209.5,
+    293.5
+   ]
+  ],
+  "Q1.d.iii": [
+   [
+    2,
+    412.5,
+    450.5
+   ],
+   [
+    3,
+    209.5,
+    293.5
+   ]
+  ],
+  "Q1.d.iv": [
+   [
+    2,
+    450.5,
+    526.75
+   ],
+   [
+    3,
+    209.5,
+    293.5
+   ]
+  ],
+  "Q1.d.v": [
+   [
+    2,
+    526.75,
+    795.68
+   ],
+   [
+    3,
+    209.5,
+    293.5
+   ]
+  ],
+  "Q1.d.vi": [
+   [
+    3,
+    91.0,
+    209.5
+   ],
+   [
+    3,
+    209.5,
+    293.5
+   ]
+  ],
+  "Q1.f": [
+   [
+    3,
+    597.5,
+    795.68
+   ]
+  ],
+  "Q2.a": [
+   [
+    4,
+    101.0,
+    266.0
+   ],
+   [
+    7,
+    160.0,
+    545.0
+   ]
+  ],
+  "Q2.b": [
+   [
+    4,
+    266.0,
+    795.68
+   ]
+  ],
+  "Q2.e": [
+   [
+    5,
+    481.5,
+    795.68
+   ],
+   [
+    7,
+    575.0,
+    742.0
+   ]
+  ]
+ },
+ "masks": [
+  [
+   7,
+   48.0,
+   87.0,
+   160.0,
+   126.0
+  ],
+  [
+   3,
+   76.5,
+   217.5,
+   99.0,
+   230.0
+  ]
+ ]
+}

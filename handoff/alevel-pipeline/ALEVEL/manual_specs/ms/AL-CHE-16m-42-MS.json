@@ -1,0 +1,366 @@
+{
+ "reason": "Pages 4, 5, 8 and 9 of this MS have a garbled text layer (duplicated glyphs such as '(i ii)', '(ii ii)', '(iv v)', 'Pag P ge 4 Mar M k'), so the splitter read none of the keys of Questions 3, 4, 7 and 8 and lost the key sequence for the rest of the paper (Questions 5, 6 and 9 on the clean pages 6, 7 and 10 were then not found either). Every printed key of Questions 3-9 is placed by hand from the picture at its printed line (label right edges x85.7 for '(a)'/'(c)'/'(e)', x86.3 for '(b)'/'(d)', x104.8 for '(i)'..'(v)'): p4 3(a) y106, (b) y143, (c)(i) y265, (ii) y289, (d)(i) y389, (ii) y414, (iii) y534, (e)(i) y584, (ii) y659; p5 4(a)(i) y106, (ii) y131, (iii) y155, (iv) y180, (v) y204, (b)(i) y228.5, (ii) y266, (c) y290, (d) y314.5; p6 5(a)(i) y106, (ii) y156, (b) y193, (c) y307, (d) y384; p7 6(a) y107, (b) y307; p8 7(a)(i) y106, (ii) y182.5, (iii) y393, (b)(i) y417, (ii) y442, (iii) y466, (c)(i) y581, (ii) y654; p9 8(a) y106, (b) y181, (c)(i) y283, (ii) y320, (d) y361, (e)(i) y496.5, (ii) y534, (iii) y601; p10 9(a)(i) y106, (ii) y143, (b)(i) y168, (ii) y303.5, (c)(i) y423, (ii) y473, (iii) y497. On p5 the question number '4' (y106.0) falls in a different text row from '(a) (i)' (the superscript of '1st' splits the line), so it is placed as the bare key Q4 (label end x58) to white it out; Q4 itself has no rows of its own. On page 9 the answers to 8(c)(ii) (skeletal formula, y306-347) and 8(e)(ii) (skeletal formula, y519-575) are pictures printed above their '(ii)' labels, so the automatic cuts gave Q8.c.ii nothing and put the top of the 8(e)(ii) picture into Q8.e.i; 8(c)(i)/(ii) and 8(e)(i)/(ii) are cut by hand on the table rules between them (p9 y299.5 and y513): Q8.c.i y279.5-303, Q8.c.ii y303-356.75, Q8.e.i y492.5-516.5, Q8.e.ii y516.5-596.5. On the garbled pages the boxed running header (y35-62), the boxed 'Question Answer Mark' column-header row (y74-99) and the copyright footer (y797) are not recognised as furniture (the header box was being carried onto the tail of Q2.e.ii, Q3.e.ii, Q6.b and Q7.c.ii), so they are whited out by position.",
+ "add_keys": {
+  "Q3.a": [
+   4,
+   106.3,
+   85.7
+  ],
+  "Q3.b": [
+   4,
+   143.4,
+   86.3
+  ],
+  "Q3.c.i": [
+   4,
+   264.7,
+   104.8
+  ],
+  "Q3.c.ii": [
+   4,
+   289.4,
+   104.8
+  ],
+  "Q3.d.i": [
+   4,
+   389.0,
+   104.8
+  ],
+  "Q3.d.ii": [
+   4,
+   413.8,
+   104.8
+  ],
+  "Q3.d.iii": [
+   4,
+   534.3,
+   104.8
+  ],
+  "Q3.e.i": [
+   4,
+   584.0,
+   104.8
+  ],
+  "Q3.e.ii": [
+   4,
+   659.1,
+   104.8
+  ],
+  "Q4.a.i": [
+   5,
+   106.3,
+   104.8
+  ],
+  "Q4.a.ii": [
+   5,
+   130.7,
+   104.8
+  ],
+  "Q4.a.iii": [
+   5,
+   155.2,
+   104.8
+  ],
+  "Q4.a.iv": [
+   5,
+   179.6,
+   104.9
+  ],
+  "Q4.a.v": [
+   5,
+   204.1,
+   104.9
+  ],
+  "Q4.b.i": [
+   5,
+   228.5,
+   104.8
+  ],
+  "Q4.b.ii": [
+   5,
+   265.6,
+   104.8
+  ],
+  "Q4.c": [
+   5,
+   290.1,
+   85.7
+  ],
+  "Q4.d": [
+   5,
+   314.5,
+   86.3
+  ],
+  "Q7.a.i": [
+   8,
+   106.3,
+   104.8
+  ],
+  "Q7.a.ii": [
+   8,
+   182.5,
+   104.8
+  ],
+  "Q7.a.iii": [
+   8,
+   392.7,
+   104.8
+  ],
+  "Q7.b.i": [
+   8,
+   417.2,
+   104.8
+  ],
+  "Q7.b.ii": [
+   8,
+   441.6,
+   104.8
+  ],
+  "Q7.b.iii": [
+   8,
+   466.1,
+   104.8
+  ],
+  "Q7.c.i": [
+   8,
+   580.9,
+   104.8
+  ],
+  "Q7.c.ii": [
+   8,
+   653.9,
+   104.8
+  ],
+  "Q8.a": [
+   9,
+   106.3,
+   85.7
+  ],
+  "Q8.b": [
+   9,
+   181.3,
+   86.3
+  ],
+  "Q8.c.i": [
+   9,
+   283.1,
+   104.8
+  ],
+  "Q8.c.ii": [
+   9,
+   320.2,
+   104.8
+  ],
+  "Q8.d": [
+   9,
+   360.8,
+   86.3
+  ],
+  "Q8.e.i": [
+   9,
+   496.5,
+   104.8
+  ],
+  "Q8.e.ii": [
+   9,
+   533.8,
+   104.8
+  ],
+  "Q8.e.iii": [
+   9,
+   600.9,
+   104.8
+  ],
+  "Q5.a.i": [
+   6,
+   106.3,
+   104.9
+  ],
+  "Q5.a.ii": [
+   6,
+   156.3,
+   104.9
+  ],
+  "Q5.b": [
+   6,
+   193.4,
+   86.3
+  ],
+  "Q5.c": [
+   6,
+   306.9,
+   85.7
+  ],
+  "Q5.d": [
+   6,
+   383.6,
+   86.3
+  ],
+  "Q6.a": [
+   7,
+   107.4,
+   85.7
+  ],
+  "Q6.b": [
+   7,
+   307.1,
+   86.3
+  ],
+  "Q9.a.i": [
+   10,
+   106.0,
+   104.9
+  ],
+  "Q9.a.ii": [
+   10,
+   143.1,
+   104.9
+  ],
+  "Q9.b.i": [
+   10,
+   167.8,
+   104.9
+  ],
+  "Q9.b.ii": [
+   10,
+   303.5,
+   104.9
+  ],
+  "Q9.c.i": [
+   10,
+   423.0,
+   104.9
+  ],
+  "Q9.c.ii": [
+   10,
+   472.7,
+   104.9
+  ],
+  "Q9.c.iii": [
+   10,
+   497.2,
+   104.9
+  ],
+  "Q4": [
+   5,
+   104.2,
+   58.0
+  ]
+ },
+ "masks": [
+  [
+   4,
+   48.0,
+   34.5,
+   547.0,
+   63.5
+  ],
+  [
+   4,
+   44.0,
+   72.5,
+   551.0,
+   101.4
+  ],
+  [
+   4,
+   190.0,
+   795.2,
+   405.0,
+   808.0
+  ],
+  [
+   5,
+   48.0,
+   34.5,
+   547.0,
+   63.5
+  ],
+  [
+   5,
+   44.0,
+   72.5,
+   551.0,
+   101.4
+  ],
+  [
+   5,
+   190.0,
+   795.2,
+   405.0,
+   808.0
+  ],
+  [
+   8,
+   48.0,
+   34.5,
+   547.0,
+   63.5
+  ],
+  [
+   8,
+   44.0,
+   72.5,
+   551.0,
+   101.4
+  ],
+  [
+   8,
+   190.0,
+   795.2,
+   405.0,
+   808.0
+  ],
+  [
+   9,
+   48.0,
+   34.5,
+   547.0,
+   63.5
+  ],
+  [
+   9,
+   44.0,
+   72.5,
+   551.0,
+   101.4
+  ],
+  [
+   9,
+   190.0,
+   795.2,
+   405.0,
+   808.0
+  ]
+ ],
+ "segments": {
+  "Q8.c.i": [
+   [
+    9,
+    279.5,
+    303.0
+   ]
+  ],
+  "Q8.c.ii": [
+   [
+    9,
+    303.0,
+    356.75
+   ]
+  ],
+  "Q8.e.i": [
+   [
+    9,
+    492.5,
+    516.5
+   ]
+  ],
+  "Q8.e.ii": [
+   [
+    9,
+    516.5,
+    596.5
+   ]
+  ]
+ }
+}

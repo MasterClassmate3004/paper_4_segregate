@@ -1,0 +1,5 @@
+{
+ "reason": "Pre-2007 Paper 5 mark scheme for question 1 is organised by skill (readings, graph, analysis) rather than by the question-paper parts, so it is kept whole: every Q1 leaf is shown the complete Q1 mark scheme (parent_ms_covers_child_qp).",
+ "drop_keys": ["Q1"],
+ "segments": {"Q1": [[16, 39, 812], [17, 39, 812], [18, 39, 68]]}
+}

@@ -1,0 +1,56 @@
+You fix Cambridge A Level Chemistry (9701) MARK SCHEME splits that the automatic MS splitter could not finish, by writing a
+small recorded OVERRIDE file per paper. Do not edit any .py file. Touch only your assigned papers.
+
+ENVIRONMENT  (QP_RUN=chem_b1 and MS_RUN=chem_ms1 unless your task message names other runs)
+  PY=/Users/nitya/.venvs/alevel/bin/python
+  S=/Users/nitya/rootatom_data/alevel-pipeline/ALEVEL/scripts
+  MS sources: /Users/nitya/rootatom_data/ALEVEL/source_papers/canonical/<MS_SOURCE>.pdf
+  Override file (create/edit): /Users/nitya/rootatom_data/alevel-pipeline/ALEVEL/manual_specs/ms/<MS_PREFIX>.json
+  Output: /Users/nitya/rootatom_data/ALEVEL/splits/<MS_RUN>/<MS_PREFIX>/ (crops <MS_PREFIX>-Q*.png, ms_splitter.log, ms_gate.log)
+  Scratch for your images: /Users/nitya/rootatom_data/ALEVEL/review/manual_work/<MS_PREFIX>/
+
+WHAT THE SPLITTER DOES
+  It cuts the MS by its printed keys ("1(c)(ii)", "(b)(i)", "2 (a)") into one crop per question-paper LEAF (the QP labels come
+  from the approved QP split). Mapping per QP leaf: exact key; or the nearest MS ancestor key covers the leaf
+  (parent_ms_covers_child_qp); or MS keys below the leaf stacked (children_ms_merged_for_parent_qp); else UNRESOLVED.
+  An MS key no leaf uses is an ORPHAN. The paper passes only with no unresolved, no orphans, no empty leaves, and a clean gate:
+  ms_gate.log "missing=0 duplicated=0 sliced=0 overlaps=0 furniture=0".
+
+TOOLS
+  1. Run one paper (QP prefix!):   $PY $S/al_run_ms.py <QP_RUN> <MS_RUN> --workers 1 --only <QP_PREFIX>
+     then read splits/<MS_RUN>/<MS_PREFIX>/ms_splitter.log (first line: keys/leaves/unresolved/orphans) and ms_gate.log.
+  2. Rows of an MS page in the splitter's coordinates (rotation removed; 1-based page):
+       $PY $S/al_ms_lines.py <MS_SOURCE>.pdf <PAGE> [--png <scratch>/p<PAGE>.png]   (then Read the png)
+  3. The QP labels: ls /Users/nitya/rootatom_data/ALEVEL/splits/chem_b2/<QP_PREFIX>/ (or splits/manual/<QP_PREFIX>/) -- the
+     crop names are the leaves; open a QP crop to see what a part asks.
+  4. Visual check, MS crops beside QP crops:
+       $PY $S/al_ms_sheet.py /Users/nitya/rootatom_data/ALEVEL/splits/<MS_RUN>/<MS_PREFIX> <MS_PREFIX> <QP_DIR> <QP_PREFIX> <scratch>/sheet --per 7 --width 1400
+     (QP_DIR = the folder from tool 3), then Read <scratch>/sheet_NN.jpg one at a time.
+
+OVERRIDE FORMAT (JSON; every override needs a "reason" saying what is printed and why)
+  "add_keys":   {"Q1.i": [page, y_top_of_printed_line, x_right_edge_of_printed_label]}   a key the text layer lost or misprinted
+  "drop_keys":  ["Q5.c"]                                   discard automatic keys (and their descendants)
+  "segments":   {"Q5.c.i": [[page, y0, y1], ...]}          cut a key's rows by hand (y in points, on blank rows)
+  "masks":      [[page, x0, y0, x1, y1]]                   white out a printed label inside a hand segment
+  "absent":     {"Q1.a": "reason"}                         a QP leaf the published MS genuinely does not mark
+  "page_bottom": {"7": 798}                                content printed in a scan's bottom 70 pt (otherwise taken as footer)
+  "full_width_pages": [3]                                  an answer table spanning the Question column: crop from its left rule
+  "keep_words": [[page, x0, y0]]                           a word in the label column that is marking text, not a repeated key
+  "skip_pages": [1]                                        pages that are not marking content (e.g. a scanned cover)
+  Pages are 1-based. Look at existing examples in the same folder (AL-PHY-*-MS.json, AL-CHE-25s-52-MS.json).
+
+RULES
+  - Never invent marking content. A misprinted key (e.g. "1(h)(i)" printed where 1(i) belongs, "4(c)(iv)" for the QP's
+    (c)(iii)) is fixed with add_keys at the printed line, and the reason names the misprint.
+  - Never assign unlabelled or numbered marking points to QP sub-parts by your own reading: when the MS does not print
+    the sub-part labels, keep the parent whole (its segment covers all the points) so every sub-part sees the whole scheme.
+  - Use "absent" only when the MS truly has no marking point for that leaf (say so in the reason).
+  - When the MS is organised differently from the QP (e.g. old Paper 5 by skill), keep the question whole with drop_keys +
+    segments on the question number so every leaf gets the whole question's scheme (see AL-PHY-02s-51-MS.json).
+  - Garbled text layers (duplicated glyphs like "(i ii)") or scans: place keys by hand from the picture.
+  - Each crop must show only its own marking points, no key labels, no page header/footer, nothing sliced.
+
+DONE = the paper's ms_splitter.log has MS_OK and ms_gate.log has missing=0 duplicated=0 sliced=0 overlaps=0 furniture=0, AND
+you looked at the MS sheet and every crop matches its QP part.
+
+REPORT (final reply): one line per paper: <MS_PREFIX>: DONE | STUCK - <why>; then doubts, one short line each.

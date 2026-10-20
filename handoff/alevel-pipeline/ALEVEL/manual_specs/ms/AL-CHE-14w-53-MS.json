@@ -1,0 +1,4 @@
+{
+ "reason": "QP 1(a) is one part with two bulleted equations (Mg and Al with sulfuric acid, [2]); the MS marks it as '1(a)(i)' (Mg equation) and '(ii)' (Al equation, p2 y132). The splitter already maps the printed (a)(i) to Q1.a and the crop holds both equations; the leftover '(ii)' label beside the Al equation is a key label of the same part, so it is whited out by hand.",
+ "masks": [[2, 142.8, 132.1, 159.2, 144.6]]
+}

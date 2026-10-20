@@ -1,0 +1,37 @@
+{
+ "reason": "Nov 2004 Paper 5 Question 2(a) (plan: QP (a)(i) prepare a saturated KClO3 solution [3], (a)(ii) determine its solubility [4]) is marked by alternative METHODS A-F, each with its own lettered marking points (a)-(g) and its own '(a) PREPARATION OF THE SATURATED SOLUTION' / 'DETERMINATION' headings (Methods D-F are determination only), printed from the '2' line (p7 y253) to the end of Method F (p11 y101). The MS prints no '2(a)' label of its own. The splitter read the marking-point letters inside Method A and Method B ('(a) PREPARATION' p8 y177/y456, '(b) Dissolving' p8 y253, '(b) Solid remains' p8 y532) as question parts 2(a)/2(b), which cut Method A mid-list and gave Q2.b the leftover Method A/B rows plus Methods C-F. The MS is organised by method, not by the QP sub-parts, so Question 2(a) is kept whole: the 'Q2.a' key is placed by hand on the '2' line (label right edge x76.7, the question number itself; this replaces the false automatic (a) keys so the marking-point letters stay visible), and QP 2(a)(i) and 2(a)(ii) both get the complete plan scheme, preamble and Methods A-F (parent_ms_covers_child_qp). The real 2(b) label is printed at p11 y114.2 ('(b) Variation of sodium bromide Solubility with temperature', right edge x102.6) and is placed by hand (replacing the false automatic (b) keys). The splitter took four marking-point letters in the label column as repeated 2(a)/2(b) keys and whited them out; they are marking text and are kept with keep_words: Method A '(a) Heating water' (p8 x106.6 y228.0), Method B '(a) Add solid' (p8 x106.6 y506.3), Method C '(b) PREPARATION OF THE SATURATED SOLUTION' (p9 x88.6 y347.6, printed '(b)' in the source) and Method C '(b) Dissolve solid' (p9 x106.6 y416.6).",
+ "add_keys": {
+  "Q2.a": [
+   7,
+   253.3,
+   76.7
+  ],
+  "Q2.b": [
+   11,
+   114.2,
+   102.6
+  ]
+ },
+ "keep_words": [
+  [
+   8,
+   106.6,
+   228.0
+  ],
+  [
+   8,
+   106.6,
+   506.3
+  ],
+  [
+   9,
+   88.6,
+   347.6
+  ],
+  [
+   9,
+   106.6,
+   416.6
+  ]
+ ]
+}

@@ -1,0 +1,4 @@
+{
+ "reason": "Pages 6-7 of this MS have a text layer split into glyph runs ('970 01/21 Ca ambridge Interna ational', '© U CLES 2017 Page 6 of 7'), so the copyright footer line (y549.7-558.6) of those pages is not recognised as furniture and the gate counts it as missing content. The footer line of pages 6 and 7 is whited out by position; it lies below every answer table, so no marking content is touched.",
+ "masks": [[6, 55.0, 548.5, 790.0, 560.5], [7, 55.0, 548.5, 790.0, 560.5]]
+}

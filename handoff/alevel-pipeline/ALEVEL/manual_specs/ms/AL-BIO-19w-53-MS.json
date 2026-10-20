@@ -1,0 +1,4 @@
+{
+ "reason": "Page 7 prints the label of 1(c)(iii) as '1(c)(iii)i' (a stray 'i' glued on; y80.5, 'from the graph / Fig. 1.3 ... pH 6.0 gives the highest absorbance', [2]); the key finder did not accept it, so QP Q1.c.iii was unresolved and its rows were swallowed by 1(c)(ii). The key is placed by hand at the printed line (label ends x112, before the answer text at x126).",
+ "add_keys": {"Q1.c.iii": [7, 80.5, 112]}
+}

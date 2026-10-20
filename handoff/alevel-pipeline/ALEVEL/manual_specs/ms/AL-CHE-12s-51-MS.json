@@ -1,0 +1,8 @@
+{
+ "reason": "Page 2: the printed '(ii)' of 1(a)(ii) (x88-105, y182) is set level with the SECOND line of its marking point 'A straight line terminating at the point of saturation with marked / co-ordinates: award 2 marks.' (p2 y169.4-193.2), so the automatic cut ran through that sentence: (a)(i) ended '...with marked' and (a)(ii) started 'co-ordinates: award 2 marks.'. Both parts are cut by hand on the blank row between the paragraphs (y162.25): (a)(i) keeps the first paragraph (the prediction, y105.9-155.3); (a)(ii) keeps the three graph-line paragraphs from the first line of the paragraph its printed label sits in (y169.4-281.7) down to the 1(b) row (y291.25). The automatic (ii) key stays, so its printed label is still whited out.",
+ "drop_keys": ["Q1.a.ii"],
+ "segments": {
+  "Q1.a.i": [[2, 102.25, 162.25]],
+  "Q1.a.ii": [[2, 162.25, 291.25]]
+ }
+}

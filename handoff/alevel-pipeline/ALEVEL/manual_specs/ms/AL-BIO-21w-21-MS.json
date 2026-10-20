@@ -1,0 +1,4 @@
+{
+ "reason": "Oct/Nov 2021 Paper 2 mark scheme p15: the second answer table (6(a)) opens with the column-header row 'Question Answer Marks' (y299-311) whose last word is printed 'Marks' followed by a thin-space character, so the gate does not recognise it as a header row and counts the three words as missing. It is column-header furniture between the 5(d) and 6(a) segments, not marking content; it is whited out.",
+ "masks": [[15, 40, 297, 790, 313.5]]
+}

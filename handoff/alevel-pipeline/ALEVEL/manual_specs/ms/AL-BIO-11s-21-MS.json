@@ -1,0 +1,9 @@
+{
+ "reason": "The automatic key finder stopped after 4(b): the printed keys '5 (a)' (p7 y480.4, the whole of question 5, a single QP leaf 'Q5' with marks [Total: 7]) and '6 (a)' (p8 y75.7), '(b)' (p8 y252.7), '(c)' (p8 y379.1) were not picked up although they are printed in the same layout as the other keys. They are added by hand at the printed lines. Q5 is keyed directly as the question-paper leaf (the MS prints only an (a) label for it).",
+ "add_keys": {
+  "Q5": [7, 480.4, 86],
+  "Q6.a": [8, 75.7, 86],
+  "Q6.b": [8, 252.7, 86],
+  "Q6.c": [8, 379.1, 86]
+ }
+}

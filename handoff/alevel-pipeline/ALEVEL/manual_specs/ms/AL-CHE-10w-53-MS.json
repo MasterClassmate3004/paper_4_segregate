@@ -1,0 +1,8 @@
+{
+ "reason": "The MS prints one combined key '(c)(i)(ii)' (p2 y369) for the single apparatus diagram of QP 1(c) (parts (i) collecting/measuring the oxygen and (ii) preventing its loss are drawn together, [3]); the text layer gives it as one token the splitter cannot read, so its rows had been carried into Q1.b. The key is placed by hand as Q1.c at the printed label, so both QP parts (c)(i) and (c)(ii) get the whole (c) scheme (parent_ms_covers_child_qp). Q2(d): the MS prints the '(ii)' key one mark too early (p5 y157, beside 'Correctly calculates the value of the gradient ... ECF incorrect intercepts [1]'). QP 2(d)(i) asks to determine K from the graph with construction lines and the slope calculation, and (d)(ii) whether the procedure is suitable; the gradient mark is (d)(i)'s second mark (as in the sister paper 9701/51/O/N/10 2(e)(i)), and 'Yes, since the results produce a good linear graph, the procedure is OK [1]' onwards is (d)(ii); (d) totals [3] = 2 + 1. So (d)(i) is cut by hand at p5 y102.5-187.5 and (d)(ii) at p5 y187.5-253.5; the printed '(ii)' label stays whited out.",
+ "add_keys": {"Q1.c": [2, 369.4, 108.6]},
+ "segments": {
+  "Q2.d.i": [[5, 102.5, 187.5]],
+  "Q2.d.ii": [[5, 187.5, 253.5]]
+ }
+}

@@ -1,0 +1,5 @@
+{
+ "reason": "Page 4 of this MS has a garbled text layer (duplicated glyphs such as 'P age e 4 Mar rk S Sche eme', '( (i) forw ward'), so its key '(b) (i)' (p4 y287.6) was read only as '(b)' and the running page header (y38-62), the 'Question Answer Mark Total' column-header row (y82) and the copyright footer (y550) were not recognised as furniture. The key 3(b)(i) is placed by hand at its printed line, and the page-4 header, column-header row and footer are whited out by position.",
+ "add_keys": {"Q3.b.i": [4, 287.6, 116.4]},
+ "masks": [[4, 150.0, 36.5, 700.0, 63.0], [4, 60.0, 80.5, 790.0, 94.0], [4, 250.0, 549.0, 600.0, 561.0]]
+}

@@ -1,0 +1,108 @@
+{
+ "reason": "2004 Paper 5 mark scheme (plain table without rules): sub-part labels are printed as bare letters/numerals in the Qn column ('1 a i', 'ii', 'b i', 'ii', 'iii' (printed in the far-left column), 'c'; '2 a i', 'ii', 'iii', 'b') without brackets, so the text layer gives only keys Q1 and Q2. Each printed label line is keyed by hand so every QP leaf gets its own marking points. The header row 'Qn Expected Answers Marks Additional Guidance' is furniture. The header row is whited out by hand masks (it is not recognised as furniture because it reads 'Qn' not 'Question'). Q1.c and Q2.b are cut by hand so the crops stop above the question total boxes ('20', '10', 'Paper total 30'), which are whited out as totals, and above the table's bottom rule/footer.",
+ "add_keys": {
+  "Q1.a.i": [
+   4,
+   113.9,
+   97.0
+  ],
+  "Q1.a.ii": [
+   4,
+   265.6,
+   100.0
+  ],
+  "Q1.b.i": [
+   4,
+   341.5,
+   97.0
+  ],
+  "Q1.b.ii": [
+   4,
+   366.8,
+   100.0
+  ],
+  "Q1.b.iii": [
+   4,
+   480.6,
+   73.9
+  ],
+  "Q1.c": [
+   4,
+   569.1,
+   70.9
+  ],
+  "Q2.a.i": [
+   5,
+   125.4,
+   98.0
+  ],
+  "Q2.a.ii": [
+   5,
+   201.2,
+   101.0
+  ],
+  "Q2.a.iii": [
+   5,
+   226.5,
+   104.0
+  ],
+  "Q2.b": [
+   5,
+   277.1,
+   85.7
+  ]
+ },
+ "masks": [
+  [
+   4,
+   77,
+   93.5,
+   520,
+   107.5
+  ],
+  [
+   5,
+   77,
+   104.5,
+   520,
+   119
+  ],
+  [
+   4,
+   370,
+   628,
+   392,
+   648
+  ],
+  [
+   5,
+   370,
+   348,
+   392,
+   368
+  ],
+  [
+   5,
+   400,
+   362,
+   480,
+   382
+  ]
+ ],
+ "segments": {
+  "Q1.c": [
+   [
+    4,
+    562,
+    623
+   ]
+  ],
+  "Q2.b": [
+   [
+    5,
+    270,
+    342
+   ]
+  ]
+ }
+}

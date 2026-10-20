@@ -1,0 +1,73 @@
+{
+ "reason": "Question 4: the question paper has 4(a) (four sketch graphs (i)-(iv), one part) and 4(b)(i)-(iii) (oxide formulae; oxide + water; NaOH + sulphur oxide equations), but the mark scheme misprints part (b) as '(c) (i)', '(ii)', '(iii)' (p6 y407-458), so the splitter found no 4(b) keys and ran 4(a) on through them. The three keys are placed by hand at the printed '(c) (i)', '(ii)', '(iii)' lines as 4(b)(i)-(iii); 4(a) keeps its graphs (i)-(iv) and the [6]. The question paper's 2(a) is one part with two answer lines (i)/(ii); the scheme prints its two assumptions as '2 (a) (i)' and '(ii)' (p4 y351.5, y389.5), so 2(a) keeps both points in one hand segment and the inner '(ii)' label is whited out. 7(b) and 7(c) are each one part in the question paper; the scheme prints their keys over two lines as '(b) (i) and (ii)' / '(c) (i) and (ii)' (p7 y607/620, y658/683), so the second-line 'and (ii)' labels are whited out inside hand segments; the '[Maximum Total: 8]' line (p7 y721) at the end of 7(c) is not marking content and is whited out.",
+ "add_keys": {
+  "Q4.b.i": [
+   6,
+   407.3,
+   147
+  ],
+  "Q4.b.ii": [
+   6,
+   432.6,
+   147
+  ],
+  "Q4.b.iii": [
+   6,
+   458.0,
+   147
+  ]
+ },
+ "segments": {
+  "Q2.a": [
+   [
+    4,
+    338.0,
+    438.25
+   ]
+  ],
+  "Q7.b": [
+   [
+    7,
+    600.0,
+    644.0
+   ]
+  ],
+  "Q7.c": [
+   [
+    7,
+    644.0,
+    736.0
+   ]
+  ]
+ },
+ "masks": [
+  [
+   4,
+   131,
+   388.5,
+   148,
+   401.5
+  ],
+  [
+   7,
+   107,
+   619.2,
+   148,
+   631.5
+  ],
+  [
+   7,
+   107,
+   682.5,
+   148,
+   694.8
+  ],
+  [
+   7,
+   428,
+   719.5,
+   534,
+   733.5
+  ]
+ ]
+}

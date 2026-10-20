@@ -1,0 +1,4 @@
+{
+ "reason": "9700/41 O/N 2022 mark scheme prints the label \"6(c)(ii)\" twice on page 15: the first one (variety A / variety B, any four) is misprinted and belongs to 6(c)(i); the second (BZR1, any two) is 6(c)(ii). Both lines are keyed by hand at their printed positions.",
+ "add_keys": {"Q6.c.i": [15, 80.6, 110], "Q6.c.ii": [15, 345.4, 110]}
+}

@@ -1,0 +1,4 @@
+{
+ "reason": "Page 3 prints question 1 as a single part '1 (a)' (A-E, [5], [Total: 5]) while the question paper's Q1 is one undivided leaf; the automatic key finder did not take the '1 (a)' line as a key, so Q1 was unresolved and its rows were missing. The printed '1 (a)' line (y75.7, label ends before the marking text at x92) is placed by hand as key Q1.",
+ "add_keys": {"Q1": [3, 75.7, 88]}
+}

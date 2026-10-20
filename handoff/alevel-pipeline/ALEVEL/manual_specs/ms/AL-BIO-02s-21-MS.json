@@ -1,0 +1,49 @@
+{
+ "reason": "Scanned 2002 mark scheme. (1) 3(a)(ii) ('(ii) glycerol; 2 fatty acid(s) ...') is not found by OCR: the key is placed by hand at its printed line on page 4. (2) 4(d) ends with its [Total: 11] on page 5; the automatic cut ran on to the repeated 'Question Expected Answers Marks' table heading at the top of page 6, so 4(d) is cut by hand on page 5 only and the printed [Total: 11] line is whited out (as for the other questions of this paper). (3) 6(a)(ii) is the last part of the paper: the automatic cut ran to the page bottom and included the printed question total '[Total: 6]' (page 6 y687-697) and 'Total mark for paper = 50' (y729-738); 6(a)(ii) is cut by hand on page 6 and both totals are whited out (the marking points and '3 max' are kept).",
+ "add_keys": {
+  "Q3.a.ii": [
+   4,
+   202,
+   148
+  ]
+ },
+ "segments": {
+  "Q4.d": [
+   [
+    5,
+    501,
+    655
+   ]
+  ],
+  "Q6.a.ii": [
+   [
+    6,
+    549.5,
+    745
+   ]
+  ]
+ },
+ "masks": [
+  [
+   5,
+   400,
+   655,
+   540,
+   690
+  ],
+  [
+   6,
+   380,
+   684,
+   560,
+   700
+  ],
+  [
+   6,
+   300,
+   726,
+   560,
+   742
+  ]
+ ]
+}

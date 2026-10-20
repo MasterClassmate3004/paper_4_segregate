@@ -1,0 +1,8 @@
+{
+ "reason": "On p4 the equilibrium arrow '⇌' in the 1(c)(iii) answer (AgBr + 2NH3 ⇌ [Ag(NH3)2]+ + Br–) has a text box far taller than its glyph (x186-196, y280.8-342.1, spanning the 1(c)(ii), 1(c)(iii) and 1(c)(iv) rows), so the gate reports the automatic cuts as slicing it. The cuts already lie on the drawn table rules (y248.8 / 298.6 / 323.2) and the arrow's ink lies wholly inside the 1(c)(iii) row, so nothing is sliced; the three cuts are accepted as they are.",
+ "accept_sliced": {
+  "Q1.c.ii": "bottom edge y298.0 is the table rule y298.6; only the oversized text box of the 1(c)(iii) '⇌' (y281-342) crosses it, its ink lies wholly inside the 1(c)(iii) row",
+  "Q1.c.iii": "edges y299.6/322.7 are the table rules y298.6/323.2; the 1(c)(iii) '⇌' ink lies wholly between them, only its oversized text box (y281-342) crosses them",
+  "Q1.c.iv": "top edge y324.3 is the table rule y323.2; only the oversized text box of the 1(c)(iii) '⇌' (y281-342) crosses it, its ink lies wholly inside the 1(c)(iii) row"
+ }
+}

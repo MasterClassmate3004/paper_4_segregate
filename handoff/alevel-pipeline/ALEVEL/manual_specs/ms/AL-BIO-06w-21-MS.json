@@ -1,0 +1,4 @@
+{
+ "segments": {"Q6.a.iii": [[6, 144.5, 224.5]]},
+ "reason": "Q6.a.iii: the automatic cut ended at y228.5, 2.6 pt below the top rule (y225.9) of the 6(b) answer table, so the table's top edge and cell ticks showed under '[max 2]'. Hand segment ends at 224.5, above the rule; all of (a)(iii)'s text (last row y202) is kept."
+}

@@ -1,0 +1,6 @@
+{
+ "reason": "(1) The mark scheme misprints the key of 4(c)(iii) as '4(c)(iv)' (p10 y80; its answers are the structures of T and U, the QP's 4(c)(iii); the QP has no (c)(iv)); the key is placed by hand at that printed line. (2) On p9 the keys '4(b)(i)' (y280) and '4(b)(ii)' (y304) are printed in one merged answer cell (y274-398) holding a repeated 4(a)-style molecule/geometrical/optical table followed by 'CH3CHBrCH2CH3' and 'nucleophilic substitution' (one mark each), with no per-part labels on those answers; cutting at the 4(b)(ii) label slices the table between its header row and body. The automatic 4(b)(i)/4(b)(ii) keys are dropped and the whole cell is kept as one 4(b) segment, so both QP parts (b)(i) and (b)(ii) see the whole cell.",
+ "add_keys": {"Q4.c.iii": [10, 80.4, 118]},
+ "drop_keys": ["Q4.b.i", "Q4.b.ii"],
+ "segments": {"Q4.b": [[9, 274.4, 397.7]]}
+}

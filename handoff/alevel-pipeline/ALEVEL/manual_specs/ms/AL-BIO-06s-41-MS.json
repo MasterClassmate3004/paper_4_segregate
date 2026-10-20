@@ -1,0 +1,4 @@
+{
+ "reason": "2006 Paper 4 mark scheme, Section B essays (Q6 on page 4, Q7 on page 5): the numbered marking points (1-14, 15-27; 1-12, 13-24) are printed in the Question column, left of the column rule at x=128, so the automatic crop (Answer column only) cut off every point number. The two pages are cropped from the table's left rule (full_width_pages) so the numbered points are kept with their numbers; the printed keys '6 (a)', '(b)', '7 (a)', '(b)' are still whited out.",
+ "full_width_pages": [4, 5]
+}

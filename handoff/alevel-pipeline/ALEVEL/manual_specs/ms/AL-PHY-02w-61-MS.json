@@ -1,0 +1,6 @@
+{
+ "reason": "Scanned 2002 mark scheme: page 1 is the cover (OCR noise read as question 2); OCR misreads or loses several keys ('(i)' read as '@'/'(@®', 11(a)(ii) as '(iii)', '13 (b)' lost); keys placed by hand at the printed line tops measured from the pixels. 7(a) prints 'sharpness' and 'contrast' under one (a) with no (i)/(ii), so the parent row covers both parts.",
+ "skip_pages": [1],
+ "add_keys": {"Q6.a.i": [3, 590.0, 100], "Q10.b.i": [5, 202.5, 100], "Q10.b.ii": [5, 216.5, 100],
+              "Q11.a.ii": [5, 375.0, 100], "Q11.c.i": [5, 460.0, 100], "Q13.b": [6, 223.5, 80]}
+}

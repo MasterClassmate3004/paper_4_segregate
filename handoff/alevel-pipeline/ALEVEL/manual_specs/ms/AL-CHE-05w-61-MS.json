@@ -1,0 +1,92 @@
+{
+ "reason": "Options (Paper 6) mark scheme. Masks hide the option headings 'Biochemistry' (p2 y86), 'Environmental Chemistry' (p3 y276), 'Phase Equilibria' (p4 y415), 'Spectroscopy' (p5 y524) and 'Transition Elements' (p6 y403), which are section titles, not marking points. 2(a) prints only '(i)' (p2 y517: 'Alkene, carboxyl 2 x [1]' followed by the unlabelled R-COO-CH2 triester structure [1]); the MS prints no '(ii)' label, so the printed '(i)' key is dropped (its label whited out), the key is placed on '(a)' (p2 y517, right edge x120.3) and 2(a) is cut by hand whole (p2 y510-611.5) for QP 2(a)(i) and 2(a)(ii). 10(c)(ii) is printed at p7 y405.6 ('(ii)' right edge x148) but the splitter missed it (a stray '-' sits on the same line in the Question column), so the key is placed by hand. In 7(a) the lines (i) 13C / (ii) 81Br are 12.6 pt apart and the automatic cut (y558.75) clipped the box of '13C'; the (i)/(ii) cut is moved to y560.0, inside the blank gap (ink ends y558.6, next ink y561.2).",
+ "drop_keys": [
+  "Q2.a.i"
+ ],
+ "add_keys": {
+  "Q10.c.ii": [
+   7,
+   405.6,
+   148.1
+  ],
+  "Q2.a": [
+   2,
+   517.0,
+   120.3
+  ]
+ },
+ "segments": {
+  "Q7.a.i": [
+   [
+    5,
+    541.5,
+    560.0
+   ]
+  ],
+  "Q7.a.ii": [
+   [
+    5,
+    560.0,
+    571.25
+   ]
+  ],
+  "Q2.a": [
+   [
+    2,
+    510.0,
+    611.5
+   ]
+  ]
+ },
+ "masks": [
+  [
+   2,
+   69.5,
+   85.3,
+   140.0,
+   98.3
+  ],
+  [
+   3,
+   69.5,
+   275.0,
+   200.0,
+   288.0
+  ],
+  [
+   4,
+   69.5,
+   414.1,
+   160.0,
+   427.1
+  ],
+  [
+   5,
+   69.5,
+   523.4,
+   140.0,
+   536.4
+  ],
+  [
+   6,
+   69.5,
+   401.8,
+   170.0,
+   414.8
+  ],
+  [
+   7,
+   105.4,
+   402.8,
+   109.7,
+   411.8
+  ],
+  [
+   2,
+   132.9,
+   516.5,
+   145.3,
+   528.5
+  ]
+ ]
+}

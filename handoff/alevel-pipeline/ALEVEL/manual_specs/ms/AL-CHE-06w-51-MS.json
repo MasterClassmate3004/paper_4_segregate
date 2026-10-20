@@ -1,0 +1,76 @@
+{
+ "reason": "Nov 2006 Paper 5 Question 1: the splitter found only '(a)' and took the first item '(i) moles of NaOH plotted on y-axis' of 1(a)'s list of graphical errors (p3 y362.8, x143.5) as part (i), so 1(a) stopped at 'Also deduct ... graphical errors:' and 'Q1.i' swallowed the rest of 1(a) and all of (b)-(i), while QP 1(b)-(h) fell back to the Question 1 readings page. The printed part labels (b) p3 y439.6, (c) p3 y562.5, (d) p4 y99.2, (e) p4 y621.7, (f) p4 y682.2, (g) p6 y105.2, (h) p6 y191.4, (i) p6 y427.5 (label column x71.5) are placed by hand; placing Q1.i at its real line replaces the false key, so the graphical-error list stays in 1(a). The 'Enthalpy change' accuracy block (p5, [4], marking Table 1.3) follows (f) with no new label and stays with (f), as printed. Page 2, printed under the question number '1' before '(a)', marks the results tables of the QP Question 1 introduction (Table 1.1 temperatures to 1 d.p. / average [2]; Table 1.2 accuracy against the Supervisor [4]); the QP prints those tables and marks before 1(a) with no part label, and QP stems carry no MS crop, so this page is given to Q1.a, the first part, which plots those Table 1.2 results: the Q1.a key is placed on the '1' line (p2 y87.0, the question number, right edge x41) so 1(a) runs from p2 through the (a) scheme on p3, and the printed '(a)' label (p3 y105.2) is whited out by hand. keep_words: the list markers '(i)' opening 1(d)'s 'Three ways of calculating' list (p4 x99.8 y389.5), 1(f)'s accuracy-deduction list (p5 x107.5 y457.5) and 1(h)'s two expressions (p6 x143.5 y223.9) are marking text, not repeated (i) keys.",
+ "add_keys": {
+  "Q1.a": [
+   2,
+   87.0,
+   41.5
+  ],
+  "Q1.b": [
+   3,
+   439.6,
+   86.0
+  ],
+  "Q1.c": [
+   3,
+   562.5,
+   85.5
+  ],
+  "Q1.d": [
+   4,
+   99.2,
+   86.0
+  ],
+  "Q1.e": [
+   4,
+   621.7,
+   85.5
+  ],
+  "Q1.f": [
+   4,
+   682.2,
+   83.0
+  ],
+  "Q1.g": [
+   6,
+   105.2,
+   86.0
+  ],
+  "Q1.h": [
+   6,
+   191.4,
+   86.0
+  ],
+  "Q1.i": [
+   6,
+   427.5,
+   82.5
+  ]
+ },
+ "masks": [
+  [
+   3,
+   70.0,
+   104.7,
+   86.5,
+   117.2
+  ]
+ ],
+ "keep_words": [
+  [
+   4,
+   99.8,
+   389.5
+  ],
+  [
+   5,
+   107.5,
+   457.5
+  ],
+  [
+   6,
+   143.5,
+   223.9
+  ]
+ ]
+}

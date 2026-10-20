@@ -1,0 +1,14 @@
+{
+ "reason": "Question 1 of the June 2004 Paper 5 mark scheme prints its part labels in the text column (x132-135) instead of the key column, so only '1 (a)' was read: '(b)' (p25 y257.7), '(d)' (p27 y116.3, under the '1 Graph' heading at y99, which belongs to (d)), '(e)' (p28 y293.7), '(f)' (y371.3), '(g)' (y435.0), '(h)' (y478.8) and '(i)' (y609.5) are placed by hand at their printed lines. 1(d) is keyed at the '1 Graph' line (label '1') so the 'Graph' heading stays with (d), and the printed '(d)' below it is whited out by hand. The automatic key 'Q1.i' was the item '(i) if there is an error in subtraction' of 1(a)'s with-hold list (p25 y165.7), not part (i); placing Q1.i at its real line replaces it, so that list stays in 1(a). The 'Accuracy marks' block (p25 y353.7 - p26 [8]) follows (b)'s [1] with no new label and stays with (b) (Q1 total 19 = (a)2 + (b)1+8 + (d)3 + (e)-(i) 5). QP 1(c) (reweigh the bottle and record the mass) carries no mark on the QP and the MS prints no 1(c) and allots it no mark.",
+ "add_keys": {
+  "Q1.b": [25, 257.7, 146],
+  "Q1.d": [27, 99.0, 96],
+  "Q1.e": [28, 293.7, 147],
+  "Q1.f": [28, 371.3, 146],
+  "Q1.g": [28, 435.0, 146],
+  "Q1.h": [28, 478.8, 146],
+  "Q1.i": [28, 609.5, 143]
+ },
+ "masks": [[27, 130.5, 115.8, 146.0, 127.5]],
+ "absent": {"Q1.c": "The MS prints no 1(c) and allots it no mark (QP 1(c) has no mark; Q1 total [19] is made up of (a), (b), (d)-(i))."}
+}

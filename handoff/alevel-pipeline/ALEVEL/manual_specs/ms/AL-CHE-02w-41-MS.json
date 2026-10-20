@@ -1,0 +1,141 @@
+{
+ "reason": "Scanned 2002 Paper 4 mark scheme (no text layer). p1 is the printed cover (not marking content) and is skipped. OCR lost or misread several printed sub-part keys, which are placed by hand at their printed lines [page, ink top pt, right edge of printed label]: 2(b)(i) (p3, printed on the '(b)' line), 3(a)(ii) (p4, OCR 'Gi)'), 3(b)(iii) (p4, OCR read a second '(ii)'), 5(c)(i)-(iv) (p6, OCR '(c) (i)' merged/lost; (ii) X+=NO2+, (iii) Z+=H+, (iv) equation), 5(d)(i) (p6, OCR read '(d) (i)' as glyphs) and 5(d)(ii) (p6, OCR lost the line). 5(c)(i)'s structure (H, NO2 above the ring) is drawn above its printed '(c) (i)' line, so 5(b) and 5(c)(i) are cut by hand on the blank row between 5(b)'s mark and the drawing (p6 y183.5). The printed question label '3 (a)' on p4 is whited out by a mask covering its loose OCR boxes (to y169, blank scan area left of the graph). Other hand cuts on blank rows where the automatic cut ran through ink: 1(a)/1(b) at p2 y178.3 (the 1(b) beaker's electrode wire rises to y179.5, above its '(b) diag' line); 5(c)(iv)/5(d)(i) at p6 y413 (the CH3 of the 5(d)(i) structure is drawn above its '(d) (i)' line); 6(c)(iii)/6(d)(i) at p7 y330 (the automatic cut sliced the top of 'condensation'). 4(c)(i)-(iii) on p5 are printed in a tight block whose [1] marks sit half a line below their answers, so each [1] overlaps the next answer's top by under 1 pt; the cuts are placed at the least-ink rows (y298.1, y311.6).",
+ "skip_pages": [
+  1
+ ],
+ "add_keys": {
+  "Q2.b.i": [
+   3,
+   177.5,
+   150
+  ],
+  "Q3.a.ii": [
+   4,
+   325.5,
+   150
+  ],
+  "Q3.b.iii": [
+   4,
+   459.0,
+   153
+  ],
+  "Q5.c.i": [
+   6,
+   199.0,
+   148
+  ],
+  "Q5.c.ii": [
+   6,
+   331.5,
+   150
+  ],
+  "Q5.c.iii": [
+   6,
+   345.5,
+   154
+  ],
+  "Q5.c.iv": [
+   6,
+   372.5,
+   154
+  ],
+  "Q5.d.i": [
+   6,
+   418.7,
+   148
+  ],
+  "Q5.d.ii": [
+   6,
+   520.5,
+   150
+  ]
+ },
+ "segments": {
+  "Q5.b": [
+   [
+    6,
+    149.5,
+    183.5
+   ]
+  ],
+  "Q5.c.i": [
+   [
+    6,
+    183.5,
+    317.5
+   ]
+  ],
+  "Q1.a": [
+   [
+    2,
+    71.75,
+    178.3
+   ]
+  ],
+  "Q1.b": [
+   [
+    2,
+    178.3,
+    349.75
+   ]
+  ],
+  "Q4.c.i": [
+   [
+    5,
+    276.75,
+    298.1
+   ]
+  ],
+  "Q4.c.ii": [
+   [
+    5,
+    298.1,
+    311.6
+   ]
+  ],
+  "Q4.c.iii": [
+   [
+    5,
+    311.6,
+    467.65
+   ]
+  ],
+  "Q5.c.iv": [
+   [
+    6,
+    365.25,
+    413.0
+   ]
+  ],
+  "Q5.d.i": [
+   [
+    6,
+    413.0,
+    520.5
+   ]
+  ],
+  "Q6.c.iii": [
+   [
+    7,
+    282.5,
+    330.0
+   ]
+  ],
+  "Q6.d.i": [
+   [
+    7,
+    330.0,
+    365.25
+   ]
+  ]
+ },
+ "masks": [
+  [
+   4,
+   56,
+   127,
+   102,
+   169
+  ]
+ ]
+}

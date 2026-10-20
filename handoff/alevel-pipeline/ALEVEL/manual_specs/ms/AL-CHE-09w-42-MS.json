@@ -1,0 +1,4 @@
+{
+ "reason": "Q9(b) is one QP leaf with answer lines (i)/(ii); the MS prints '(b) (i) Gaps in structure ... [1]' and '(ii) Composites and carbon nanotubes ... [1]' on one marking block. The '(i)' key is consumed, the printed '(ii)' label (p8 y189.5-200.5, x90.0-103.5) would stay as a stray label inside the crop, so it is whited out by a mask; all marking text is kept.",
+ "masks": [[8, 88, 188, 107, 202]]
+}

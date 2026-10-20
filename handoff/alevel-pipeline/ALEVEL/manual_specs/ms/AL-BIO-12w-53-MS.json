@@ -1,0 +1,4 @@
+{
+ "reason": "Page 4 opens with the answer row '2 x 2 of: 1 volume of (sodium) nitrate added ... [max 4]' whose Question column is empty (the (iii) label is not printed on the continued row). It directly follows 1(a)(ii) ([max 1], page 3) and is the scheme for the QP's 1(a)(iii) ('describe how two other variables could have been controlled', [4]; its note even says 'Only give mps 3 or 4 if factors not mentioned in (a)(ii)'). The key Q1.a.iii is placed by hand at that row (page 4, y81.6, empty label column, before the text at x133.8); without it the row was swallowed into 1(a)(ii).",
+ "add_keys": {"Q1.a.iii": [4, 81.6, 120]}
+}

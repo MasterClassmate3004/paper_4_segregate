@@ -1,0 +1,8 @@
+{
+ "reason": "8(c): the MS prints one key (c)(ii) (p9 y190) over a single chromatogram showing both the circled spot (QP (c)(ii)) and the squared spot (QP (c)(iii)), then 'correct spot circled [1]' (answers (ii)) and 'correct spot squared [1]' (answers (iii)) and a shared note '[in each case ... negates the mark] [3]'. The diagram slice and the note slice are shared by both parts; the circled line goes to Q8.c.ii and the squared line to Q8.c.iii. 2(c): the MS says 'Eo = 1.07 - (Eo of reductant) ... (see below)' and prints the 'List of acceptable reductants' table with the Sn2+ worked example after the [Total: 8] line (p3 y432-686); that list is 2(c) marking content, so Q2.c is cut by hand to include it (the [Total] line is whited out).",
+ "segments": {
+  "Q8.c.ii": [[9, 182.0, 396.0], [9, 396.0, 410.5], [9, 423.2, 438.0]],
+  "Q8.c.iii": [[9, 182.0, 396.0], [9, 410.5, 423.2], [9, 423.2, 438.0]],
+  "Q2.c": [[3, 267.75, 690.0]]
+ }
+}

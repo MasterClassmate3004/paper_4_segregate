@@ -1,0 +1,4 @@
+{
+ "reason": "The mark scheme prints '6(b)(ii)' twice on p9: the first one (y230.0, 'V = primary / 1° alcohol', 'W = tertiary / 3° alcohol', 2 marks) is the QP's 6(b)(i) (name the class of compound V and W each belong to, [2]); the second (y278.9, the equation for V with Na) is 6(b)(ii). Q6.b.i is placed by hand at the first printed '6(b)(ii)' line and Q6.b.ii at the second.",
+ "add_keys": {"Q6.b.i": [9, 230.0, 115], "Q6.b.ii": [9, 278.9, 115]}
+}
