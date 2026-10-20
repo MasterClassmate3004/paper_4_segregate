@@ -30,11 +30,15 @@ re-render/regression and remove them afterwards.
 
 ## When Drive misbehaves
 Symptoms: files read as 0 bytes (`shasum` = e3b0c442... = empty input), `ls` of the Drive folder hangs, the stat size differs from the
-ledger. Since 2026-10-17 Drive for desktop has failed to start (macOS File Provider: `CANNOT_START_CORE` /
-`FILE_PROVIDER_ACTIVATION_FAILED`). Fix: a real Mac reboot (confirm with `sysctl kern.boottime`), then sign in to Drive again and let it
-finish. **Never delete local copies while Drive is in this state.** Pending: Biology push (662 zips: bio_b1 248, manual 135, bio_ms1 146,
-bio_ms2 133; rows saved in `review/offload_ledger.csv.bio_pending`) — re-run `push --keep` with the same lists, wait for item ids,
-cloud read-back, then delete; check for stale zips from the 2026-10-19 21:41 push.
+ledger. History: 2026-10-17 → 10-20 Drive for desktop failed to start (macOS File Provider: `CANNOT_START_CORE` /
+`FILE_PROVIDER_ACTIVATION_FAILED`); quitting and relaunching Drive (10-20) and a real reboot (10-21) fixed it. Fix order: relaunch Drive,
+then a real Mac reboot (confirm with `sysctl kern.boottime`), then sign in again. **Never delete local copies while Drive is in this state.**
+Cloud check without downloading: `al_cloud_verify.py` compares each zip with Drive's server md5 + size, then (with `--delete`) removes the
+local PNGs after re-checking them against the zip members. Drive may leave a `GoogleDrive-<account> (<date>)` folder with items it could
+not upload — compare with the cloud before deleting it.
+
+Shared folder: `My Drive/ROOTATOM_ALEVEL` (https://drive.google.com/drive/folders/10o-FCTblCWGhnb1bN1sIWivPgQQCie9d) — keep every
+uploaded split and source under it (`splits/<run>/`, `sources/`), nothing elsewhere.
 
 ## Disk
 - `al_space.py` — report; runners stop below `AL_MIN_FREE_GB` (default 4). Keep > 8 GB free before agent waves.

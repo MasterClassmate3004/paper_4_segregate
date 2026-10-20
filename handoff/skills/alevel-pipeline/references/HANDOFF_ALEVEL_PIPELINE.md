@@ -38,6 +38,7 @@ For the sciences: Paper 1 (MCQ), Paper 2, Paper 4, Paper 5, and the old Paper 6 
 | Classification inputs | `ALEVEL/classification/manifest_chem.csv`, `manifest_phy.csv`; handover `alevel-pipeline/ALEVEL/CLASSIFICATION_HANDOVER.md` |
 | Python | `~/.venvs/alevel/bin/python` — **always run with `-I`** (isolated mode; sources are untrusted downloads) |
 | Frozen code copies for regressions | `~/rootatom_data/frozen/<sha>/` (made with `git archive`) |
+| Shared Drive folder | `My Drive/ROOTATOM_ALEVEL` — https://drive.google.com/drive/folders/10o-FCTblCWGhnb1bN1sIWivPgQQCie9d (`splits/<run>/<prefix>.zip`, `sources/9702_canonical.zip`); all uploaded splits and sources live only here |
 | Google Drive offload | `~/Library/CloudStorage/GoogleDrive-*/My Drive/ROOTATOM_ALEVEL/` (`splits/<RUN>/<PREFIX>.zip`, `sources/`), ledgers `review/offload_ledger.csv`, `review/sources_offload_ledger.csv` |
 | Original plan (phases, decisions) | `~/Documents/Nitya/Projects/Software/rootatom/paper_4_segregate/.claude/worktrees/a-level-papers-splitting-plan-6b3cde/ALEVEL_PIPELINE_PLAN.md` (that worktree's code is **stale** — never run it) |
 
@@ -62,9 +63,9 @@ The `AL-` prefix is mandatory: IGCSE uses the same paper codes.
 
 | Subject | QP split + review | Mark schemes | Classification / DB | Notes |
 |---|---|---|---|---|
-| Physics 9702 | **done** — 447 unique papers approved (run `phy_b10`, manual specs) | **done** (`phy_ms4`) | manifest built (`manifest_phy.csv`) — classifier not built yet | PNGs + sources offloaded to Drive; Drive currently broken (section 8) |
+| Physics 9702 | **done** — 447 unique papers approved (run `phy_b10`, manual specs) | **done** (`phy_ms4`) | manifest built (`manifest_phy.csv`) — classifier not built yet | PNGs + Physics sources on Drive |
 | Chemistry 9701 | **done** — 396 unique approved (`chem_b2` + `manual`) | **done** (`chem_ms1`, `chem_ms2`) | manifest built (`manifest_chem.csv`) | PNGs on Drive |
-| Biology 9700 | **done** — 383 unique approved (`bio_b1` + `manual`) | **done** — 383/383 have a PASS MS (`bio_ms1`, `bio_ms2`; 104 MCQ keys) | manifest not built yet (`al_class_manifest.py` supports chem/phy only — add bio) | PNGs **local only** (Drive offload blocked) |
+| Biology 9700 | **done** — 383 unique approved (`bio_b1` + `manual`) | **done** — 383/383 have a PASS MS (`bio_ms1`, `bio_ms2`; 104 MCQ keys) | manifest not built yet (`al_class_manifest.py` supports chem/phy only — add bio) | PNGs on Drive (offloaded 2026-10-20, every zip checked against Drive's server md5 with `al_cloud_verify.py`; local PNGs removed) |
 | Maths 9709 | split: `mth_b1` 814/826 PASS, **12 holds** (`review/mth/manual_specs_needed.txt`); dedupe + visual review **not started** | not started | — | Maths code paths gated by `IS_MATHS`; see `review/mth/_HANDOFF.md` |
 | Further Maths 9231 | not started | — | — | prefix `AL-FMT-`; scope confirmed in plan (D3) |
 
@@ -145,7 +146,7 @@ Each phase has a skill with the full procedure. Short version:
 
 | # | Item | Impact | What to do |
 |---|---|---|---|
-| 1 | **Google Drive for desktop broken since 2026-10-17** (macOS File Provider: `CANNOT_START_CORE` / `FILE_PROVIDER_ACTIVATION_FAILED`). Files in the Drive folder read as 0 bytes. | Bio offload blocked (662 zips written locally, nothing uploaded); Physics sources zip unreadable; Physics PNGs on Drive unreachable | A real Mac **reboot** (check `sysctl kern.boottime`), then re-sign-in to Drive. Then follow `alevel-storage`. Check for stale pending zips from the 2026-10-19 21:41 push. |
+| 1 | Google Drive for desktop was broken 2026-10-17 → 10-20 (macOS File Provider). **Resolved:** relaunched 10-20, Mac rebooted 10-21; Biology offloaded and cloud-verified. | `~/Library/CloudStorage/GoogleDrive-… (19-10-26 9:41 PM)` is a stale local copy of the 662 Biology zips Drive set aside (1.5 GB) | Delete that local folder (the cloud copies are verified). If Drive breaks again: real reboot (`sysctl kern.boottime`), never delete local copies until a cloud check passes. |
 | 2 | Pipeline changes f4073be → HEAD **not verified on Physics** (al_manual question-number rule, leaf checker, MS splitter 00bec90..abaec6b) | A Physics re-render/re-split could change approved crops | When Drive works: pull Physics sources, run QP + MS regressions on all approved Physics papers; only intended changes allowed. Same for Chemistry MS (00bec90..abaec6b). |
 | 3 | **All-subject gate regression** pending (coverage/leaf gates relaxed several times for Bio/Maths) | Gate verdicts of approved Chem/Phy papers might differ | Re-run both gates on every approved paper; differences must be explained. |
 | 4 | Biology fixes were **spec-only**; the splitter still drops completion-passage final blanks, keeps "Space for working/table/diagram" labels, cuts text-free ruled grids | A Biology re-split would reintroduce them | Fix generically in `al_qp_splitter.py` before any Bio re-run. |
@@ -159,7 +160,7 @@ Each phase has a skill with the full procedure. Short version:
 
 ## 7. Next steps, in order
 
-1. Fix Google Drive (item 1) → resume Bio offload, then the Physics regressions (item 2).
+1. Physics regressions now that Drive works (item 2): pull Physics sources, run QP + MS regressions.
 2. All-subject gate regression (item 3).
 3. Maths 9709: holds → dedupe → visual review → mark schemes → offload.
 4. Further Maths 9231 (same path; calibrate first).
