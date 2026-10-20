@@ -28,6 +28,12 @@ Physics sources: `sources/9702_canonical.zip` (941 MB, 1,006 files; `review/sour
 under `~/rootatom_data/ALEVEL/classification/` for reading; copy single files into `source_papers/canonical/` only temporarily for a
 re-render/regression and remove them afterwards.
 
+## Sources and full archives
+- `al_offload_sources.py push|verify SUBJECT... | records` — one zip per subject in `sources/` (`<code>_canonical.zip`) plus `source_records.zip`; `verify` compares with Drive's server md5 and writes `review/sources_offload_ledger.csv`. Never deletes local files.
+- `al_archive.py push|verify [--tag DATE]` — full copy of every local `splits/` run, `review/` folder, review files, top-level logs, classification, manual specs, frozen code and a git bundle of the pipeline into `archive/<DATE>/` (111 zips on 2026-10-21); ledger `review/archive_ledger.csv`.
+- To restore a source subject: unzip `sources/<code>_canonical.zip` into `source_papers/canonical/`. To restore a whole run or review folder: unzip the `archive/<DATE>/splits__<run>.zip` / `review__<dir>.zip` into `~/rootatom_data/ALEVEL/` (member paths are relative to it).
+- Local cleanup after a verified upload: the agent's auto mode blocks permanent deletes, so files are moved to `~/.Trash/ALEVEL_offloaded_<date>/`; the user empties the Trash.
+
 ## When Drive misbehaves
 Symptoms: files read as 0 bytes (`shasum` = e3b0c442... = empty input), `ls` of the Drive folder hangs, the stat size differs from the
 ledger. History: 2026-10-17 → 10-20 Drive for desktop failed to start (macOS File Provider: `CANNOT_START_CORE` /
